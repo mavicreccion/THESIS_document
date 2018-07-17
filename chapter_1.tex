@@ -1,0 +1,88 @@
+\chapter{Research Description}
+\label{sec:researchdesc}
+
+Several traffic models were already developed to alleviate traffic congestion, while also considering weather as an effect. However, they were not designed and tested in countries with substandard drainage system, low traffic infrastructure investments, and underdeveloped roads. Moreover, these traffic models made use of information on traffic flow represented as continuous data, compared to categorical traffic data. This research aims to adapt a weather-aware traffic model that will be able to predict traffic given categorical data on traffic, and data on weather. This chapter gives a background on the problem of traffic congestion in countries with and without poor drainage management, traffic infrastructure investment, and developed roads, as well as brief overview of the existing state-of-the-art traffic models and their limitations. This chapter also details the research objectives, scope and limitations, and the significance of the research.
+
+
+
+
+\section{Background of the Study}
+\label{sec:overview}
+
+Traffic congestion has been a natural occurrence in urban centers in past decades \shortcite{TrafficCongestion:1995, Zhao2005} as the number of vehicles steadily increase and outgrow existing road infrastructures, further delaying traffic flow \shortcite{Lee2015}. Aside from traffic signals and accidents, slight commotions \shortcite{TrafficCongestion:1995}, weather conditions, road accidents, road constructions, and the behavior of drivers \shortcite{Mahmud2012} are also considered major causes. Additionally, in developing and newly industrialized countries, traffic congestion is compounded by poor driver discipline, private transit inflation, archaic traffic management, poor road planning, and low traffic infrastructure investment \shortcite{TrafficDevelopingWorld:2012}.
+
+In order to address this problem without curbing urban growth, several countries have developed various traffic models using approaches like a cellular automata-based model, a knowledge-based model, artificial neural networks, and a hybrid model. Inspired by the Biham-Middleton-Levine (BML) model, \shortciteA{M-BML:2016} developed a cellular automata-based model that maps and predicts traffic jams at intersections in real-time by simulating traffic volume with certain evolution rules. Machine learning techniques were also used to forecast traffic condition. \shortciteA{ANN:2016} used artificial neural networks (ANN) to predict traffic flow using real-time traffic data such as traffic volume, ensuring a smooth flow using a dynamic synchronization of traffic signals. Meanwhile, \shortciteA{Lee:KnowledgeBase} developed a knowledge-based model that uses location-based services (LBS) to collect data through data mining technologies. Lastly, \shortciteA{pan2012utilizing} created a Historical ARIMA (H-ARIMA) model, a hybrid traffic prediction model that makes use of historical traffic data together with the current traffic data, specifically traffic volume, speed, and occupancy. 
+
+These traffic models do indeed predict traffic congestion. However, they did not consider the weather which has a crucial impact on traffic congestion. In fact, adverse weather conditions, such as precipitation, may reduce the visibility of vehicles, loss of stability, and loss of control \shortcite{Zhao2005}. From all mentioned factors that affect traffic congestion, weather, by itself, is by far the most disruptive, especially in places with poor drainage systems and road infrastructures. In a heavy rainfall, water is not properly managed and usually overflows the roads above the ground. This produces loss of visibility and control of the drivers, causing them to slow down their vehicles in the roads, which, in turn, causes heavy traffic congestion \shortcite{Varangis2003}.
+
+The effects of weather in predicting traffic congestion have gained the attention of researchers in recent years \shortcite{Zhao2005}. Thus, different models have been developed to incorporate weather conditions in predicting traffic condition. For instance, \shortciteA{koesdwiady:2016} created a model that incorporates Deep Belief Network (DBN) and data fusion that cross-correlates historical traffic data and current weather data variables making use of a modified ANN to generate a prediction. In \shortciteA{dunne:2013}, on the other hand, they created an Auto-Correlated Neural Network (ACNN) taking transformed data using Stationary Wavelet Transform (SWT) as input to produce a prediction. Besides the use of Neural Networks, one model used multiple linear regression (MLR) to analyze traffic congestions using weather data \shortcite{Lee2015}. This model concludes that temperature affects the traffic congestion, while rainfall does not.
+
+
+As the recent traffic models were designed and evaluated in countries having exceptional drainage system and fair traffic infrastructure investments (e.g. England (M-BML), Ireland (ANN and SWT-ACNN), USA (H-ARIMA and DBN with Data Fusion), Taiwan (Knowledge-based), and South Korea (MLRA)), using them as is might not yield accurate predictions as countries that have substandard drainage system, underdeveloped roads, and low traffic infrastructure investment, such as Manila experience extreme weather conditions on a fairly regular basis and other scenarios not present in other countries. Additionally, the existing studies on traffic modeling made use of data on traffic flow represented as continuous data on traffic volume. Countries that have low traffic infrastructure, insufficient approach on traffic data collection, such as Manila, have data on traffic conditions represented as categorical data. Hence, the analysis of categorical traffic data, and approaches that can be used to extract information on the effects of all weather variables present in the country from such data, was explored.
+
+
+
+
+\section{Research Objectives}
+\label{sec:researchobjectives}
+
+\subsection{General Objective}
+\label{sec:generalobjective}
+
+The research aims to develop a traffic model that considers data on traffic condition and weather variables such as wind speed, wind gust, temperature, humidity, dew point, precipitation, visibility, pressure, cloud cover, heat index, and feels-like.
+
+
+\subsection{Specific Objectives}
+\label{sec:specificobjectives}
+Specifically, this research aims:
+\begin{enumerate}
+    \item To analyze the relationship and effects of weather variables on traffic congestion;
+    \item To adapt an existing approach on traffic modeling that considers weather variables in predicting traffic congestion; and
+    \item To test the accuracy and sensitivity of the traffic model.
+\end{enumerate}
+
+
+\section{Scope and Limitations of the Research}
+\label{sec:scopelimitations}
+
+This study used two different publicly available datasets: traffic and weather. The traffic dataset was obtained from the Metro Manila Development Authority (MMDA). This includes traffic conditions, which were collected in a 15-minute time interval in 14 road segments at Manila for both the northbound (NB) and southbound (SB). On the other hand, the weather dataset was obtained from the World Weather Online (WWO) and generalizes the weather for the entire city of Manila in a 1-hour time interval. This dataset includes weather variables such as wind speed, wind gust, temperature, humidity, dew point, precipitation, visibility, pressure, cloud cover, heat index, and feels-like. The description of each weather variable is shown in Chapter \ref{theoframework}. Analysis on traffic and weather were performed to determine the set of features that would be integrated into the model. The traffic and weather datasets were collected from January 2015 to December 2016.
+
+From the approaches and techniques of the existing traffic models that were reviewed (see Chapter \ref{sec:relatedlit}), this research adapted one weather-aware traffic model, specifically \shortciteA{koesdwiady:2016}’s model using Deep Belief Networks with Data Fusion, based on the similarity of data used and accuracy. 
+
+To evaluate the proposed model’s performance, two statistical error measures were used, namely, the root mean squared error (RMSE) and mean absolute error (MAE). Furthermore, RMSE was also said to be a good aid for decision making because it describes the enormity of errors \shortcite{armstrong1992error}. Sensitivity analysis was also performed through the comparison of the model’s performance with changing inputs to give insight on the relevance of inputs for the model, and the model’s responsiveness to the inputs’ changes. 
+
+
+
+
+
+\section{Significance of the Research}
+\label{sec:significance}
+
+Predicting traffic remains to be a challenging problem in the field of complex systems. On a macroscopic scale, patterns of traffic congestion must be derived from traffic flow, density, and speed  \shortcite{HUEPER2009112}. However, given that weather also affects traffic, as applied in previous weather-aware traffic models, it is verified that weather factors can be aggregated as a traffic contributing factor. This study would provide further analysis on the trends present on categorical traffic data, and extract information on the effect of weather on traffic. Furthermore, given that weather has an effect on traffic, this study will develop a weather-aware traffic model capable of predicting especially on time periods where weather significantly disrupted traffic, on urban centers with underdeveloped roads and substandard drainage systems. 
+
+In transportation, the proposed traffic model could be integrated with existing multi-modal trip planners so that commuters could know how unexpected weather conditions would affect the operations of road-based public transportation. Similarly, for private transits, they could also plan and optimize their trip, and contribute less to the traffic by taking the less congested route.
+
+
+\section{Research Methodology}
+
+\subsection{Review of Related Literature}
+In this phase, existing studies on traffic modeling approaches were reviewed and compared. These approaches could be classified into two: traffic modeling that does not consider weather, and traffic modeling that does consider the weather. To further understand the motivations behind these approaches, and to recognize the factors that build traffic, researches on traffic congestion and the weather’s effect on traffic congestion were also reviewed.
+
+\subsection{Data Collection and Processing}
+During this phase, historical traffic and weather data were collected. One year of traffic and weather data were collected from publicly available resources. These data were cleaned of missing records and processed to match needs for further analysis. 
+
+\subsection{Data Analysis}
+To understand the trends and relationships present in both the traffic and weather data, data was analyzed through comparative and correlation analysis. Findings in this phase were used to determine the features to use in the model.
+
+\subsection{Design and Implementation of Traffic Model}
+Based on the availability of similar data and accuracy, one traffic model was adapted as the base model for this study. We prioritized traffic models where similar data is accessible for replication before its accuracy. After the replication of the model, it was extended to support other correlated weather factors. These additional factors were integrated into the model either by deriving features out of other traffic models that use it or through experimentation. 
+
+\subsection{Verification and Validation of Traffic Model}
+In this phase, the performance of the developed traffic model was evaluated using RMSE and MAE. Further on, the performance of different fusion approaches was evaluated to determine what approach is best in predicting traffic. Aside from measuring the performance of the traffic model, it’s sensitivity to the diversity of the data, and the variety of its hyperparameters was evaluated to determine the most optimal setting for the model. 
+
+
+\subsection{Documentation}
+This phase was done alongside other phases. All findings and developments throughout the research process were documented. The documentation was used to keep track of the progress and implementation of each phase.
+
+
+
