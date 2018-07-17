@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: apacite.bst
+A level-1 auxiliary file: title_page.aux
+A level-1 auxiliary file: abstract.aux
+A level-1 auxiliary file: chapter_1.aux
+A level-1 auxiliary file: chapter_2.aux
+A level-1 auxiliary file: chapter_3.aux
+A level-1 auxiliary file: chapter_4.aux
+A level-1 auxiliary file: chapter_5.aux
+A level-1 auxiliary file: chapter_6.aux
+A level-1 auxiliary file: chapter_7.aux
+A level-1 auxiliary file: appendix_A.aux
+A level-1 auxiliary file: appendix_B.aux
+A level-1 auxiliary file: appendix_C.aux
+A level-1 auxiliary file: appendix_E.aux
+Database file #1: myreferences.bib
+Repeated entry---line 1125 of file myreferences.bib
+ : @article{liu2008wdcm
+ :                     ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--`others' not consistent with 6th ed. of the APA Manual
+Warning--No journal in vuchic1994bus
+(There was 1 error message)

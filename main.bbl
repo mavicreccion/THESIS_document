@@ -1,0 +1,1675 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Ahlgren%
+, Jarneving%
+\BCBL {}\ \BBA {} Rousseau%
+}{%
+Ahlgren%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+ahlgren2003}
+\APACinsertmetastar {%
+ahlgren2003}%
+\begin{APACrefauthors}%
+Ahlgren, P.%
+, Jarneving, B.%
+\BCBL {}\ \BBA {} Rousseau, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Requirements for a cocitation similarity measure, with
+  special reference to Pearson's correlation coefficient}} {{Requirements for a
+  cocitation similarity measure, with special reference to Pearson's
+  correlation coefficient}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Society for Information Science
+  and Technology}{54}{6}{550--560}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Armstrong%
+\ \BBA {} Collopy%
+}{%
+Armstrong%
+\ \BBA {} Collopy%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+armstrong1992error}
+\APACinsertmetastar {%
+armstrong1992error}%
+\begin{APACrefauthors}%
+Armstrong, J\BPBI S.%
+\BCBT {}\ \BBA {} Collopy, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Error measures for generalizing about forecasting
+  methods: Empirical comparisons} {Error measures for generalizing about
+  forecasting methods: Empirical comparisons}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International journal of forecasting}{8}{1}{69--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bando%
+, Hasebe%
+, Nakayama%
+, Shibata%
+\BCBL {}\ \BBA {} Sugiyama%
+}{%
+Bando%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+TrafficCongestion:1995}
+\APACinsertmetastar {%
+TrafficCongestion:1995}%
+\begin{APACrefauthors}%
+Bando, M.%
+, Hasebe, K.%
+, Nakayama, A.%
+, Shibata, A.%
+\BCBL {}\ \BBA {} Sugiyama, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamical model of traffic congestion and numerical
+  simulation} {Dynamical model of traffic congestion and numerical
+  simulation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{P}hysical {R}eview {E}}{51}{2}{1035--1042}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Biham%
+, Middleton%
+\BCBL {}\ \BBA {} Levine%
+}{%
+Biham%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1992}}%
+}]{%
+Biham1992}
+\APACinsertmetastar {%
+Biham1992}%
+\begin{APACrefauthors}%
+Biham, O.%
+, Middleton, A\BPBI A.%
+\BCBL {}\ \BBA {} Levine, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Self-organization and a dynamical transition in
+  traffic-flow models} {Self-organization and a dynamical transition in
+  traffic-flow models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{P}hysical {R}eview {E}}{46}{10}{46--50}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Boss{\'e}%
+, Valin%
+, Boury-Brisset%
+\BCBL {}\ \BBA {} Grenier%
+}{%
+Boss{\'e}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+bosse2006}
+\APACinsertmetastar {%
+bosse2006}%
+\begin{APACrefauthors}%
+Boss{\'e}, {\'E}.%
+, Valin, P.%
+, Boury-Brisset, A\BHBI C.%
+\BCBL {}\ \BBA {} Grenier, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Exploitation of a priori knowledge for information
+  fusion} {Exploitation of a priori knowledge for information fusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Fusion}{7}{2}{161--175}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bovy%
+, Salomon%
+\BCBL {}\ \protect \BOthers {.}}{%
+Bovy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+bovy2002congestion}
+\APACinsertmetastar {%
+bovy2002congestion}%
+\begin{APACrefauthors}%
+Bovy, P\BPBI H.%
+, Salomon, I.%
+\BCBL {}\ \BOthersPeriod {.}\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Congestion in Europe: Measurements, patterns and
+  policies} {Congestion in europe: Measurements, patterns and policies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Chapters}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Castanedo%
+}{%
+Castanedo%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+castanedo2013}
+\APACinsertmetastar {%
+castanedo2013}%
+\begin{APACrefauthors}%
+Castanedo, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of data fusion techniques} {A review of data
+  fusion techniques}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Scientific World Journal}{2013}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chai%
+\ \BBA {} Daxler%
+}{%
+Chai%
+\ \BBA {} Daxler%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+chai2014RMSEorMAE}
+\APACinsertmetastar {%
+chai2014RMSEorMAE}%
+\begin{APACrefauthors}%
+Chai, T.%
+\BCBT {}\ \BBA {} Daxler, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Root mean square error (RMSE) or mean absolute error
+  (MAE)? – Arguments against avoiding RMSE in the literature}} {{Root mean
+  square error (RMSE) or mean absolute error (MAE)? – Arguments against
+  avoiding RMSE in the literature}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Geoscientific Model Development}{7}{3}{1247--1250}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Constantinidis%
+, Fairhurst%
+\BCBL {}\ \BBA {} Rahman%
+}{%
+Constantinidis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+constantinidis2001}
+\APACinsertmetastar {%
+constantinidis2001}%
+\begin{APACrefauthors}%
+Constantinidis, A.%
+, Fairhurst, M\BPBI C.%
+\BCBL {}\ \BBA {} Rahman, A\BPBI F\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A new multi-expert decision combination algorithm and
+  its application to the detection of circumscribed masses in digital
+  mammograms} {A new multi-expert decision combination algorithm and its
+  application to the detection of circumscribed masses in digital
+  mammograms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pattern Recognition}{34}{8}{1527--1537}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cools%
+, Moons%
+\BCBL {}\ \BBA {} Wets%
+}{%
+Cools%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+cools2007investigating}
+\APACinsertmetastar {%
+cools2007investigating}%
+\begin{APACrefauthors}%
+Cools, M.%
+, Moons, E.%
+\BCBL {}\ \BBA {} Wets, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Investigating effect of holidays on daily traffic
+  counts: time series approach} {Investigating effect of holidays on daily
+  traffic counts: time series approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Transportation Research Record: Journal of the
+  Transportation Research Board}{}{2019}{22--31}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dai%
+\ \BBA {} Khorram%
+}{%
+Dai%
+\ \BBA {} Khorram%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+dai1999}
+\APACinsertmetastar {%
+dai1999}%
+\begin{APACrefauthors}%
+Dai, X.%
+\BCBT {}\ \BBA {} Khorram, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data fusion using artificial neural networks: a case
+  study on multitemporal change analysis} {Data fusion using artificial neural
+  networks: a case study on multitemporal change analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computers, Environment and Urban
+  Systems}{23}{1}{19--31}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dasarathy%
+}{%
+Dasarathy%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+Dasarathy1997SensorApplications}
+\APACinsertmetastar {%
+Dasarathy1997SensorApplications}%
+\begin{APACrefauthors}%
+Dasarathy, B\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Sensor fusion potential exploitation-innovative
+  architectures and illustrative applications}} {{Sensor fusion potential
+  exploitation-innovative architectures and illustrative applications}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the IEEE}{85}{1}{24--38}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/5.554206} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D’Mello%
+\ \BBA {} Graesser%
+}{%
+D’Mello%
+\ \BBA {} Graesser%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+dmello_graesser_2010}
+\APACinsertmetastar {%
+dmello_graesser_2010}%
+\begin{APACrefauthors}%
+D’Mello, S\BPBI K.%
+\BCBT {}\ \BBA {} Graesser, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{Apr}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multimodal Semi-Automated Affect Detection From
+  Conversational Cues, Gross Body Language, And Facial Features} {Multimodal
+  semi-automated affect detection from conversational cues, gross body
+  language, and facial features}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{User Modeling and User-Adapted
+  Interaction}{20}{2}{147–187}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11257-010-9074-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Downs%
+}{%
+Downs%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+downs2005still}
+\APACinsertmetastar {%
+downs2005still}%
+\begin{APACrefauthors}%
+Downs, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Still stuck in traffic: coping with peak-hour traffic
+  congestion} {Still stuck in traffic: coping with peak-hour traffic
+  congestion}.
+\newblock
+\APACaddressPublisher{}{Brookings Institution Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dunne%
+\ \BBA {} Ghosh%
+}{%
+Dunne%
+\ \BBA {} Ghosh%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+dunne:2013}
+\APACinsertmetastar {%
+dunne:2013}%
+\begin{APACrefauthors}%
+Dunne, S.%
+\BCBT {}\ \BBA {} Ghosh, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{March}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Weather Adaptive Traffic Prediction Using Neurowavelet
+  Models} {Weather adaptive traffic prediction using neurowavelet
+  models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Intelligent Transportation
+  Systems}{14}{1}{370-379}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TITS.2012.2225049} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fincher%
+\ \BBA {} Mix%
+}{%
+Fincher%
+\ \BBA {} Mix%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+fincher1990}
+\APACinsertmetastar {%
+fincher1990}%
+\begin{APACrefauthors}%
+Fincher, D\BPBI W.%
+\BCBT {}\ \BBA {} Mix, D\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multi-sensor data fusion using neural networks}
+  {Multi-sensor data fusion using neural networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Systems, Man and Cybernetics, 1990. Conference
+  Proceedings., IEEE International Conference on} {Systems, man and
+  cybernetics, 1990. conference proceedings., ieee international conference
+  on}\ (\BPGS\ 835--838).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fischer%
+\ \BBA {} Igel%
+}{%
+Fischer%
+\ \BBA {} Igel%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Fischer2014}
+\APACinsertmetastar {%
+Fischer2014}%
+\begin{APACrefauthors}%
+Fischer, A.%
+\BCBT {}\ \BBA {} Igel, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Training restricted Boltzmann machines: An
+  introduction}} {{Training restricted Boltzmann machines: An
+  introduction}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Pattern Recognition}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.patcog.2013.05.025} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gauthier%
+}{%
+Gauthier%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+Gauthier2001DetectingCoefficient}
+\APACinsertmetastar {%
+Gauthier2001DetectingCoefficient}%
+\begin{APACrefauthors}%
+Gauthier, T\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Detecting trends using spearman’s rank correlation
+  coefficient}} {{Detecting trends using spearman’s rank correlation
+  coefficient}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Environmental Forensics}{2}{4}{359--362}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Geetha%
+\ \BBA {} Radhakrishnan%
+}{%
+Geetha%
+\ \BBA {} Radhakrishnan%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+geetha_radhakrishnan_2013}
+\APACinsertmetastar {%
+geetha_radhakrishnan_2013}%
+\begin{APACrefauthors}%
+Geetha, K.%
+\BCBT {}\ \BBA {} Radhakrishnan, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{May}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multimodal Biometric System: A Feature Level Fusion
+  Approach} {Multimodal biometric system: A feature level fusion
+  approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{71}{4}{25–29}.
+\newblock
+\begin{APACrefDOI} \doi{10.5120/12347-8635} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gu%
+, Qian%
+\BCBL {}\ \BBA {} Chen%
+}{%
+Gu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+gu2016twitter}
+\APACinsertmetastar {%
+gu2016twitter}%
+\begin{APACrefauthors}%
+Gu, Y.%
+, Qian, Z\BPBI S.%
+\BCBL {}\ \BBA {} Chen, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {From Twitter to detector: Real-time traffic incident
+  detection using social media data} {From twitter to detector: Real-time
+  traffic incident detection using social media data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Transportation research part C: emerging
+  technologies}{67}{}{321--342}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hall%
+\ \BBA {} Llinas%
+}{%
+Hall%
+\ \BBA {} Llinas%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+hall2001}
+\APACinsertmetastar {%
+hall2001}%
+\begin{APACrefauthors}%
+Hall, D.%
+\BCBT {}\ \BBA {} Llinas, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2001}.
+\newblock
+\APACrefbtitle {Multisensor data fusion} {Multisensor data fusion}.
+\newblock
+\APACaddressPublisher{}{CRC press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hamad%
+, Ali~Khalil%
+\BCBL {}\ \BBA {} Shanableh%
+}{%
+Hamad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Hamad2017}
+\APACinsertmetastar {%
+Hamad2017}%
+\begin{APACrefauthors}%
+Hamad, K.%
+, Ali~Khalil, M.%
+\BCBL {}\ \BBA {} Shanableh, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Modeling roadway traffic noise in a hot climate using
+  artificial neural networks}} {{Modeling roadway traffic noise in a hot
+  climate using artificial neural networks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Transportation Research Part D: Transport and
+  Environment}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.trd.2017.04.014} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hauke%
+\ \BBA {} Kossowski%
+}{%
+Hauke%
+\ \BBA {} Kossowski%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Hauke2011ComparisonData}
+\APACinsertmetastar {%
+Hauke2011ComparisonData}%
+\begin{APACrefauthors}%
+Hauke, J.%
+\BCBT {}\ \BBA {} Kossowski, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Comparison of Values of Pearson's and Spearman's
+  Correlation Coefficients on the Same Sets of Data}} {{Comparison of Values of
+  Pearson's and Spearman's Correlation Coefficients on the Same Sets of
+  Data}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Quaestiones Geographicae}{30}{2}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.degruyter.com/view/j/quageo.2011.30.issue-2/v10117-011-0021-1/v10117-011-0021-1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.2478/v10117-011-0021-1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hu%
+, Yan%
+, Wang%
+, Du%
+\BCBL {}\ \BBA {} Tao%
+}{%
+Hu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+M-BML:2016}
+\APACinsertmetastar {%
+M-BML:2016}%
+\begin{APACrefauthors}%
+Hu, W.%
+, Yan, L.%
+, Wang, H.%
+, Du, B.%
+\BCBL {}\ \BBA {} Tao, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Real-time Traffic Jams Prediction Inspired by {B}iham,
+  {M}iddleton and {L}evine ({BML}) Model} {Real-time traffic jams prediction
+  inspired by {B}iham, {M}iddleton and {L}evine ({BML}) model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Sciences}{381}{}{209--228}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hueper%
+\ \protect \BOthers {.}}{%
+Hueper%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+HUEPER2009112}
+\APACinsertmetastar {%
+HUEPER2009112}%
+\begin{APACrefauthors}%
+Hueper, J.%
+, Dervisoglu, G.%
+, Muralidharan, A.%
+, Gomes, G.%
+, Horowitz, R.%
+\BCBL {}\ \BBA {} Varaiya, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Macroscopic Modeling and Simulation of Freeway Traffic
+  Flow} {Macroscopic modeling and simulation of freeway traffic flow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IFAC Proceedings Volumes}{42}{15}{112 - 116}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S1474667016317839}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{12th IFAC Symposium on Control in Transportation Systems}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.3182/20090902-3-US-2007.0078}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hunter%
+, Kennedy%
+, Henry%
+\BCBL {}\ \BBA {} Ferguson%
+}{%
+Hunter%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+hunter2000}
+\APACinsertmetastar {%
+hunter2000}%
+\begin{APACrefauthors}%
+Hunter, A.%
+, Kennedy, L.%
+, Henry, J.%
+\BCBL {}\ \BBA {} Ferguson, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of neural networks and sensitivity analysis
+  to improved prediction of trauma survival} {Application of neural networks
+  and sensitivity analysis to improved prediction of trauma survival}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Methods and Programs in
+  Biomedicine}{62}{1}{11–19}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/s0169-2607(99)00046-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jain%
+, Sharma%
+\BCBL {}\ \BBA {} Subramanian%
+}{%
+Jain%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+TrafficDevelopingWorld:2012}
+\APACinsertmetastar {%
+TrafficDevelopingWorld:2012}%
+\begin{APACrefauthors}%
+Jain, V.%
+, Sharma, A.%
+\BCBL {}\ \BBA {} Subramanian, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Road Traffic Congestion in the Developing World} {Road
+  traffic congestion in the developing world}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2Nd ACM Symposium on Computing for
+  Development} {Proceedings of the 2nd acm symposium on computing for
+  development}\ (\BPGS\ 11:1--11:10).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{ACM}.
+\newblock
+\begin{APACrefURL} \url{http://doi.acm.org/10.1145/2160601.2160616}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2160601.2160616} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jimenez%
+, Morales-Morell%
+\BCBL {}\ \BBA {} Creus%
+}{%
+Jimenez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+jimenez1999}
+\APACinsertmetastar {%
+jimenez1999}%
+\begin{APACrefauthors}%
+Jimenez, L\BPBI O.%
+, Morales-Morell, A.%
+\BCBL {}\ \BBA {} Creus, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Classification of hyperdimensional data based on feature
+  and decision fusion approaches using projection pursuit, majority voting, and
+  neural networks} {Classification of hyperdimensional data based on feature
+  and decision fusion approaches using projection pursuit, majority voting, and
+  neural networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Geoscience and Remote
+  Sensing}{37}{3}{1360--1366}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+King%
+\ \protect \BOthers {.}}{%
+King%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+king2017}
+\APACinsertmetastar {%
+king2017}%
+\begin{APACrefauthors}%
+King, R\BPBI C.%
+, Villeneuve, E.%
+, White, R\BPBI J.%
+, Sherratt, R\BPBI S.%
+, Holderbaum, W.%
+\BCBL {}\ \BBA {} Harwin, W\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of data fusion techniques and technologies
+  for wearable health monitoring} {Application of data fusion techniques and
+  technologies for wearable health monitoring}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Medical Engineering \& Physics}{42}{}{1–12}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.medengphy.2016.12.011} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Koesdwiady%
+, Soua%
+\BCBL {}\ \BBA {} Karray%
+}{%
+Koesdwiady%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+koesdwiady:2016}
+\APACinsertmetastar {%
+koesdwiady:2016}%
+\begin{APACrefauthors}%
+Koesdwiady, A.%
+, Soua, R.%
+\BCBL {}\ \BBA {} Karray, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{Dec}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Improving Traffic Flow Prediction With Weather
+  Information in Connected Cars: A Deep Learning Approach} {Improving traffic
+  flow prediction with weather information in connected cars: A deep learning
+  approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Vehicular
+  Technology}{65}{12}{9508-9517}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TVT.2016.2585575} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J.~Lee%
+, Hong%
+, Kyungmin%
+\BCBL {}\ \BBA {} Yang-Ja%
+}{%
+J.~Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Lee2015}
+\APACinsertmetastar {%
+Lee2015}%
+\begin{APACrefauthors}%
+Lee, J.%
+, Hong, B.%
+, Kyungmin, L.%
+\BCBL {}\ \BBA {} Yang-Ja, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A prediction mode of traffic congestion using weather
+  data} {A prediction mode of traffic congestion using weather data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{IEEE} {C}omputer {S}ociety}{}{}{81--88}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+W\BHBI H.~Lee%
+, Tseng%
+\BCBL {}\ \BBA {} Tsai%
+}{%
+W\BHBI H.~Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Lee:KnowledgeBase}
+\APACinsertmetastar {%
+Lee:KnowledgeBase}%
+\begin{APACrefauthors}%
+Lee, W\BHBI H.%
+, Tseng, S\BHBI S.%
+\BCBL {}\ \BBA {} Tsai, S\BHBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A knowledge based real-time travel time prediction
+  system for urban network} {A knowledge based real-time travel time prediction
+  system for urban network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Expert Systems with Applications}{36}{3}{4239 - 4247}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0957417408001875}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1016/j.eswa.2008.03.018}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+D.~Liu%
+, Cho%
+, Sun%
+\BCBL {}\ \BBA {} Qiu%
+}{%
+D.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Liu2010ARecognition}
+\APACinsertmetastar {%
+Liu2010ARecognition}%
+\begin{APACrefauthors}%
+Liu, D.%
+, Cho, S\BPBI Y.%
+, Sun, D\BPBI M.%
+\BCBL {}\ \BBA {} Qiu, Z\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A Spearman correlation coefficient ranking for
+  matching-score fusion on speaker recognition}} {{A Spearman correlation
+  coefficient ranking for matching-score fusion on speaker
+  recognition}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Region 10 Annual International Conference,
+  Proceedings/TENCON}{}{}{736--741}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J.~Liu%
+, Zhou%
+\BCBL {}\ \BBA {} Chen%
+}{%
+J.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+liu2008wdcm}
+\APACinsertmetastar {%
+liu2008wdcm}%
+\begin{APACrefauthors}%
+Liu, J.%
+, Zhou, C.%
+\BCBL {}\ \BBA {} Chen, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {WdCM: a workday calendar model for workflows in service
+  grid environments} {Wdcm: a workday calendar model for workflows in service
+  grid environments}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Concurrency and Computation: Practice and
+  Experience}{20}{4}{377--392}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Z.~Liu%
+, Li%
+, Li%
+, Xing%
+\BCBL {}\ \BBA {} Lu%
+}{%
+Z.~Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+traffic_trend}
+\APACinsertmetastar {%
+traffic_trend}%
+\begin{APACrefauthors}%
+Liu, Z.%
+, Li, Z.%
+, Li, M.%
+, Xing, W.%
+\BCBL {}\ \BBA {} Lu, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mining road network correlation for traffic estimation
+  via compressive sensing} {Mining road network correlation for traffic
+  estimation via compressive sensing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Intelligent Transportation
+  Systems}{17}{7}{1880--1893}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mahmud%
+, Gope1%
+\BCBL {}\ \BBA {} Chowdhury%
+}{%
+Mahmud%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Mahmud2012}
+\APACinsertmetastar {%
+Mahmud2012}%
+\begin{APACrefauthors}%
+Mahmud, K.%
+, Gope1, K.%
+\BCBL {}\ \BBA {} Chowdhury, S\BPBI M\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Possible Causes \& Solutions of Traffic Jam and Their
+  Impact on the Economy of {D}haka City} {Possible causes \& solutions of
+  traffic jam and their impact on the economy of {D}haka city}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Management and
+  Sustainability}{2}{2}{112--135}.
+\newblock
+\begin{APACrefDOI} \doi{10.5539/jms.v2n2p112} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mahmud%
+\ \BBA {} Town%
+}{%
+Mahmud%
+\ \BBA {} Town%
+}{%
+{\protect \APACyear {2016}}%
+}]{%
+mahmud2016}
+\APACinsertmetastar {%
+mahmud2016}%
+\begin{APACrefauthors}%
+Mahmud, K.%
+\BCBT {}\ \BBA {} Town, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A review of computer tools for modeling electric
+  vehicle energy requirements and their impact on power distribution networks}}
+  {{A review of computer tools for modeling electric vehicle energy
+  requirements and their impact on power distribution networks}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Appliied Energy}{172}{}{337--359}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mangai%
+, Samanta%
+, Das%
+\BCBL {}\ \BBA {} Chowdhury%
+}{%
+Mangai%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+mangai2010}
+\APACinsertmetastar {%
+mangai2010}%
+\begin{APACrefauthors}%
+Mangai, U\BPBI G.%
+, Samanta, S.%
+, Das, S.%
+\BCBL {}\ \BBA {} Chowdhury, P\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A survey of decision fusion and feature fusion
+  strategies for pattern classification} {A survey of decision fusion and
+  feature fusion strategies for pattern classification}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IETE Technical review}{27}{4}{293--307}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+May%
+}{%
+May%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+may1990}
+\APACinsertmetastar {%
+may1990}%
+\begin{APACrefauthors}%
+May, A\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1990}.
+\newblock
+\APACrefbtitle {Traffic flow fundamentals} {Traffic flow fundamentals}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meurant%
+\ \BBA {} Meurant%
+}{%
+Meurant%
+\ \BBA {} Meurant%
+}{%
+{\protect \APACyear {1992}}%
+}]{%
+meurant1992}
+\APACinsertmetastar {%
+meurant1992}%
+\begin{APACrefauthors}%
+Meurant, G.%
+\BCBT {}\ \BBA {} Meurant, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1992}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multisensor Fusion} {Multisensor fusion}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Data Fusion in Robotics \& Machine Intelligence} {Data
+  fusion in robotics \& machine intelligence}\ (\BPG~41).
+\newblock
+\APACaddressPublisher{}{Academic Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+More%
+, Mugal%
+, Rajgure%
+, Adhao%
+\BCBL {}\ \BBA {} Pachghare%
+}{%
+More%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+ANN:2016}
+\APACinsertmetastar {%
+ANN:2016}%
+\begin{APACrefauthors}%
+More, R.%
+, Mugal, A.%
+, Rajgure, S.%
+, Adhao, R\BPBI B.%
+\BCBL {}\ \BBA {} Pachghare, V\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Road Traffic Prediction and Congestion Control using
+  Artificial Neural Networks} {Road traffic prediction and congestion control
+  using artificial neural networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2016 International Conference on Computing, Analytics
+  and Security Trends (CAST)} {2016 international conference on computing,
+  analytics and security trends (cast)}\ (\BPGS\ 52--57).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pan%
+, Demiryurek%
+\BCBL {}\ \BBA {} Shahabi%
+}{%
+Pan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+pan2012utilizing}
+\APACinsertmetastar {%
+pan2012utilizing}%
+\begin{APACrefauthors}%
+Pan, B.%
+, Demiryurek, U.%
+\BCBL {}\ \BBA {} Shahabi, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Utilizing real-world transportation data for accurate
+  traffic prediction} {Utilizing real-world transportation data for accurate
+  traffic prediction}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Data Mining (ICDM), 2012 IEEE 12th International
+  Conference on} {Data mining (icdm), 2012 ieee 12th international conference
+  on}\ (\BPGS\ 595--604).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Refenes%
+, Zapranis%
+\BCBL {}\ \BBA {} Francis%
+}{%
+Refenes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1994}}%
+}]{%
+refenes1994}
+\APACinsertmetastar {%
+refenes1994}%
+\begin{APACrefauthors}%
+Refenes, A\BPBI N.%
+, Zapranis, A.%
+\BCBL {}\ \BBA {} Francis, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stock performance modeling using neural networks: a
+  comparative study with regression models} {Stock performance modeling using
+  neural networks: a comparative study with regression models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neural networks}{7}{2}{375--388}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Regidor%
+}{%
+Regidor%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+metro_manila_peak_hour}
+\APACinsertmetastar {%
+metro_manila_peak_hour}%
+\begin{APACrefauthors}%
+Regidor, J\BPBI R\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Traffic Congestion in Metro Manila: Is the UVVRP Still
+  Effective?} {Traffic congestion in metro manila: Is the uvvrp still
+  effective?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Philippine Engineering Journal}{34}{1}{66--75}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saltelli%
+, Chan%
+\BCBL {}\ \BBA {} Scott%
+}{%
+Saltelli%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+saltelli2000}
+\APACinsertmetastar {%
+saltelli2000}%
+\begin{APACrefauthors}%
+Saltelli, A.%
+, Chan, K.%
+\BCBL {}\ \BBA {} Scott, E\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2000}.
+\newblock
+\APACrefbtitle {Sensitivity analysis} {Sensitivity analysis}.
+\newblock
+\APACaddressPublisher{}{New York: Wiley}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Saputri%
+\ \BBA {} Lee%
+}{%
+Saputri%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Saputri2013}
+\APACinsertmetastar {%
+Saputri2013}%
+\begin{APACrefauthors}%
+Saputri, T\BPBI R\BPBI D.%
+\BCBT {}\ \BBA {} Lee, S\BHBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using Artificial Neural Networks for predicting Traffic
+  Conditions: {A} Learning Algorithm fro Long-term Time Series Forecasting}
+  {Using artificial neural networks for predicting traffic conditions: {A}
+  learning algorithm fro long-term time series forecasting}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{J}ournal of {C}onvergence {I}nformation {T}echnology
+  ({JCIT})}{8}{14}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sohn%
+\ \BBA {} Lee%
+}{%
+Sohn%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+sohn2003}
+\APACinsertmetastar {%
+sohn2003}%
+\begin{APACrefauthors}%
+Sohn, S\BPBI Y.%
+\BCBT {}\ \BBA {} Lee, S\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Data fusion, ensemble and clustering to improve the
+  classification accuracy for the severity of road traffic accidents in Korea}
+  {Data fusion, ensemble and clustering to improve the classification accuracy
+  for the severity of road traffic accidents in korea}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Safety Science}{41}{1}{1--14}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sommer%
+, Tomforde%
+\BCBL {}\ \BBA {} Hahner%
+}{%
+Sommer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+sommer2013}
+\APACinsertmetastar {%
+sommer2013}%
+\begin{APACrefauthors}%
+Sommer, M.%
+, Tomforde, S.%
+\BCBL {}\ \BBA {} Hahner, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Using a Neural Network for Forecasting in an Organic
+  Traffic Control Management System} {Using a neural network for forecasting in
+  an organic traffic control management system}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{ESOS}.} {{ESOS}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tse%
+}{%
+Tse%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+doi:10.1080/01998590309509243}
+\APACinsertmetastar {%
+doi:10.1080/01998590309509243}%
+\begin{APACrefauthors}%
+Tse, W\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Knowledge-based Algorithm for Daily Thermal Load
+  Prediction of a Building} {Knowledge-based algorithm for daily thermal load
+  prediction of a building}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Energy Engineering}{100}{5}{6-28}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.tandfonline.com/doi/abs/10.1080/01998590309509243}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/01998590309509243} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Varangis%
+, Skees%
+\BCBL {}\ \BBA {} Barnett%
+}{%
+Varangis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+Varangis2003}
+\APACinsertmetastar {%
+Varangis2003}%
+\begin{APACrefauthors}%
+Varangis, P.%
+, Skees, J.%
+\BCBL {}\ \BBA {} Barnett, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Weather Indexes for developing countries} {Weather
+  indexes for developing countries}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Forest}{4}{}{3--754}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vuchic%
+\ \protect \BOthers {.}}{%
+Vuchic%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1994}}%
+}]{%
+vuchic1994bus}
+\APACinsertmetastar {%
+vuchic1994bus}%
+\begin{APACrefauthors}%
+Vuchic, V\BPBI R.%
+, Bruun, E\BPBI C.%
+, Krstanoski, N\BPBI B.%
+, Shin, Y\BPBI E.%
+, Kikuchi, S.%
+, Chakroborty, P.%
+\BCBL {}\ \BBA {} Perincherry, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The bus transit system: Its underutilized potential}
+  {The bus transit system: Its underutilized potential}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Quddus%
+\BCBL {}\ \BBA {} Ison%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+wang2009impact}
+\APACinsertmetastar {%
+wang2009impact}%
+\begin{APACrefauthors}%
+Wang, C.%
+, Quddus, M\BPBI A.%
+\BCBL {}\ \BBA {} Ison, S\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of traffic congestion on road accidents: A
+  spatial analysis of the M25 motorway in England} {Impact of traffic
+  congestion on road accidents: A spatial analysis of the m25 motorway in
+  england}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Accident Analysis \& Prevention}{41}{4}{798--808}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Quddus%
+\BCBL {}\ \BBA {} Ison%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+wang2013}
+\APACinsertmetastar {%
+wang2013}%
+\begin{APACrefauthors}%
+Wang, C.%
+, Quddus, M\BPBI A.%
+\BCBL {}\ \BBA {} Ison, S\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The effect of traffic and road characteristics on road
+  safety: A review and future research direction}} {{The effect of traffic and
+  road characteristics on road safety: A review and future research
+  direction}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Safety Science}{57}{}{264--275}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yan%
+, Yan%
+, Xie%
+\BCBL {}\ \BBA {} Wang%
+}{%
+Yan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+yan2011}
+\APACinsertmetastar {%
+yan2011}%
+\begin{APACrefauthors}%
+Yan, Z\BHBI Z.%
+, Yan, X\BHBI P.%
+, Xie, L.%
+\BCBL {}\ \BBA {} Wang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Research of Weighted-Average Fusion Method in Inland
+  Traffic Flow Detection} {The research of weighted-average fusion method in
+  inland traffic flow detection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Computing and Applications Lecture Notes in
+  Computer Science}{}{}{89–96}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-642-25255-6_12} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zar%
+}{%
+Zar%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+Zar1972SignificanceCoefficient}
+\APACinsertmetastar {%
+Zar1972SignificanceCoefficient}%
+\begin{APACrefauthors}%
+Zar, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Significance Testing of the Spearman Rank Correlation
+  Coefficient}} {{Significance Testing of the Spearman Rank Correlation
+  Coefficient}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the American Statistical
+  Association}{67}{339}{578--580}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhang%
+, Ding%
+, Zhang%
+\BCBL {}\ \BBA {} Xue%
+}{%
+Zhang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+zhang:2017}
+\APACinsertmetastar {%
+zhang:2017}%
+\begin{APACrefauthors}%
+Zhang, N.%
+, Ding, S.%
+, Zhang, J.%
+\BCBL {}\ \BBA {} Xue, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An overview on Restricted Boltzmann Machines} {An
+  overview on restricted boltzmann machines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neurocomputing}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{http://www.sciencedirect.com/science/article/pii/S0925231217315849}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.neucom.2017.09.065}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhao%
+, Lai%
+, Park%
+\BCBL {}\ \BBA {} Ye%
+}{%
+Zhao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+Zhao2005}
+\APACinsertmetastar {%
+Zhao2005}%
+\begin{APACrefauthors}%
+Zhao, L.%
+, Lai, Y\BHBI C.%
+, Park, K.%
+\BCBL {}\ \BBA {} Ye, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Onset of traffic congestion in complex networkson}
+  {Onset of traffic congestion in complex networkson}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{P}hysical {R}eview {E}}{71}{2}{026125}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

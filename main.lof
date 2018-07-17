@@ -1,0 +1,54 @@
+\babel@toc {USenglish}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Two states in the BML model. The red arrows are for eastward vehicles, while the blue arrows denote northward vehicles.\relax }}{12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Free Flow State}}}{12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Jammed State}}}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ANN Framework used in More et al., 2016\relax }}{14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dasarathy\IeC {\textquoteright }s Decision In - Decision Out (DEI-DEO)\relax }}{29}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Structure of the Fincher\IeC {\textquoteright }s Pre-Detection Approach, and (b) Structure of the Fincher\IeC {\textquoteright }s Post Detection Approach\relax }}{30}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Network graph of a One-Hidden layer ANN\relax }}{32}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Network graph of RBM given n hidden units, and m visible units.\relax }}{34}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Research Framework\relax }}{38}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of the FEI-DEO Fusion Model using ANN\relax }}{44}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure of the FEI-DEO Fusion Model using DBN\relax }}{45}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Structure of the DEI-DEO Fusion Model using ANN\relax }}{45}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Structure of the DEI-DEO Fusion Model using DBN\relax }}{46}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Structure of DBN Training Process\relax }}{47}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Network Graph of DBN for Prediction Model 1 and 2\relax }}{49}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Structure of the model using FEI-DEO (on the left), and DEI-DEO (on the right)\relax }}{50}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Structure of the FEI-DEO Fusion Model using ANN\relax }}{51}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Structure of the FEI-DEO Fusion Model using DBN\relax }}{52}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Structure of the DEI-DEO Fusion Model using ANN\relax }}{53}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Structure of the DEI-DEO Fusion Model using DBN\relax }}{53}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of precipitation showing a loose relationship with its daily seasonality\relax }}{56}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of temperature showing a strong relationship with its daily seasonality\relax }}{57}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation heatmap of weather variables\relax }}{58}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Daily average of wind gust per month revealing its normal trend despite having a loose daily seasonality\relax }}{59}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{60}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Negative relationship between visibility and precipitation\relax }}{60}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{62}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Autocorrelation of traffic showing no yearly seasonality\relax }}{63}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days\relax }}{64}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Autocorrelation of traffic for working days\relax }}{65}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{67}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{67}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Average Correlation of Rolling and Expanding Features for Espana and Roxas Blvd.\relax }}{68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {EspanaRE}}}{68}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RoxasRE}}}{68}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{77}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{78}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{82}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{82}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{83}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{84}
