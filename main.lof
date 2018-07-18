@@ -24,31 +24,15 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Structure of the DEI-DEO Fusion Model using ANN\relax }}{53}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Structure of the DEI-DEO Fusion Model using DBN\relax }}{53}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of precipitation showing a loose relationship with its daily seasonality\relax }}{56}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of temperature showing a strong relationship with its daily seasonality\relax }}{57}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation heatmap of weather variables\relax }}{58}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Daily average of wind gust per month revealing its normal trend despite having a loose daily seasonality\relax }}{59}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{60}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Negative relationship between visibility and precipitation\relax }}{60}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{62}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Autocorrelation of traffic showing no yearly seasonality\relax }}{63}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days\relax }}{64}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Autocorrelation of traffic for working days\relax }}{65}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{67}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{67}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{67}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Average Correlation of Rolling and Expanding Features for Espana and Roxas Blvd.\relax }}{68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {EspanaRE}}}{68}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RoxasRE}}}{68}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{77}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{65}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{78}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{66}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{82}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{82}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{83}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{84}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{70}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{70}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{71}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{72}
