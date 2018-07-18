@@ -212,15 +212,24 @@ very strong positive correlation & -1.0 $<$ x $\leq$ -0.9 \\ \hline
 % Advantage of Spearman over Pearson
 Although Spearman is considered a Pearson’s r measure in terms of ranks, there are advantages that enable Spearman to be a more powerful measurement over Pearson \shortcite{Gauthier2001DetectingCoefficient}. Spearman’s rank correlation coefficient is not affected by the distribution of the values, unlike Pearson’s r, which normal distribution is analyzed. Furthermore, instead of the raw data, it does not care for outliers because it deals with the ranks of the data. In addition, the data does not need to be in time-series, where the intervals are regular. In contrast, since Spearman disregards the outliers when it turns the data into ranks, there is a loss of information. Moreover, it is less powerful than the Pearson’s r if the data is normally distributed.
 
+\subsubsection{Autocorrelation}
+Autocorrelation, sometimes called \textit{serial correlation} or \textit{lagged correlation}, is defined as the correlation of a time series to itself. The series of numbers arranged in time is correlated to the values of its own past and future. The purpose of autocorrelation is to find out if there is a pattern repeating in the data. The formula for autocorrelation is as follows: 
+
+\begin{equation}
+r_{k} = \frac{\sum_{i=1}^{N-k}(X_{i} - \bar{X})(X_{i+k} - \bar{X})} {\sum_{i=1}^{N}(X_{i} - \bar{X})^{2} }
+\end{equation}
+
+\noindent where $k$ denotes the lags and $N$ as the number of observations in the series.
+
 
 
 
 \section{Feature Engineering}
-Feature engineering is important for any system that uses machine learning. The performance of machine learning algorithms depends on how the data was presented to them. If they accept raw data directly, they would not give the intended results since machine learning algorithms do not have the capacity to extract insightful features from raw data automatically. This is where feature engineering comes in. It is using the domain knowledge of and from the raw data and create insightful features which would help machine learning algorithms to work. 
+Feature engineering is important for any system that uses machine learning. The performance of machine learning algorithms depends on how the data was presented to them. If they accept raw data directly, they would not give the intended results since machine learning algorithms do not have the capacity to extract insightful features from raw data automatically. This is where feature engineering comes in. It is using the domain knowledge of and from the raw data and create insightful features which would help machine learning algorithms to perform better. 
 
 A feature is a property that is common with all the independent units in the raw data. Choosing the right features for the model is of utmost necessity. To yield better results, models should be simple and be more flexible, which better features would produce.
 
-The process of feature engineering is difficult and exhaustive. At first, a lot of features need to be decided and created regardless of its relevance. Afterwards, these features would be checked with the model to identify how and which features work. Then, to avoid overfitting, feature selection should be used. This process would repeat until certain features are finalized and perfected with the model.
+The process of feature engineering is difficult and exhaustive. At first, a lot of features need to be decided and created regardless of its relevance. Afterwards, these features would be checked with the model to identify how and which features would help the model. Then, to avoid overfitting, feature selection should be used. This process would repeat until certain features are finalized and used with the model.
 
 
 
