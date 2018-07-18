@@ -107,23 +107,25 @@
 \contentsline {subsubsection}{Weather Disruption}{61}
 \contentsline {section}{\numberline {5.2}Prediction Model Analysis}{61}
 \contentsline {subsection}{\numberline {5.2.1}Traffic-Only Model}{61}
-\contentsline {subsection}{\numberline {5.2.2}Weather-Only Model}{61}
-\contentsline {subsection}{\numberline {5.2.3}Fusion Analysis}{61}
-\contentsline {subsection}{\numberline {5.2.4}Sensitivity Analysis}{61}
-\contentsline {chapter}{\numberline {6}Conclusion}{62}
-\contentsline {chapter}{\numberline {7}Future Works}{63}
-\contentsline {chapter}{\numberline {A}Research Ethics Documents}{65}
-\contentsline {chapter}{\numberline {B}Turnitin Similarity Report}{70}
-\contentsline {chapter}{\numberline {C}Research Project Timeline}{71}
-\contentsline {chapter}{\numberline {D}Preliminary Results}{72}
-\contentsline {section}{\numberline {D.1}Data Pre-processing}{72}
-\contentsline {subsection}{\numberline {D.1.1}Traffic Dataset}{72}
-\contentsline {subsection}{\numberline {D.1.2}Weather Dataset}{73}
-\contentsline {section}{\numberline {D.2}Input Dataset}{74}
-\contentsline {section}{\numberline {D.3}Developing the Model}{74}
-\contentsline {subsection}{\numberline {D.3.1}Preparing the Data}{74}
-\contentsline {subsection}{\numberline {D.3.2}Defining the Training and Testing Dataset}{75}
-\contentsline {subsection}{\numberline {D.3.3}Building the Model}{75}
-\contentsline {subsection}{\numberline {D.3.4}Training the Model}{76}
-\contentsline {subsection}{\numberline {D.3.5}Evaluation of the Model}{76}
-\contentsline {chapter}{References}{78}
+\contentsline {subsection}{\numberline {5.2.2}Weather-Only Model}{62}
+\contentsline {subsection}{\numberline {5.2.3}Fusion Analysis}{65}
+\contentsline {subsection}{\numberline {5.2.4}Sensitivity Analysis}{67}
+\contentsline {subsubsection}{Traffic-Only Model}{67}
+\contentsline {subsubsection}{Decision Fusion Model}{69}
+\contentsline {chapter}{\numberline {6}Conclusion}{70}
+\contentsline {chapter}{\numberline {7}Future Works}{71}
+\contentsline {chapter}{\numberline {A}Research Ethics Documents}{73}
+\contentsline {chapter}{\numberline {B}Turnitin Similarity Report}{78}
+\contentsline {chapter}{\numberline {C}Research Project Timeline}{79}
+\contentsline {chapter}{\numberline {D}Preliminary Results}{80}
+\contentsline {section}{\numberline {D.1}Data Pre-processing}{80}
+\contentsline {subsection}{\numberline {D.1.1}Traffic Dataset}{80}
+\contentsline {subsection}{\numberline {D.1.2}Weather Dataset}{81}
+\contentsline {section}{\numberline {D.2}Input Dataset}{82}
+\contentsline {section}{\numberline {D.3}Developing the Model}{82}
+\contentsline {subsection}{\numberline {D.3.1}Preparing the Data}{82}
+\contentsline {subsection}{\numberline {D.3.2}Defining the Training and Testing Dataset}{83}
+\contentsline {subsection}{\numberline {D.3.3}Building the Model}{83}
+\contentsline {subsection}{\numberline {D.3.4}Training the Model}{84}
+\contentsline {subsection}{\numberline {D.3.5}Evaluation of the Model}{84}
+\contentsline {chapter}{References}{86}

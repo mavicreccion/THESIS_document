@@ -80,8 +80,144 @@ In the case of expanding windows, the strength of the relationship to the origin
 
 
 \section{Prediction Model Analysis}
+To test and evaluate the performance of the model in the presence of weather changes, two datasets for both dry (January to April, and November to December) and wet season (May to October) were used. Traffic and weather data were provided by MMDA and WWO, respectively. The models were evaluated using root mean squared error (RMSE) and mean absolute error (MAE). 
+
 
 \subsection{Traffic-Only Model}
+To evaluate the performance of TOM, and the effectiveness of engineering features for traffic, combination of features were used and compared for all road segments for both wet and dry season. These features include temporal information about the current traffic (i.e. month, day, hour, minute, and day of the week), past traffic of 96 intervals in the past or traffic the day before, flags for work days and peak hours, and rolling and expanding window of traffic 15 minutes in the past. Based on earlier discussions, rolling and expanding windows are not correlated with each other. Thus, rolling and expanding window features are used together in the model. In further figures in discussing the Traffic-Only Model, the different feature combinations are denoted as the following:
+
+\begin{enumerate}
+\item \textit{OT} - Features that only consist of the past traffic a day before the current;
+\item \textit{OTWP} - Features including past traffic a day before the current, and flags on the workday and peak hour, and;
+\item \textit{WPRE}- Features including OTWP, plus the addition of rolling and expanding features of the traffic 15 minute in the past of the current. In subsequent discussions, any number following this notion pertains to the window size of both the rolling and expanding features (e.g. WPRE 4 pertains to the features that include rolling and expanding features of window size 4).
+\end{enumerate}
+
+As seen in Figure \ref{fig:tom_diff_feat_combi} the inclusion of the information about working days and peak hours for all road segments improved the performance of the model by only 22\% having originally an RMSE of 0.167 which improved to 0.113. As discussed earlier on the trend and patterns of traffic, though there is a difference between the trends of working days and non-working days, moderate traffic is most frequent in both trends in the majority of the road segments, This implies that the mean traffic intensity for both working and non-working days are similar. This similarity attributes to the small improvement in the prediction. Furthermore, including rolling and expanding window features for traffic significantly improved the prediction by around 53\%, from having an RMSE of 0.129 to 0.061 after adding the said features. Rolling window features present a generalized information regarding the trend of the immediate past traffic. As discussed earlier, average traffic does not change significantly within a small window.   
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.6}{\includegraphics{tom_diff_feat_combi.png}}
+  \caption{Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations}
+  \label{fig:tom_diff_feat_combi}
+\end{figure}
+
+
+To evaluate if the model can successfully identify the trends present for each road segment, and its ability to predict its traffic, the performance of the model using OTWP or Original Traffic with the addition of work day and peak hours was observed. Results of this evaluation are illustrated in Figure \ref{fig:tom_feat_combi_road}. It is noticeable that the model predicted the southbound traffic of Espanya during the wet season quite well, having a mean RMSE of 0.095 compared to the other. However, this is because of the diversity of the southbound traffic of Espanya during the wet season, having a Moderate traffic congestion majority of the time. Given only data of the previous day’s traffic, and information on work day and peak hours, the model cannot easily model the sudden peaks and traffic reports on Heavy traffic. Additionally, given the percentage of the report on Heavy traffic congestion of the data, having only 10.584\% during the working days, and 0.301\% during the non-working days, the model lacks knowledge on modeling expected heavy traffic. 
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.6}{\includegraphics{tom_feat_combi_road.png}}
+  \caption{Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination}
+  \label{fig:tom_feat_combi_road}
+\end{figure}
+
+
+
 \subsection{Weather-Only Model}
+In earlier discussions regarding the relationship between weather variables with traffic, most weather variables had a weak relationship with traffic. To further evaluate this, the Weather Only Model was tested using three different combinations of weather variables which are:
+
+\begin{enumerate}
+\item Original Weather (OW) - all weather variables
+\item All Correlated Weather (ACW) - all weather variables that have correlation between 0.1 to 0.3
+\item Correlated Weather (CW) - all correlated weather variables excluding the redundant ones
+\end{enumerate}
+
+Given the weak relationship between weather variables with traffic, the model could only predict traffic about 80 to 84\% after using weather variables for input as compared to using past traffic that can predict traffic by 90\%. Furthermore, the model’s performance did not improve significantly with different combinations (see Figure \ref{fig:wom_diff_feat_combi}) of weather variables having changes in error ranging from only 0.001 to 0.003. 
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.7}{\includegraphics{wom_diff_feat_combi.png}}
+  \caption{Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations}
+  \label{fig:wom_diff_feat_combi}
+\end{figure}
+
+Illustrated in Figure \ref{fig:wom_diff_feat_combi} is the performance of the weather only model using the three feature combinations for the road segment of Pablo Ocampo and Blumentritt. As seen in the figure, the model predicted the northbound traffic in Pablo Ocampo better than the southbound traffic. According to data analysis performed above, the northbound traffic in Pablo Ocampo has more reports on heavy traffic than the southbound. Likewise, the model predicted the southbound of Bluementritt better than the northbound. However, in Pablo Ocampo, the model performed better using the northbound traffic for both dry and wet season, as for Bluementritt, the model performed better when using the wet season dataset, for both northbound and southbound. During the wet season of 2015, the traffic in Bluementritt was less diverse having a mean traffic for southbound of 0.187 and mean traffic for northbound of 0.208, both values close near the value for moderate traffic of 0.238. This means that traffic congestion level in Bluementritt for both southbound and northbound during the wet season is mostly moderate. This is further supported by evaluating the model’s performance with other connected road segments as seen in Figure \ref{fig:wom_feat_combi_roads} which shows the performance of the weather only model using all weather features for all road segments. Other road segments follow the said behavior.
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.6}{\includegraphics{wom_feat_combi_roads.png}}
+  \caption{Performance of WOM using OW weather feature combination for all road segments}
+  \label{fig:wom_feat_combi_roads}
+\end{figure}
+
+
+
 \subsection{Fusion Analysis}
+Different fusion techniques and approaches were used and evaluated. The performance of fusing in the feature and decision level was first evaluated. Then, the performance of fusing in the decision level using a number of fusion algorithms was observed. Table \ref{table:fusion_results} displays the different performances in different fusion approaches and techniques. 
+
+\begin{table}[]
+\begin{tabular}{|l|r|r|r|r|r|r|}
+\hline
+\multirow{2}{*}{\textbf{Fusion Techniques}} & \multicolumn{2}{c|}{\textbf{OTWP + OW}}                                & \multicolumn{2}{c|}{\textbf{WPRE 4 + OW}}                              & \multicolumn{2}{l|}{\textbf{WPRE 96 + OW}}                             \\ \cline{2-7} 
+                                            & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{l|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} \\ \hline
+\textbf{DBN Feature Fusion}                 & 0.262                              & 0.156                             & 0.079                              & 0.030                             & 0.219                              & 0.122                             \\ \hline
+\textbf{DBN Decision Fusion}                & 0.244                              & 0.173                             & \textbf{0.070}                     & \textbf{0.025}                    & 0.144                              & 0.079                             \\ \hline
+\textbf{RNN Decision Fusion}                & \textbf{0.068}                     & \textbf{0.054}                    & 0.171                              & 0.131                             & \textbf{0.103}                     & \textbf{0.085}                    \\ \hline
+\textbf{WA Decision Fusion}                 & 1.087                              & 1.048                             & 0.497                              & 0.457                             & 0.727                              & 0.700                             \\ \hline
+\end{tabular}
+\caption{Performance of different fusion techniques in different feature combinations}
+\label{table:fusion_results}
+\end{table}
+
+Although the results display a difference between the performance of fusing at the feature level to decision level, the model only improved by 6.87\% in fusing at the decision level. 
+
+The performance of WA in fusing data with the least-square estimate was greatly outshone by the two neural network fusion algorithms. Fusing with WA gained an RMSE of 1.087 and an MAE of 1.048, having a significant difference in error of 1.019 to 0.843 as compared to the other fusion algorithms. The algorithm for weighted average for fusing the predictions made used of least square estimate method to determine the fusion’s weights. Least-square estimate is defined as the minimum of the sum of squared residuals, or the difference between the actual and the predicted. This method is most useful when used in data which are more linear, where the pattern of the data can be extracted through simply just getting the residual, the slope of the line, and the coefficients of the input. This method of pattern extraction is called regression. The coefficients of the input generated after regression analysis are used as weights in the study’s Weighted Average algorithm. Given the behavior of the algorithm, it fails to extract patterns from the non-linear data. For the subsequent experiment and analysis, WA is disregarded. 
+
+RNN outperforms DBN, and other fusion algorithms by 74\%. RNN is implemented as an LSTM, or a long short-term memory, compared to DBN which is implemented as a regressor and a classifier. Because of RNN’s power of long short-term memory, it can use their internal memory to process a sequence of inputs, successfully extracting ordered patterns. 
+
+In evaluating the effect of the inclusion of weather as a factor in predicting traffic, the performance of the Traffic-Only Model, the model that can predict traffic using only the immediate past traffic, is compared with the performance of the fusion for all techniques. Results are illustrated in Figure \ref{fig:dbn_comp_pocampo}, which displays that the prediction improves after using weather as a factor. Though the improvement in performance is only 14\%, the improvement was consistent for different combinations of features. A contributor to the low improvement is the number of observations that weather is present when traffic least expected. For example, according to the weather data, heavy rainfall was present during September 11-12 of 2015, a Friday and a Saturday, when traffic is least expected. Additionally, rain started to fall at night of September 11, extending until the early morning of September 12. There were few records that successfully capture the contributing factor of weather towards traffic given the time periods disrupting weather variables were often present. For visualization purposes, the predicted traffic is illustrated in Figure \ref{fig:final_prediction}
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.35}{\includegraphics{final_prediction.png}}
+  \caption{Final Prediction of Southbound of Pablo Ocampo for the Month of September}
+  \label{fig:final_prediction}
+\end{figure}
+
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.7}{\includegraphics{dbn_comp_pocampo.png}}
+  \caption{Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season}
+  \label{fig:dbn_comp_pocampo}
+\end{figure}
+
+
+
 \subsection{Sensitivity Analysis}
+
+\subsubsection{Traffic-Only Model}
+
+First, the sensitivity of the predictions models with changing input variables was evaluated. In evaluating TOM, the different input variables were removed per experiment to see the effect of its inclusion. The combination of input variables were done in the feature combination in earlier evaluations of the model (e.g. OTWP, OT, WPRE, OW, etc). For example, variables of the OTWP feature combination were tinkered. Then, the variables of OT combination were evaluated, and so on. The temporal information was the first set of features of the combination that were removed one-by-one, then information on past traffic. The base model, with all the features including temporal and past traffic, was compared with the model with the removed variables (with or without temporal information or past traffic), and its change in performance was evaluated. The changes in performance illustrates the sensitivity of the model. 
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.6}{\includegraphics{TOM_sensitivity.png}}
+  \caption{Sensitivity of TOM with different feature combinations}
+  \label{fig:TOM_sensitivity}
+\end{figure}
+
+
+Evaluation on the sensitivity of TOM is illustrated in \ref{fig:TOM_sensitivity}. It has been discussed in the early sections in evaluating TOM that the inclusion of Work day, and Peak hour variables result to a 22\% improvement in performance. The removal of temporal information decreased the performance from 3.9 to 8.6\% when used with work day and peak hour. Not one temporal information variable increase the accuracy of the base which used all the temporal information, and all past traffic features. However, without the work day and peak hour, removal of the temporal information seems to have increase the performance, but only by 1 to 3\%. Results show that temporal information, when used with working day and peak hour variables without past traffic information, decreases the performance by 4\%. Moreover, each variable excluding the $Day$ variable are independent of each other as seen by the change of accuracy when using only Month, Hour and minute, or day of week. Using the day variable without the support of other temporal information have decreased the performance by 8.6\%. Results show that traffic does not have any pattern with the $Day$ variable. As for the use of temporal information without working day and peak hour, the model performed better. Working day and peak hour variables show a generalized information of traffic at a specific time period. Without this information, the temporal information instead gives information on the traffic such as what hours, or day of week are there heavy traffic condition intensity. 
+
+Looking into the effect of the past traffic feature when used with the work day and peak hour, using either the mean of traffic 2 weeks ago, and a day before did not affect the performance, only having differences of 0.03\%. However, There are significant change when work day and peak hours are not used. In using only the traffic a day before, the performance decreased by 4.1\%. Using the traffic of 2 weeks ago significantly increased the performance by 15.4\%. Results show that the base model for OT that used all the past traffic features of a day and 2 weeks ago and all temporal information without workday and peak hour, gets most of its prediction bases from the general traffic 2 weeks ago. This shows that this variable have great importance in predicting traffic, when working day and peak hours are not used.  
+
+\subsubsection{Decision Fusion Model}
+
+\begin{figure}
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{0.6}{\includegraphics{pm1-pm2-df-changes.png}}
+  \caption{Change in performance in different feature combinations}
+  \label{fig:pm1-pm2-df-changes}
+\end{figure}
+
+
+The base model for evaluating the fusion between using the different prediction models, and fusion models is the Traffic-Only for OTWP feature combination. As discussed in the Fusion Analysis, considering the weather prediction in fusing at decision level resulted in a 14\% improvement in performance. However, in evaluating the performance of the weather in predicting traffic, weather only contributed about 27\% of the prediction. As mentioned in earlier discussions, traffic data mostly comprises of Moderate traffic condition intensity reports. Additionally, periods where there is a disruption in weather in which traffic is expected lies in weekends, when traffic is least expected. The data does not completely represent the relationship between weather and traffic, thus resulting to the small weight in prediction. 

@@ -32,15 +32,23 @@
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{60}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{60}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{63}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination\relax }}{63}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations\relax }}{64}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Performance of WOM using OW weather feature combination for all road segments\relax }}{65}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Final Prediction of Southbound of Pablo Ocampo for the Month of September\relax }}{67}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season\relax }}{67}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{68}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Change in performance in different feature combinations\relax }}{69}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{70}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{78}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{71}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{79}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{75}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{75}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{76}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{77}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{83}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{83}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{84}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{85}
