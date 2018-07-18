@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  18 JUL 2018 01:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  18 JUL 2018 12:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -614,25 +614,25 @@ LaTeX Warning: Label `figure_traffic_peakhour' multiply defined.
 (appendix_C.aux) (appendix_E.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
 
 ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 7.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: rotating package is loaded.
@@ -843,42 +843,41 @@ Overfull \hbox (2.48018pt too wide) in paragraph at lines 148--149
  ar-eas have brought
  []
 
-[24] [25] [26] [27]
-<figures/dei_deo.PNG, id=140, 296.60812pt x 88.07906pt>
+[24] [25] [26] [27] [28]
+<figures/dei_deo.PNG, id=143, 296.60812pt x 88.07906pt>
 File: figures/dei_deo.PNG Graphic file (type png)
 <use figures/dei_deo.PNG>
-Package pdftex.def Info: figures/dei_deo.PNG  used on input line 244.
+Package pdftex.def Info: figures/dei_deo.PNG  used on input line 254.
 (pdftex.def)             Requested size: 296.60739pt x 88.07883pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28]
-<figures/fincher_approach.png, id=144, 454.0965pt x 450.483pt>
+ [29 <./figures/dei_deo.PNG>]
+<figures/fincher_approach.png, id=148, 454.0965pt x 450.483pt>
 File: figures/fincher_approach.png Graphic file (type png)
 <use figures/fincher_approach.png>
-Package pdftex.def Info: figures/fincher_approach.png  used on input line 271.
+Package pdftex.def Info: figures/fincher_approach.png  used on input line 281.
 (pdftex.def)             Requested size: 454.09538pt x 450.48189pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <./figures/dei_deo.PNG>] [30 <./figures/fincher_approach.png>]
-<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=153, 389.0535pt x 284.
+[30] [31 <./figures/fincher_approach.png>]
+<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=156, 389.0535pt x 284.
 262pt>
 File: figures/Network_graph_of_a_One-Hidden_layer_ANN.png Graphic file (type pn
 g)
 <use figures/Network_graph_of_a_One-Hidden_layer_ANN.png>
 Package pdftex.def Info: figures/Network_graph_of_a_One-Hidden_layer_ANN.png  u
-sed on input line 297.
+sed on input line 307.
 (pdftex.def)             Requested size: 389.05254pt x 284.26129pt.
- [31]
-[32 <./figures/Network_graph_of_a_One-Hidden_layer_ANN.png>] [33]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32] [33 <./figures/Network_graph_of_a_One-Hidden_layer_ANN.png>]
 <figures/Network_graph_of_RBM.png, id=165, 354.72525pt x 179.4705pt>
 File: figures/Network_graph_of_RBM.png Graphic file (type png)
 <use figures/Network_graph_of_RBM.png>
 Package pdftex.def Info: figures/Network_graph_of_RBM.png  used on input line 3
-23.
+33.
 (pdftex.def)             Requested size: 354.72438pt x 179.47005pt.
  [34 <./figures/Network_graph_of_RBM.png>] [35] [36]) [37]
 \openout2 = `chapter_4.aux'.
@@ -1471,9 +1470,9 @@ public/amsfonts/cm/cmr8.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/victo/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/victo/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (99 pages, 3623252 bytes).
+Output written on main.pdf (99 pages, 3623604 bytes).
 PDF statistics:
- 1033 PDF objects out of 1200 (max. 8388607)
+ 1032 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  256 words of extra memory for PDF output out of 10000 (max. 10000000)
 
