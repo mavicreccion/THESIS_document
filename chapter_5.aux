@@ -1,69 +1,98 @@
 \relax 
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results and Discussion}{56}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Results and Discussion}{50}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Exploratory Data Analysis}{56}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Weather}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Seasonality}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Trend of Disruptive Variables}{56}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Traffic}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Seasonality}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Previous Day}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Previous Week}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Connected Roads Segments}{56}}
-\@writefile{toc}{\contentsline {subsubsection}{Rolling and Expanding Features}{56}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of traffic for working days\relax }}{57}}
-\newlabel{figure_autocorr_traffic_workingdays}{{5.1}{57}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Standard deviation per window size of northbound traffic in Bluementritt for wet season\relax }}{58}}
-\newlabel{figure_stdev_traffic}{{5.2}{58}}
-\newlabel{fig:EspanaRE}{{5.3a}{60}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Traffic and Weather Analysis}{50}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Weather Analysis}{50}}
+\@writefile{toc}{\contentsline {subsubsection}{Seasonality}{50}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces  Autocorrelation of precipitation showing a loose relationship with its daily seasonality (1 interval = 15 minutes)\relax }}{51}}
+\newlabel{figure_autocorr_precip}{{5.1}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of temperature showing a strong relationship with its daily seasonality (1 interval = 15 minutes)\relax }}{52}}
+\newlabel{figure_autocorr_temp}{{5.2}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation heatmap of weather variables\relax }}{53}}
+\newlabel{figure_weather_corr}{{5.3}{53}}
+\@writefile{toc}{\contentsline {subsubsection}{Trend of Disruptive Variables}{53}}
+\citation{metro_manila_peak_hour}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Daily average of wind gust per month revealing its normal trend despite having a loose daily seasonality\relax }}{54}}
+\newlabel{figure_windgust}{{5.4}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of temperature\relax }}{55}}
+\newlabel{figure_precip_temp}{{5.5}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind gust\relax }}{55}}
+\newlabel{figure_precip_windgust}{{5.6}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{56}}
+\newlabel{figure_precip_windspeed}{{5.7}{56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{56}}
+\newlabel{figure_precip_windspeed}{{5.8}{56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Negative relationship between visibility and precipitation\relax }}{57}}
+\newlabel{figure_precip_visibility}{{5.9}{57}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Traffic Analysis}{57}}
+\@writefile{toc}{\contentsline {subsubsection}{Seasonality}{57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{58}}
+\newlabel{figure_autocorr_traffic_week}{{5.10}{58}}
+\citation{liu2008wdcm}
+\citation{traffic_trend}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Autocorrelation of traffic showing no yearly seasonality\relax }}{59}}
+\newlabel{figure_autocorr_traffic_month}{{5.11}{59}}
+\@writefile{toc}{\contentsline {paragraph}{Previous Day}{59}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{60}}
+\newlabel{table_traffic_cond_workingday}{{5.1}{60}}
+\@writefile{toc}{\contentsline {paragraph}{Previous Week}{60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days\relax }}{61}}
+\newlabel{figure_workingday_comparison}{{5.12}{61}}
+\@writefile{toc}{\contentsline {subsubsection}{Connected Road Segments}{62}}
+\@writefile{toc}{\contentsline {subsubsection}{Rolling and Expanding Features}{62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Autocorrelation of traffic for working days\relax }}{63}}
+\newlabel{figure_autocorr_traffic_workingdays}{{5.13}{63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Standard deviation per window size of northbound traffic in Bluementritt for wet season\relax }}{64}}
+\newlabel{figure_stdev_traffic}{{5.14}{64}}
+\newlabel{fig:EspanaRE}{{5.15a}{65}}
 \newlabel{sub@fig:EspanaRE}{{(a)}{a}}
-\newlabel{fig:RoxasRE}{{5.3b}{60}}
+\newlabel{fig:RoxasRE}{{5.15b}{65}}
 \newlabel{sub@fig:RoxasRE}{{(b)}{b}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Average Correlation of Rolling and Expanding Features for Espana and Roxas Blvd.\relax }}{60}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {EspanaRE}}}{60}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {RoxasRE}}}{60}}
-\newlabel{fig:bluementritt_rolling}{{5.4a}{60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Average Correlation of Rolling and Expanding Features for Espana and Roxas Blvd.\relax }}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {EspanaRE}}}{65}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {RoxasRE}}}{65}}
+\newlabel{fig:bluementritt_rolling}{{5.16a}{66}}
 \newlabel{sub@fig:bluementritt_rolling}{{(a)}{a}}
-\newlabel{fig:bluementritt_expanding}{{5.4b}{60}}
+\newlabel{fig:bluementritt_expanding}{{5.16b}{66}}
 \newlabel{sub@fig:bluementritt_expanding}{{(b)}{b}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{60}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Original vs. Rolling}}}{60}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Original vs. Expanding}}}{60}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Relationship of Weather to Traffic}{61}}
-\@writefile{toc}{\contentsline {subsubsection}{Daytime and Nighttime}{61}}
-\@writefile{toc}{\contentsline {subsubsection}{Time of Day}{61}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Effects of Weather to Traffic}{61}}
-\@writefile{toc}{\contentsline {subsubsection}{Precipitation}{61}}
-\@writefile{toc}{\contentsline {subsubsection}{Season by Precipitation Rate}{61}}
-\@writefile{toc}{\contentsline {subsubsection}{Weather Disruption}{61}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Prediction Model Analysis}{61}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Traffic-Only Model}{61}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Weather-Only Model}{62}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{63}}
-\newlabel{fig:tom_diff_feat_combi}{{5.5}{63}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination\relax }}{63}}
-\newlabel{fig:tom_feat_combi_road}{{5.6}{63}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations\relax }}{64}}
-\newlabel{fig:wom_diff_feat_combi}{{5.7}{64}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces Performance of WOM using OW weather feature combination for all road segments\relax }}{65}}
-\newlabel{fig:wom_feat_combi_roads}{{5.8}{65}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Fusion Analysis}{65}}
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Performance of different fusion techniques in different feature combinations\relax }}{66}}
-\newlabel{table:fusion_results}{{5.1}{66}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces Final Prediction of Southbound of Pablo Ocampo for the Month of September\relax }}{67}}
-\newlabel{fig:final_prediction}{{5.9}{67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season\relax }}{67}}
-\newlabel{fig:dbn_comp_pocampo}{{5.10}{67}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Sensitivity Analysis}{67}}
-\@writefile{toc}{\contentsline {subsubsection}{Traffic-Only Model}{67}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{68}}
-\newlabel{fig:TOM_sensitivity}{{5.11}{68}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces Change in performance in different feature combinations\relax }}{69}}
-\newlabel{fig:pm1-pm2-df-changes}{{5.12}{69}}
-\@writefile{toc}{\contentsline {subsubsection}{Decision Fusion Model}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{66}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Original vs. Rolling}}}{66}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Original vs. Expanding}}}{66}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Relationship of Weather to Traffic}{66}}
+\@writefile{toc}{\contentsline {subsubsection}{Daytime and Nighttime}{66}}
+\@writefile{toc}{\contentsline {subsubsection}{Time of Day}{66}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Effects of Weather to Traffic}{66}}
+\@writefile{toc}{\contentsline {subsubsection}{Precipitation}{66}}
+\@writefile{toc}{\contentsline {subsubsection}{Season by Precipitation Rate}{66}}
+\@writefile{toc}{\contentsline {subsubsection}{Weather Disruption}{66}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Prediction Model Analysis}{66}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Traffic-Only Model}{67}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{68}}
+\newlabel{fig:tom_diff_feat_combi}{{5.17}{68}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Weather-Only Model}{68}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination\relax }}{69}}
+\newlabel{fig:tom_feat_combi_road}{{5.18}{69}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations\relax }}{70}}
+\newlabel{fig:wom_diff_feat_combi}{{5.19}{70}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Fusion Analysis}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces Performance of WOM using OW weather feature combination for all road segments\relax }}{71}}
+\newlabel{fig:wom_feat_combi_roads}{{5.20}{71}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Performance of different fusion techniques in different feature combinations\relax }}{71}}
+\newlabel{table:fusion_results}{{5.2}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces Final Prediction of Southbound of Pablo Ocampo for the Month of September\relax }}{73}}
+\newlabel{fig:final_prediction}{{5.21}{73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season\relax }}{73}}
+\newlabel{fig:dbn_comp_pocampo}{{5.22}{73}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{74}}
+\newlabel{fig:TOM_sensitivity}{{5.23}{74}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Sensitivity Analysis}{74}}
+\@writefile{toc}{\contentsline {subsubsection}{Traffic-Only Model}{74}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces Change in performance in different feature combinations\relax }}{75}}
+\newlabel{fig:pm1-pm2-df-changes}{{5.24}{75}}
+\@writefile{toc}{\contentsline {subsubsection}{Decision Fusion Model}{75}}
 \@setckpt{chapter_5}{
-\setcounter{page}{70}
+\setcounter{page}{77}
 \setcounter{equation}{0}
 \setcounter{enumi}{3}
 \setcounter{enumii}{0}
@@ -78,8 +107,8 @@
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{12}
-\setcounter{table}{1}
+\setcounter{figure}{24}
+\setcounter{table}{2}
 \setcounter{ContinuedFloat}{0}
 \setcounter{KVtest}{0}
 \setcounter{subfigure}{0}

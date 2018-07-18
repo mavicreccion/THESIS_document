@@ -223,6 +223,23 @@ Chai, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Climate of the Philippines}}{%
+\APACcitebtitle {Climate of the Philippines}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+pagasa_climate}
+\APACinsertmetastar {%
+pagasa_climate}%
+\APACrefbtitle {Climate of the Philippines.} {Climate of the philippines.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://kidlat.pagasa.dost.gov.ph/index.php/climate-of-the-philippines}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Constantinidis%
 , Fairhurst%
 \BCBL {}\ \BBA {} Rahman%
@@ -250,35 +267,6 @@ Constantinidis, A.%
   mammograms}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Pattern Recognition}{34}{8}{1527--1537}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Cools%
-, Moons%
-\BCBL {}\ \BBA {} Wets%
-}{%
-Cools%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2007}}%
-}]{%
-cools2007investigating}
-\APACinsertmetastar {%
-cools2007investigating}%
-\begin{APACrefauthors}%
-Cools, M.%
-, Moons, E.%
-\BCBL {}\ \BBA {} Wets, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2007}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Investigating effect of holidays on daily traffic
-  counts: time series approach} {Investigating effect of holidays on daily
-  traffic counts: time series approach}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Transportation Research Record: Journal of the
-  Transportation Research Board}{}{2019}{22--31}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

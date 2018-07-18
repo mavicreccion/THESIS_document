@@ -1,18 +1,242 @@
 \chapter{Results and Discussion}
 
-\section{Exploratory Data Analysis}
+This chapter discusses the analysis of the traffic and weather data. Moreover, this chapter will also discuss about the experiments performed and its results to evaluate the analysis of traffic and weather.
 
-\subsection{Weather}
+\section{Traffic and Weather Analysis}
+
+\subsection{Weather Analysis}
+
 \subsubsection{Seasonality}
+
+In spite of having a daily pattern, however, there are weather variables whose pattern would not last for every day of the year or even a week. One of these weather variables is precipitation. In the autocorrelation of precipitation (see Figure \ref{figure_autocorr_precip}), it could be observed that despite having a daily seasonality, the pattern of the previous day cannot be barely used to predict the amount of precipitation to be expected today, as indicated by the weak correlation as it approaches its daily seasonality. Comparing it to the autocorrelation of temperature (see Figure \ref{figure_autocorr_temp}), the pattern of the previous day or even until a week ago can be used to predict the incoming temperature of the day, as indicated by the consistently strong correlation throughout the week.
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]
+  {figures/figure_autocorr_precip.png}
+  \caption{ Autocorrelation of precipitation showing a loose relationship with its daily seasonality (1 interval = 15 minutes)}
+  \label{figure_autocorr_precip}
+\end{figure}
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_autocorr_temp.png}
+  \caption{Autocorrelation of temperature showing a strong relationship with its daily seasonality (1 interval = 15 minutes)}
+  \label{figure_autocorr_temp}
+\end{figure}
+
+
+
+
+
+
+
+
+
+With these weather variables having a shorter term pattern, these could have situational effects to related or dependent variables whose usual pattern may be disrupted. Thus, we classify these variables as \textit{disruptive variables}. These include wind speed, wind gust, precipitation, and visibility (see Figure \ref{figure_disruptive_var}). Looking at the multicollinearity of these variables (see Figure \ref{figure_weather_corr}), it could be observed most disruptive variables have a strong correlation with precipitation. Particularly, both visibility and wind gust are strongly correlated with precipitation, having a correlation value of -0.787 and 0.600 respectively; and wind gust is strongly correlated with wind speed, with a correlation value of 0.934.
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_weather_corr.png}
+  \caption{Correlation heatmap of weather variables}
+  \label{figure_weather_corr}
+\end{figure}
+
+
+
+
+
+
+
+
 \subsubsection{Trend of Disruptive Variables}
 
+Although these disruptive variables have a shorter term pattern, some still follow certain trends despite being influenced by other disruptive variables. One of which is wind gust (see Figure \ref{figure_windgust}). Similar to non-disruptive variables, wind gust follows a long-term pattern yet is heavily impacted by other disruptive variables, specifically precipitation. It follows the trend of gradually falling until noontime, rising and peaking during the afternoon, and falling at a similar rate during the evening.
 
-\subsection{Traffic}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_windgust.png}
+  \caption{Daily average of wind gust per month revealing its normal trend despite having a loose daily seasonality}
+  \label{figure_windgust}
+\end{figure}
+
+
+
+
+
+In instances where precipitation is abundant, however, there is an immediate effect to its pattern. Figure \ref{figure_precip_temp} and \ref{figure_precip_windgust} shows a comparison of the impact of precipitation to temperature and wind gust in one of the days under Typhoon Egay. It could be observed that the precipitation did not significantly impact the pattern of the temperature. Nevertheless, we could see how it gradually decreased the temperature from its usual pattern in that specific month. Comparing it with wind gust, it could be observed that the effects of precipitation already took an effect on the pattern of wind gust as it starts to build up. Wind speed, being strongly correlated with wind gust, follows this trend as well (see Figure \ref{figure_precip_windspeed}).
+
+
+
+% \begin{figure}
+% \begin{subfigure}{0.49\textwidth}
+% \includegraphics[width=\linewidth]{figures/figure_precip_temp.png}
+% \caption{First subfigure} \label{fig:1a}
+% \end{subfigure}
+% \hspace*{\fill} % separation between the subfigures
+% \begin{subfigure}{0.49\textwidth}
+% \includegraphics[width=\linewidth]{figures/figure_precip_windgust.png}
+% \caption{Second subfigure} \label{fig:1b}
+% \end{subfigure}
+% \end{subfigure}
+% \caption{Comparison of the effects of precipitation to the normal pattern of temperature (a), a non-disruptive variable, and wind gust (b), a disruptive variable} \label{figure_precip_temp_windgust}
+% \end{figure}
+
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_precip_temp.png}
+  \caption{Comparison of the effects of precipitation to the normal pattern of temperature}
+  \label{figure_precip_temp}
+\end{figure}
+
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_precip_windgust.png}
+  \caption{Comparison of the effects of precipitation to the normal pattern of wind gust}
+  \label{figure_precip_windgust}
+\end{figure}
+
+
+
+
+
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_precip_windspeed.png}
+  \caption{Comparison of the effects of precipitation to the normal pattern of wind speed}
+  \label{figure_precip_windspeed}
+\end{figure}
+
+
+
+
+
+
+
+
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_precip_windspeed.png}
+  \caption{Comparison of the effects of precipitation to the normal pattern of wind speed}
+  \label{figure_precip_windspeed}
+\end{figure}
+
+
+
+In a similar way, precipitation also affects other disruptive variables, mainly visibility. Contrary to wind gust and wind speed, visibility does not have a long-term pattern. Rather, it has a strong negative correlation with precipitation, hence its short-term trend is dependent on precipitation instances (see Figure \ref{figure_precip_visibility}).
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_precip_visibility.png}
+  \caption{Negative relationship between visibility and precipitation}
+  \label{figure_precip_visibility}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Traffic Analysis}
+
 \subsubsection{Seasonality}
-\subsubsection{Previous Day}
-\subsubsection{Previous Week}
-\subsubsection{Connected Roads Segments}
 
+On an average day, traffic could be linked with the people's daily transportation demand. One example of these is the daily commute of people, attributed to their organizational duties (i.e. 9 to 5 jobs) and academical duties. Built upon these expected demands, the daily seasonality of traffic has been established, following the concept of peak hour. Peak hour refers to the busiest hour where traffic is expected to rapidly rise. In the case of Metro Manila, peak hours are expected to occur from 7 AM to 10 AM, when people leave their home to go to their respective organizations, and 4 PM to 7 PM, when they depart their organizations and return home \cite{metro_manila_peak_hour}.
+
+However, knowing that there are other contributing factors to traffic, its pattern is not consistent despite its daily seasonality. Analyzing its autocorrelation (see Figure \ref{figure_autocorr_traffic_week}), it could be observed that in spite of its daily pattern, its succeeding days are loosely correlated with the present one. Interestingly, though, the traffic pattern of the previous day could also be used as much as the succeeding days or even the week after. Furthermore, compared with the previous days, it could be observed the present traffic is more correlated with its 7-days-ago pattern or its previous week (e.g. relate the present Monday with last week's Monday).
+    
+    
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_autocorr_traffic_week.png}
+  \caption{Autocorrelation of traffic revealing its daily and weekly seasonality}
+  \label{figure_autocorr_traffic_week}
+\end{figure}
+
+
+
+Viewing its pattern in a longer term, nevertheless, its weekly pattern becomes looser as months go by (see Figure \ref{figure_autocorr_traffic_month}). In other words, it is recommended to expect a certain pattern to last for only four weeks at most. Further examining its seasonality, it could also be observed it does not have a yearly seasonality as well, and its seasonality fades out as time passes by. In simple terms, the traffic pattern in January 2015 is not the same with January 2016. Rather, the traffic pattern in December 2015 is closer to the pattern of January 2016.
+    
+    
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_autocorr_traffic_month.png}
+  \caption{Autocorrelation of traffic showing no yearly seasonality}
+  \label{figure_autocorr_traffic_month}
+\end{figure}
+
+
+Given these seasonalities, we will explore how traffic changes in its short term and longer term.
+
+
+
+
+
+
+\paragraph{Previous Day}
+
+Traffic's daily seasonality could be perceived as causal, such that the traffic of yesterday could be attributed to the traffic of today. For instance, having an intense traffic yesterday morning could be linked with the incoming morning traffic of today. In inheriting the factors of previous days, nonetheless, we also need to take into consideration the concept of working and non-working day.
+
+  A \textit{working day} refers to a day in which people are assigned on duty in an organization \cite{liu2008wdcm}. For most organizations, it is defined to be on weekdays, Mondays to Fridays, while non-working days are on weekends, Saturdays to Sundays. Aside from weekends, though, non-working days also occur during holidays and government-announced class/work suspension. For our analysis, we treated those days as outliers to our data as the traffic pattern for that particular day is irregular compared with the other weekday working day records. These are important to consider as the transportation demand during working days are higher compared with non-working days \cite{traffic_trend}. For example, the transportation demand of Monday is significantly different from Sunday, thus referencing Sunday for the expected pattern of Monday would be erroneous.
+
+  Comparing the average traffic between working days and non-working days in one month, we could see a significant difference in terms of intensity and pattern (see Figure \ref{figure_workingday_comparison}). Majority of intense traffic occurs at working days. Table \ref{table_traffic_cond_workingday} shows that heavy traffic consists 10.584\% of the working day dataset, while only 0.301\% of the non-working day dataset. Moreover, light traffic consists only 51.819\% of the working day dataset while it accounts for 76.973\% of the non-working day dataset. This, in terms of pattern, indicates that non-working day traffic may follow the peak hour-driven traffic pattern. Therefore, in defining a specific peak hour, we must consider non-working days as an inconsistent case if compared with working days.
+    
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{figures/figure_workingday_comparison.png}
+  \caption{Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days}
+  \label{figure_workingday_comparison}
+\end{figure}
+
+\begin{table}[t]
+
+\centering
+\caption{Comparison of traffic condition distribution between working and non-working}
+\label{table_traffic_cond_workingday}
+
+\begin{tabular}{|l|r|r|}
+\hline
+\textbf{Traffic Condition} & \textbf{Working Day} & \textbf{Non-working Day} \\ \hline
+L                          & 51.876\%             & 76.973\%                 \\ \hline
+ML                         & 4.051\%              & 3.085\%                  \\ \hline
+M                          & 31.917\%             & 19.461\%                 \\ \hline
+MH                         & 1.573\%              & 0.180\%                  \\ \hline
+H                          & 10.584\%             & 0.301\%                  \\ \hline
+\end{tabular}
+\end{table}
+
+
+\paragraph{Previous Week}
+
+Traffic could also be related to its week-ago traffic pattern. There has been a concept known as Monday rush hour and Friday rush hour where traffic is expected to increase in the morning and at night respectively. Similar to the previous day approach, we also need to consider working days, but to a lesser degree. Instead, we would only take into account the holidays and suspensions which we will similarly treat as outliers in our reference. To support its weekly seasonality, in \figref{figure_traffic_day_vs_week}, it could be observed how closer the traffic pattern is with its one-week-ago pattern compared with its two-day-ago pattern.
+
+
+
+\subsubsection{Connected Road Segments}
+
+After analyzing the pattern of a road segment with its own pattern, we now analyze it as a part of a road. Aside from itself, its traffic could also be linked with its relationship with its connected road segments. Exploring the working day traffic of all road segments in Roxas Boulevard, it could be observed that there is an intensity relationship between these road segments. The intense traffic of Pablo Ocampo is carried over to Quirino in a similar intensity yet continuously decays as we go further to Anda Circle. Likewise, the intensity of the traffic of Blumentritt rises as we approach Antipolo then decays as we go further to Lerma.
 
 
 \subsubsection{Rolling and Expanding Features}

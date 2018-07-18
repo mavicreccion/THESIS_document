@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  18 JUL 2018 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  18 JUL 2018 16:55
 entering extended mode
 **./main.tex
 (main.tex
@@ -593,21 +593,12 @@ LaTeX Warning: Unused global option(s):
     [onepage].
 
 (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux
+(chapter_3.aux) (chapter_4.aux) (chapter_5.aux
 
-LaTeX Warning: Label `fig:feideo_ann' multiply defined.
+LaTeX Warning: Label `figure_precip_windspeed' multiply defined.
 
-
-LaTeX Warning: Label `fig:feideo_dbn' multiply defined.
-
-
-LaTeX Warning: Label `fig:deideo_ann' multiply defined.
-
-
-LaTeX Warning: Label `fig:deideo_dbn' multiply defined.
-
-) (chapter_5.aux) (chapter_6.aux) (chapter_7.aux) (appendix_A.aux)
-(appendix_B.aux) (appendix_C.aux) (appendix_E.aux))
+) (chapter_6.aux) (chapter_7.aux) (appendix_A.aux) (appendix_B.aux)
+(appendix_C.aux) (appendix_E.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -755,7 +746,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [6] (main.lof [7
 
 ]
-Overfull \hbox (5.9211pt too wide) in paragraph at lines 36--36
+Overfull \hbox (5.9211pt too wide) in paragraph at lines 38--38
  [][] []\T1/cmr/m/n/12 Performance of TOM on Roxas Boule-vard and Es-panya us-i
 ng OTWP 
  []
@@ -896,234 +887,255 @@ line 10.
 
 
  <./figures/THESIS_ResearchDesignFinal.png>] [40] [41] [42] [43]
-<figures/feideo_ann.png, id=206, 393.26926pt x 375.804pt>
-File: figures/feideo_ann.png Graphic file (type png)
-<use figures/feideo_ann.png>
-Package pdftex.def Info: figures/feideo_ann.png  used on input line 107.
-(pdftex.def)             Requested size: 393.2683pt x 375.80309pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/feideo_dbn.png, id=207, 489.62926pt x 376.40625pt>
-File: figures/feideo_dbn.png Graphic file (type png)
-<use figures/feideo_dbn.png>
-Package pdftex.def Info: figures/feideo_dbn.png  used on input line 117.
-(pdftex.def)             Requested size: 489.62805pt x 376.40532pt.
-[44]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/deideo_ann.png, id=212, 325.215pt x 243.309pt>
-File: figures/deideo_ann.png Graphic file (type png)
-<use figures/deideo_ann.png>
-Package pdftex.def Info: figures/deideo_ann.png  used on input line 131.
-(pdftex.def)             Requested size: 325.2142pt x 243.30841pt.
-[45 <./figures/feideo_ann.png>]
-<figures/deideo_dbn.png, id=217, 495.65175pt x 238.491pt>
-File: figures/deideo_dbn.png Graphic file (type png)
-<use figures/deideo_dbn.png>
-Package pdftex.def Info: figures/deideo_dbn.png  used on input line 139.
-(pdftex.def)             Requested size: 495.65053pt x 238.4904pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[46 <./figures/feideo_dbn.png> <./figures/deideo_ann.png>]
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 152.
-
-[47 <./figures/deideo_dbn.png>]
-<figures/dbntraining.png, id=227, 431.81325pt x 257.16075pt>
+<figures/dbntraining.png, id=206, 431.81325pt x 257.16075pt>
 File: figures/dbntraining.png Graphic file (type png)
 <use figures/dbntraining.png>
-Package pdftex.def Info: figures/dbntraining.png  used on input line 169.
+Package pdftex.def Info: figures/dbntraining.png  used on input line 190.
 (pdftex.def)             Requested size: 431.81218pt x 257.16011pt.
- [48 <./figures/dbntraining.png>]
-<figures/dbnpredictor.png, id=232, 439.6425pt x 449.2785pt>
-File: figures/dbnpredictor.png Graphic file (type png)
-<use figures/dbnpredictor.png>
-Package pdftex.def Info: figures/dbnpredictor.png  used on input line 197.
-(pdftex.def)             Requested size: 439.64142pt x 449.27739pt.
- [49]
-<figures/feideo_vs_deideo.png, id=236, 586.5915pt x 217.41225pt>
-File: figures/feideo_vs_deideo.png Graphic file (type png)
-<use figures/feideo_vs_deideo.png>
-Package pdftex.def Info: figures/feideo_vs_deideo.png  used on input line 209.
-(pdftex.def)             Requested size: 586.59007pt x 217.4117pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[50 <./figures/dbnpredictor.png>]
-File: figures/feideo_ann.png Graphic file (type png)
-<use figures/feideo_ann.png>
-Package pdftex.def Info: figures/feideo_ann.png  used on input line 232.
-(pdftex.def)             Requested size: 393.2683pt x 375.80309pt.
- [51 <./figures/feideo_vs_deideo.png>]
-File: figures/feideo_dbn.png Graphic file (type png)
-<use figures/feideo_dbn.png>
-Package pdftex.def Info: figures/feideo_dbn.png  used on input line 242.
-(pdftex.def)             Requested size: 489.62805pt x 376.40532pt.
+[44] [45 <./figures/dbntraining.png>] [46]
+Overfull \hbox (6.2817pt too wide) in paragraph at lines 238--239
+[]\T1/cmr/m/n/12 The train-ing dataset for both pre-dic-tion mod-els Traf-fic O
+nly Model and Weather
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[52]
-File: figures/deideo_ann.png Graphic file (type png)
-<use figures/deideo_ann.png>
-Package pdftex.def Info: figures/deideo_ann.png  used on input line 256.
-(pdftex.def)             Requested size: 325.2142pt x 243.30841pt.
+LaTeX Warning: Reference `tab:TOMInput' on page 47 undefined on input line 247.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: figures/deideo_dbn.png Graphic file (type png)
-<use figures/deideo_dbn.png>
-Package pdftex.def Info: figures/deideo_dbn.png  used on input line 264.
-(pdftex.def)             Requested size: 495.65053pt x 238.4904pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[53] [54]) [55]
+[47]) [48] [49]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
 Chapter 5.
-[56
+<figures/figure_autocorr_precip.png, id=227, 405.515pt x 266.9975pt>
+File: figures/figure_autocorr_precip.png Graphic file (type png)
+<use figures/figure_autocorr_precip.png>
+Package pdftex.def Info: figures/figure_autocorr_precip.png  used on input line
+ 16.
+(pdftex.def)             Requested size: 415.55249pt x 273.61307pt.
+<figures/figure_autocorr_temp.png, id=228, 405.515pt x 266.9975pt>
+File: figures/figure_autocorr_temp.png Graphic file (type png)
+<use figures/figure_autocorr_temp.png>
+Package pdftex.def Info: figures/figure_autocorr_temp.png  used on input line 2
+3.
+(pdftex.def)             Requested size: 415.55249pt x 273.61307pt.
+
+LaTeX Warning: Reference `figure_disruptive_var' on page 50 undefined on input 
+line 36.
+
+[50
 
 
 
-]
-<figures/autocorr_whyRE.PNG, id=262, 437.38406pt x 217.5628pt>
+] [51 <./figures/figure_autocorr_precip.png>] [52 <./figures/figure_autocorr_te
+mp.png>]
+<figures/figure_weather_corr.png, id=241, 629.35126pt x 563.10374pt>
+File: figures/figure_weather_corr.png Graphic file (type png)
+<use figures/figure_weather_corr.png>
+Package pdftex.def Info: figures/figure_weather_corr.png  used on input line 40
+.
+(pdftex.def)             Requested size: 415.55249pt x 371.81287pt.
+ [53 <./figures/figure_weather_corr.png>]
+<figures/figure_windgust.png, id=246, 437.635pt x 257.96375pt>
+File: figures/figure_windgust.png Graphic file (type png)
+<use figures/figure_windgust.png>
+Package pdftex.def Info: figures/figure_windgust.png  used on input line 58.
+(pdftex.def)             Requested size: 415.55249pt x 244.95pt.
+<figures/figure_precip_temp.png, id=247, 500.87125pt x 257.96375pt>
+File: figures/figure_precip_temp.png Graphic file (type png)
+<use figures/figure_precip_temp.png>
+Package pdftex.def Info: figures/figure_precip_temp.png  used on input line 88.
+
+(pdftex.def)             Requested size: 415.55249pt x 214.03111pt.
+<figures/figure_precip_windgust.png, id=248, 538.01pt x 257.96375pt>
+File: figures/figure_precip_windgust.png Graphic file (type png)
+<use figures/figure_precip_windgust.png>
+Package pdftex.def Info: figures/figure_precip_windgust.png  used on input line
+ 96.
+(pdftex.def)             Requested size: 415.55249pt x 199.25067pt.
+<figures/figure_precip_windspeed.png, id=249, 538.01pt x 257.96375pt>
+File: figures/figure_precip_windspeed.png Graphic file (type png)
+<use figures/figure_precip_windspeed.png>
+Package pdftex.def Info: figures/figure_precip_windspeed.png  used on input lin
+e 108.
+(pdftex.def)             Requested size: 415.55249pt x 199.25067pt.
+File: figures/figure_precip_windspeed.png Graphic file (type png)
+<use figures/figure_precip_windspeed.png>
+Package pdftex.def Info: figures/figure_precip_windspeed.png  used on input lin
+e 122.
+(pdftex.def)             Requested size: 415.55249pt x 199.25067pt.
+<figures/figure_precip_visibility.png, id=250, 500.87125pt x 257.96375pt>
+File: figures/figure_precip_visibility.png Graphic file (type png)
+<use figures/figure_precip_visibility.png>
+Package pdftex.def Info: figures/figure_precip_visibility.png  used on input li
+ne 132.
+(pdftex.def)             Requested size: 415.55249pt x 214.03111pt.
+ [54 <./figures/figure_windgust.png>] [55 <./figures/figure_precip_temp.png> <.
+/figures/figure_precip_windgust.png>] [56 <./figures/figure_precip_windspeed.pn
+g>]
+<figures/figure_autocorr_traffic_week.png, id=265, 425.59pt x 290.08376pt>
+File: figures/figure_autocorr_traffic_week.png Graphic file (type png)
+<use figures/figure_autocorr_traffic_week.png>
+Package pdftex.def Info: figures/figure_autocorr_traffic_week.png  used on inpu
+t line 174.
+(pdftex.def)             Requested size: 415.55249pt x 283.25764pt.
+ [57 <./figures/figure_precip_visibility.png>] [58 <./figures/figure_autocorr_t
+raffic_week.png>]
+<figures/figure_autocorr_traffic_month.png, id=274, 405.515pt x 266.9975pt>
+File: figures/figure_autocorr_traffic_month.png Graphic file (type png)
+<use figures/figure_autocorr_traffic_month.png>
+Package pdftex.def Info: figures/figure_autocorr_traffic_month.png  used on inp
+ut line 185.
+(pdftex.def)             Requested size: 415.55249pt x 273.61307pt.
+
+[59 <./figures/figure_autocorr_traffic_month.png>]
+<figures/figure_workingday_comparison.png, id=279, 420.57124pt x 350.30875pt>
+File: figures/figure_workingday_comparison.png Graphic file (type png)
+<use figures/figure_workingday_comparison.png>
+Package pdftex.def Info: figures/figure_workingday_comparison.png  used on inpu
+t line 208.
+(pdftex.def)             Requested size: 415.55249pt x 346.13322pt.
+
+
+LaTeX Warning: Reference `figure_traffic_day_vs_week' on page 60 undefined on i
+nput line 233.
+
+[60] [61 <./figures/figure_workingday_comparison.png>]
+<figures/autocorr_whyRE.PNG, id=287, 437.38406pt x 217.5628pt>
 File: figures/autocorr_whyRE.PNG Graphic file (type png)
 <use figures/autocorr_whyRE.PNG>
-Package pdftex.def Info: figures/autocorr_whyRE.PNG  used on input line 25.
+Package pdftex.def Info: figures/autocorr_whyRE.PNG  used on input line 253.
 (pdftex.def)             Requested size: 437.38298pt x 217.56227pt.
- [57 <./figures/autocorr_whyRE.PNG>]
-<figures/stDev.PNG, id=267, 339.51843pt x 230.36063pt>
+ [62]
+<figures/stDev.PNG, id=292, 339.51843pt x 230.36063pt>
 File: figures/stDev.PNG Graphic file (type png)
 <use figures/stDev.PNG>
-Package pdftex.def Info: figures/stDev.PNG  used on input line 35.
+Package pdftex.def Info: figures/stDev.PNG  used on input line 263.
 (pdftex.def)             Requested size: 339.5176pt x 230.36005pt.
- [58 <./figures/stDev.PNG>]
-<figures/heatmap_espana.JPG, id=272, 393.72093pt x 359.84438pt>
+ [63 <./figures/autocorr_whyRE.PNG>]
+<figures/heatmap_espana.JPG, id=297, 393.72093pt x 359.84438pt>
 File: figures/heatmap_espana.JPG Graphic file (type jpg)
 <use figures/heatmap_espana.JPG>
-Package pdftex.def Info: figures/heatmap_espana.JPG  used on input line 54.
+Package pdftex.def Info: figures/heatmap_espana.JPG  used on input line 282.
 (pdftex.def)             Requested size: 207.77625pt x 189.89848pt.
-<figures/heatmap_roxas.JPG, id=273, 389.95688pt x 360.59718pt>
+<figures/heatmap_roxas.JPG, id=298, 389.95688pt x 360.59718pt>
 File: figures/heatmap_roxas.JPG Graphic file (type jpg)
 <use figures/heatmap_roxas.JPG>
-Package pdftex.def Info: figures/heatmap_roxas.JPG  used on input line 56.
+Package pdftex.def Info: figures/heatmap_roxas.JPG  used on input line 284.
 (pdftex.def)             Requested size: 207.77625pt x 192.13351pt.
-<figures/bluementritt_rolling.png, id=274, 428.60126pt x 294.09875pt>
+ [64 <./figures/stDev.PNG>]
+<figures/bluementritt_rolling.png, id=303, 428.60126pt x 294.09875pt>
 File: figures/bluementritt_rolling.png Graphic file (type png)
 <use figures/bluementritt_rolling.png>
-Package pdftex.def Info: figures/bluementritt_rolling.png  used on input line 6
-3.
+Package pdftex.def Info: figures/bluementritt_rolling.png  used on input line 2
+91.
 (pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
-<figures/bluementritt_expanding.png, id=275, 428.60126pt x 294.09875pt>
+<figures/bluementritt_expanding.png, id=304, 428.60126pt x 294.09875pt>
 File: figures/bluementritt_expanding.png Graphic file (type png)
 <use figures/bluementritt_expanding.png>
 Package pdftex.def Info: figures/bluementritt_expanding.png  used on input line
- 65.
+ 293.
 (pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
- [59]
-[60 <./figures/heatmap_espana.JPG> <./figures/heatmap_roxas.JPG> <./figures/blu
-ementritt_rolling.png> <./figures/bluementritt_expanding.png>] [61]
-<figures/tom_diff_feat_combi.png, id=287, 621.32124pt x 442.65375pt>
+ [65 <./figures/heatmap_espana.JPG> <./figures/heatmap_roxas.JPG>] [66 <./figur
+es/bluementritt_rolling.png> <./figures/bluementritt_expanding.png>]
+<figures/tom_diff_feat_combi.png, id=313, 621.32124pt x 442.65375pt>
 File: figures/tom_diff_feat_combi.png Graphic file (type png)
 <use figures/tom_diff_feat_combi.png>
-Package pdftex.def Info: figures/tom_diff_feat_combi.png  used on input line 10
-0.
+Package pdftex.def Info: figures/tom_diff_feat_combi.png  used on input line 32
+8.
 (pdftex.def)             Requested size: 621.31973pt x 442.65265pt.
-<figures/tom_feat_combi_road.png, id=288, 732.7375pt x 424.58624pt>
+ [67]
+<figures/tom_feat_combi_road.png, id=317, 732.7375pt x 424.58624pt>
 File: figures/tom_feat_combi_road.png Graphic file (type png)
 <use figures/tom_feat_combi_road.png>
-Package pdftex.def Info: figures/tom_feat_combi_road.png  used on input line 11
-1.
+Package pdftex.def Info: figures/tom_feat_combi_road.png  used on input line 33
+9.
 (pdftex.def)             Requested size: 732.73572pt x 424.5852pt.
 
-Overfull \hbox (24.0934pt too wide) in paragraph at lines 111--112
+Overfull \hbox (24.0934pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
-[62] [63 <./figures/tom_diff_feat_combi.png> <./figures/tom_feat_combi_road.png
->]
-<figures/wom_diff_feat_combi.png, id=298, 621.32124pt x 279.0425pt>
+[68 <./figures/tom_diff_feat_combi.png>]
+<figures/wom_diff_feat_combi.png, id=323, 621.32124pt x 279.0425pt>
 File: figures/wom_diff_feat_combi.png Graphic file (type png)
 <use figures/wom_diff_feat_combi.png>
-Package pdftex.def Info: figures/wom_diff_feat_combi.png  used on input line 13
-2.
+Package pdftex.def Info: figures/wom_diff_feat_combi.png  used on input line 36
+0.
 (pdftex.def)             Requested size: 621.31973pt x 279.04181pt.
 
-Overfull \hbox (19.36942pt too wide) in paragraph at lines 132--133
+Overfull \hbox (19.36942pt too wide) in paragraph at lines 360--361
  [][] 
  []
 
-[64 <./figures/wom_diff_feat_combi.png>]
-<figures/wom_feat_combi_roads.png, id=303, 782.925pt x 321.2pt>
+[69 <./figures/tom_feat_combi_road.png>]
+<figures/wom_feat_combi_roads.png, id=328, 782.925pt x 321.2pt>
 File: figures/wom_feat_combi_roads.png Graphic file (type png)
 <use figures/wom_feat_combi_roads.png>
-Package pdftex.def Info: figures/wom_feat_combi_roads.png  used on input line 1
-42.
+Package pdftex.def Info: figures/wom_feat_combi_roads.png  used on input line 3
+70.
 (pdftex.def)             Requested size: 782.9231pt x 321.19922pt.
 
-Overfull \hbox (54.20613pt too wide) in paragraph at lines 142--143
+Overfull \hbox (54.20613pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 152.
+               Default added (so using `tbp') on input line 380.
 
 
-Overfull \hbox (48.62119pt too wide) in paragraph at lines 153--162
+Overfull \hbox (48.62119pt too wide) in paragraph at lines 381--390
 [][] 
  []
 
-[65 <./figures/wom_feat_combi_roads.png>] [66]
-<figures/final_prediction.png, id=311, 1445.4pt x 289.08pt>
+[70 <./figures/wom_diff_feat_combi.png>] [71 <./figures/wom_feat_combi_roads.pn
+g>]
+<figures/final_prediction.png, id=337, 1445.4pt x 289.08pt>
 File: figures/final_prediction.png Graphic file (type png)
 <use figures/final_prediction.png>
-Package pdftex.def Info: figures/final_prediction.png  used on input line 177.
+Package pdftex.def Info: figures/final_prediction.png  used on input line 405.
 (pdftex.def)             Requested size: 1445.39648pt x 289.07928pt.
 
-Overfull \hbox (90.3451pt too wide) in paragraph at lines 177--178
+Overfull \hbox (90.3451pt too wide) in paragraph at lines 405--406
  [][] 
  []
 
-<figures/dbn_comp_pocampo.png, id=312, 621.32124pt x 222.8325pt>
+<figures/dbn_comp_pocampo.png, id=338, 621.32124pt x 222.8325pt>
 File: figures/dbn_comp_pocampo.png Graphic file (type png)
 <use figures/dbn_comp_pocampo.png>
-Package pdftex.def Info: figures/dbn_comp_pocampo.png  used on input line 186.
+Package pdftex.def Info: figures/dbn_comp_pocampo.png  used on input line 414.
 (pdftex.def)             Requested size: 621.31973pt x 222.83195pt.
 
-Overfull \hbox (19.36942pt too wide) in paragraph at lines 186--187
+Overfull \hbox (19.36942pt too wide) in paragraph at lines 414--415
  [][] 
  []
 
-[67 <./figures/final_prediction.png> <./figures/dbn_comp_pocampo.png>]
-<figures/TOM_sensitivity.png, id=318, 649.42625pt x 266.9975pt>
+[72] [73 <./figures/final_prediction.png> <./figures/dbn_comp_pocampo.png>]
+<figures/TOM_sensitivity.png, id=347, 649.42625pt x 266.9975pt>
 File: figures/TOM_sensitivity.png Graphic file (type png)
 <use figures/TOM_sensitivity.png>
-Package pdftex.def Info: figures/TOM_sensitivity.png  used on input line 202.
+Package pdftex.def Info: figures/TOM_sensitivity.png  used on input line 430.
 (pdftex.def)             Requested size: 649.42467pt x 266.99683pt.
- [68 <./figures/TOM_sensitivity.png>]
-<figures/pm1-pm2-df-changes.png, id=324, 626.34pt x 213.79875pt>
+
+[74 <./figures/TOM_sensitivity.png>]
+<figures/pm1-pm2-df-changes.png, id=353, 626.34pt x 213.79875pt>
 File: figures/pm1-pm2-df-changes.png Graphic file (type png)
 <use figures/pm1-pm2-df-changes.png>
-Package pdftex.def Info: figures/pm1-pm2-df-changes.png  used on input line 217
+Package pdftex.def Info: figures/pm1-pm2-df-changes.png  used on input line 445
 .
 (pdftex.def)             Requested size: 626.33846pt x 213.79822pt.
-) [69 <./figures/pm1-pm2-df-changes.png>]
+) [75 <./figures/pm1-pm2-df-changes.png>]
+[76]
 \openout2 = `chapter_6.aux'.
 
-
-(chapter_6.tex
+ (chapter_6.tex
 Chapter 6.
-) [70
+) [77
 
 
 
@@ -1132,11 +1144,11 @@ Chapter 6.
 
  (chapter_7.tex
 Chapter 7.
-) [71
+) [78
 
 
 
-] [72]
+] [79]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -1145,7 +1157,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.EXE (file ./General-Research-Ethics-Checklist-1.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<General-Research-Ethics-Checklist-1.pdf, id=338, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-1.pdf, id=370, 614.295pt x 794.97pt>
 File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-1.pdf>
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf  used on input
@@ -1168,7 +1180,7 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./General-Research-Ethics-Checklist-1.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<General-Research-Ethics-Checklist-1.pdf, id=341, page=1, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-1.pdf, id=373, page=1, 614.295pt x 794.97pt>
 
 File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-1.pdf, page 1>
@@ -1180,7 +1192,7 @@ File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf , page1 used o
 n input line 15.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[73
+[80
 
 
 
@@ -1200,8 +1212,8 @@ File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf , page1 used o
 n input line 15.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [74 <./General-Research-Ethics-Checklist-1.pdf>]
-<General-Research-Ethics-Checklist-2.pdf, id=394, 614.295pt x 794.97pt>
+ [81 <./General-Research-Ethics-Checklist-1.pdf>]
+<General-Research-Ethics-Checklist-2.pdf, id=426, 614.295pt x 794.97pt>
 File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-2.pdf>
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf  used on input
@@ -1212,7 +1224,7 @@ File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf  used on input
  line 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<General-Research-Ethics-Checklist-2.pdf, id=397, page=1, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-2.pdf, id=429, page=1, 614.295pt x 794.97pt>
 
 File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-2.pdf, page 1>
@@ -1239,11 +1251,11 @@ File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf , page1 used o
 n input line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [75 <./General-Research-Ethics-Checklist-2.pdf>]
+ [82 <./General-Research-Ethics-Checklist-2.pdf>]
 
 pdfTeX warning: pdflatex.EXE (file ./Endorsement-page-001.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<Endorsement-page-001.pdf, id=417, 614.295pt x 794.97pt>
+<Endorsement-page-001.pdf, id=449, 614.295pt x 794.97pt>
 File: Endorsement-page-001.pdf Graphic file (type pdf)
 <use Endorsement-page-001.pdf>
 Package pdftex.def Info: Endorsement-page-001.pdf  used on input line 17.
@@ -1264,7 +1276,7 @@ found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./Endorsement-page-001.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<Endorsement-page-001.pdf, id=420, page=1, 614.295pt x 794.97pt>
+<Endorsement-page-001.pdf, id=452, page=1, 614.295pt x 794.97pt>
 File: Endorsement-page-001.pdf Graphic file (type pdf)
 <use Endorsement-page-001.pdf, page 1>
 Package pdftex.def Info: Endorsement-page-001.pdf , page1 used on input line 17
@@ -1290,11 +1302,11 @@ File: Endorsement-page-001.pdf Graphic file (type pdf)
 Package pdftex.def Info: Endorsement-page-001.pdf , page1 used on input line 17
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[76 <./Endorsement-page-001.pdf>]
+[83 <./Endorsement-page-001.pdf>]
 
 pdfTeX warning: pdflatex.EXE (file ./Ethics_Clearance_Form-page-001.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Ethics_Clearance_Form-page-001.pdf, id=427, 614.295pt x 794.97pt>
+<Ethics_Clearance_Form-page-001.pdf, id=459, 614.295pt x 794.97pt>
 File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 <use Ethics_Clearance_Form-page-001.pdf>
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf  used on input line
@@ -1317,7 +1329,7 @@ nclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./Ethics_Clearance_Form-page-001.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Ethics_Clearance_Form-page-001.pdf, id=430, page=1, 614.295pt x 794.97pt>
+<Ethics_Clearance_Form-page-001.pdf, id=462, page=1, 614.295pt x 794.97pt>
 File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 <use Ethics_Clearance_Form-page-001.pdf, page 1>
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf , page1 used on inp
@@ -1343,17 +1355,17 @@ File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf , page1 used on inp
 ut line 18.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[77 <./Ethics_Clearance_Form-page-001.pdf>])
+[84 <./Ethics_Clearance_Form-page-001.pdf>])
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
 Appendix B.
-<figures/turnitin_2.PNG, id=437, 1026.83624pt x 463.7325pt>
+<figures/turnitin_2.PNG, id=469, 1026.83624pt x 463.7325pt>
 File: figures/turnitin_2.PNG Graphic file (type png)
 <use figures/turnitin_2.PNG>
 Package pdftex.def Info: figures/turnitin_2.PNG  used on input line 17.
 (pdftex.def)             Requested size: 1026.83374pt x 463.73135pt.
-) [78
+) [85
 
 
 
@@ -1362,7 +1374,7 @@ Package pdftex.def Info: figures/turnitin_2.PNG  used on input line 17.
 
  (appendix_C.tex
 Appendix C.
-<figures/calendar.PNG, id=442, 469.00218pt x 165.61874pt>
+<figures/calendar.PNG, id=474, 469.00218pt x 165.61874pt>
 File: figures/calendar.PNG Graphic file (type png)
 <use figures/calendar.PNG>
 Package pdftex.def Info: figures/calendar.PNG  used on input line 17.
@@ -1372,7 +1384,7 @@ Overfull \hbox (53.44855pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-) [79
+) [86
 
 
 
@@ -1381,38 +1393,38 @@ Overfull \hbox (53.44855pt too wide) in paragraph at lines 17--18
 
  (appendix_E.tex
 Appendix D.
-[80
+[87
 
 
 
 ]
 
-LaTeX Warning: Reference `rd_normalization' on page 81 undefined on input line 
+LaTeX Warning: Reference `rd_normalization' on page 88 undefined on input line 
 30.
 
-[81]
+[88]
 
-LaTeX Warning: Reference `tf_normalization' on page 82 undefined on input line 
+LaTeX Warning: Reference `tf_normalization' on page 89 undefined on input line 
 46.
 
-[82]
-<figures/prelim_exp1.png, id=457, 930.47626pt x 108.405pt>
+[89]
+<figures/prelim_exp1.png, id=489, 930.47626pt x 108.405pt>
 File: figures/prelim_exp1.png Graphic file (type png)
 <use figures/prelim_exp1.png>
 Package pdftex.def Info: figures/prelim_exp1.png  used on input line 61.
 (pdftex.def)             Requested size: 332.44325pt x 38.73132pt.
-<figures/prelim_exp2.png, id=458, 1134.2375pt x 313.17pt>
+<figures/prelim_exp2.png, id=490, 1134.2375pt x 313.17pt>
 File: figures/prelim_exp2.png Graphic file (type png)
 <use figures/prelim_exp2.png>
 Package pdftex.def Info: figures/prelim_exp2.png  used on input line 68.
 (pdftex.def)             Requested size: 332.44325pt x 91.78702pt.
- [83 <./figures/prelim_exp1.png> <./figures/prelim_exp2.png>]
-<figures/prelim_model1.png, id=464, 724.7075pt x 673.51625pt>
+ [90 <./figures/prelim_exp1.png> <./figures/prelim_exp2.png>]
+<figures/prelim_model1.png, id=496, 724.7075pt x 673.51625pt>
 File: figures/prelim_model1.png Graphic file (type png)
 <use figures/prelim_model1.png>
 Package pdftex.def Info: figures/prelim_model1.png  used on input line 79.
 (pdftex.def)             Requested size: 207.77625pt x 193.09486pt.
-<figures/prelim_model2.png, id=465, 723.70375pt x 854.19125pt>
+<figures/prelim_model2.png, id=497, 723.70375pt x 854.19125pt>
 File: figures/prelim_model2.png Graphic file (type png)
 <use figures/prelim_model2.png>
 Package pdftex.def Info: figures/prelim_model2.png  used on input line 86.
@@ -1421,29 +1433,30 @@ Package pdftex.def Info: figures/prelim_model2.png  used on input line 86.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [84 <./figures/prelim_model1.png>] [85 <./figures/prelim_model2.png>]
-(main.bbl [86
-
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 648.
+) [91 <./figures/prelim_model1.png>] [92 <./figures/prelim_model2.png>]
+(main.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 238.
 
 
 ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 633--653
+[93
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 621--641
 \T1/cmtt/m/n/12 quageo [] .2011 [] .30 [] .issue [] -2 / v10117 [] -011 [] -002
 1 [] -1 / v10117 [] -011 [] -0021 [] -1 [] .xml$
  []
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 697--722
+Underfull \hbox (badness 1845) in paragraph at lines 685--710
 \T1/cmr/m/n/12 & Varaiya, P.  (2009).  Macro-scopic mod-el-ing and sim-u-la-tio
 n of
  []
 
-[87] [88] [89]) [90] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
+[94] [95] [96]) [97] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (chapter_7.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux)
 (appendix_E.aux))
@@ -1455,10 +1468,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9120 strings out of 492973
- 142139 string characters out of 3126692
- 241554 words of memory out of 3000000
- 12639 multiletter control sequences out of 15000+200000
+ 9154 strings out of 492973
+ 143644 string characters out of 3126692
+ 241684 words of memory out of 3000000
+ 12668 multiletter control sequences out of 15000+200000
  20459 words of font info for 55 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  65i,18n,98p,1745b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1485,9 +1498,9 @@ public/amsfonts/cm/cmr8.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/victo/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/victo/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (101 pages, 3662336 bytes).
+Output written on main.pdf (108 pages, 3504586 bytes).
 PDF statistics:
- 1043 PDF objects out of 1200 (max. 8388607)
+ 1076 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
