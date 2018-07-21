@@ -12,45 +12,62 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Network graph of RBM given n hidden units, and m visible units.\relax }}{35}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Research Framework\relax }}{39}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of DBN Training Process\relax }}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of DBN Training Process\relax }}{46}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A summary on the contents of the Traffic Only Model Training and Testing Dataset\relax }}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of precipitation showing a loose relationship with its daily seasonality (1 interval = 15 minutes)\relax }}{51}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of temperature showing a strong relationship with its daily seasonality (1 interval = 15 minutes)\relax }}{52}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Correlation heatmap of weather variables\relax }}{53}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Daily average of wind gust per month revealing its normal trend despite having a loose daily seasonality\relax }}{54}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of temperature\relax }}{55}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind gust\relax }}{55}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{56}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the effects of precipitation to the normal pattern of wind speed\relax }}{56}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Negative relationship between visibility and precipitation\relax }}{57}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{58}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Autocorrelation of traffic showing no yearly seasonality\relax }}{59}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days\relax }}{61}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Autocorrelation of traffic for working days\relax }}{63}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Standard deviation per window size of northbound traffic in Bluementritt for wet season\relax }}{64}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Average Correlation of Rolling and Expanding Features for Espana and Roxas Blvd.\relax }}{65}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {EspanaRE}}}{65}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RoxasRE}}}{65}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Southbound traffic in Bluementritt\relax }}{66}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{66}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{66}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{68}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination\relax }}{69}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations\relax }}{70}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Performance of WOM using OW weather feature combination for all road segments\relax }}{71}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Final Prediction of Southbound of Pablo Ocampo for the Month of September\relax }}{73}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season\relax }}{73}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{74}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Change in performance in different feature combinations\relax }}{75}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of temperature showing a strong relationship with its daily seasonality\relax }}{52}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of precipitation showing a loose relationship with its daily seasonality\relax }}{53}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Autocorrelation of pressure showing its daily seasonality remains strong only after three delays and decays the days go by\relax }}{54}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Autocorrelation of humidity showing its daily seasonality remains consistently strong even after several day\relax }}{55}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Autocorrelation of cloud cover showing its next day seasonality is strong yet becomes loose on succeeding days\relax }}{56}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Autocorrelation of heat index showing its daily seasonality remains consistently strong even after several days\relax }}{57}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Autocorrelation of dew point showing its daily seasonality remains consistently strong even after several days\relax }}{58}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Autocorrelation of wind chill showing its daily seasonality remains consistently strong even after several days\relax }}{59}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Autocorrelation of feels-like showing its daily seasonality remains consistently strong even after several days\relax }}{60}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Autocorrelation of visibility showing signs of daily yet significantly loose relationship seasonality\relax }}{61}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Autocorrelation of precipitation showing signs of daily yet loose relationship seasonality\relax }}{62}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Autocorrelation of wind gust showing signs of daily yet loose relationship seasonality\relax }}{63}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Daily average of wind gust per month showing its daily trend\relax }}{64}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the normal pattern of wind gust with the disrupted pattern of wind gust due to the effect of precipitation\relax }}{65}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{65}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Autocorrelation of traffic showing no monthly nor yearly seasonality\relax }}{66}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Comparison of traffic condition intensity between non-working and working revealing the lack of intense traffic for non-working days\relax }}{68}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Comparison between traffic\IeC {\textquoteright }s two-day-ago pattern and one-week-ago pattern showing that previous week traffic is more similar despite its difference in terms of day\relax }}{69}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Autocorrelation of traffic comparing the daily and weekly seasonality per season showing that its pattern is disrupted during the wet season\relax }}{70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Dry Season}}}{70}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wet Season}}}{70}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Comparison between the current traffic and its previous week pattern showing a disrupted pattern\relax }}{71}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Roxas Boulevard\relax }}{71}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{71}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{71}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Espana\relax }}{72}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{72}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{72}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Daily average of all working days in one month in all road segments in Roxas Boulevard showing its intensity relationship\relax }}{73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{73}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Daily average of all working days in one month in all road segments in Espana showing its intensity relationship\relax }}{73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{73}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{73}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago\relax }}{75}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago after a week of Typhoon Goring\relax }}{76}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{78}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Performance of TOM on Roxas Boulevard and Espanya using OTWP traffic feature combination\relax }}{79}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Performance of WOM on Pablo Ocampo and Bluementritt using weather feature combinations\relax }}{80}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Performance of WOM using OW weather feature combination for all road segments\relax }}{81}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces Final Prediction of Southbound of Pablo Ocampo for the Month of September\relax }}{83}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season\relax }}{83}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{84}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Change in performance in different feature combinations\relax }}{85}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{85}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{96}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{86}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{97}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{90}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{90}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{91}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{92}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{101}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{101}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{102}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{103}

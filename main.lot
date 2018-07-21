@@ -7,10 +7,12 @@
 \contentsline {table}{\numberline {3.2}{\ignorespaces Sample of Weather Data from World Weather Online\relax }}{23}
 \contentsline {table}{\numberline {3.3}{\ignorespaces Results of Pearson and Spearman\relax }}{26}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Traffic speed equivalent of traffic conditions\relax }}{40}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Traffic speed equivalent of traffic conditions\relax }}{41}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{60}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Performance of different fusion techniques in different feature combinations\relax }}{71}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{67}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Comparison between previous day and week traffic with the traffic mean 4-weeks-ago showing significant increase in strength in its relationship\relax }}{74}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of correlation values on the traffic mean of a range of weeks\relax }}{74}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Performance of different fusion techniques in different feature combinations\relax }}{81}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
