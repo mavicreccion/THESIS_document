@@ -75,7 +75,7 @@
 \contentsline {subsubsection}{Weather Seasonality}{42}
 \contentsline {subsubsection}{Weather Disruptions}{42}
 \contentsline {subsubsection}{Traffic Seasonality}{42}
-\contentsline {subsection}{\numberline {4.2.2}Traffic Disruptions}{43}
+\contentsline {subsubsection}{Traffic Disruptions}{43}
 \contentsline {section}{\numberline {4.3}Correlation Analysis}{43}
 \contentsline {section}{\numberline {4.4}Model Implementation}{44}
 \contentsline {subsection}{\numberline {4.4.1}Prediction Models}{45}
