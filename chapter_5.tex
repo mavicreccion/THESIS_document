@@ -370,7 +370,7 @@ This observation holds true even in disrupted days. Figure \ref{figure_traffic_m
 % One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago after a week of Typhoon Goring
 % \label{figure_traffic_mean_2weeks_vs_6weeks_disrupted}
 
-\subsection{Correlation of Engineered Weather Features with Traffic Condition}
+\subsection{Correlation of Immediate Traffic Features with Traffic Condition}
 
 The data only describes the traffic condition per timestep and the seasonality of traffic. Although traffic has pattern, there are instances when a certain disruption in traffic may cause congestion build up. Therefore, considering how the immediate past traffic conditions may affect the current traffic condition can be considered as a factor for predicting traffic. Data  from the previous timestep can be used as a reference in predicting the current traffic condition. However, the change in traffic in a 15-minute timeframe may not be significant. As seen in \ref{autocorr_whyRE}, autocorrelation reveals that a traffic condition is highly likely to reoccur every 15 minutes with a correlation value of 0.9918. In other words, the traffic condition of the previous time step is highly likely to be the traffic condition of the current time step. However, this does not capture the effects of sudden outliers to the build up or decay of traffic. Thus, it does not fully describe how the past traffic conditions might affect the current traffic condition. 
 
