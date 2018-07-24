@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  23 JUL 2018 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  25 JUL 2018 00:08
 entering extended mode
 **./main.tex
 (main.tex
@@ -896,19 +896,14 @@ Package pdftex.def Info: figures/dbntraining.png  used on input line 111.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45] [46 <./figures/dbntraining.png>] [47]
-Overfull \hbox (6.2817pt too wide) in paragraph at lines 160--161
-[]\T1/cmr/m/n/12 The train-ing dataset for both pre-dic-tion mod-els Traf-fic O
-nly Model and Weather
- []
-
-<figures/TOM_TrainingTestingInput.png, id=224, 563.25432pt x 267.399pt>
+[45] [46 <./figures/dbntraining.png>] [47] [48]
+<figures/TOM_TrainingTestingInput.png, id=227, 563.25432pt x 267.399pt>
 File: figures/TOM_TrainingTestingInput.png Graphic file (type png)
 <use figures/TOM_TrainingTestingInput.png>
 Package pdftex.def Info: figures/TOM_TrainingTestingInput.png  used on input li
-ne 175.
+ne 179.
 (pdftex.def)             Requested size: 563.25293pt x 267.39835pt.
-[48] [49 <./figures/TOM_TrainingTestingInput.png>]) [50]
+ [49 <./figures/TOM_TrainingTestingInput.png>]) [50]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
@@ -1562,10 +1557,10 @@ n of
 (chapter_6.aux) (chapter_7.aux) (appendix_A.aux) (appendix_B.aux)
 (appendix_C.aux) (appendix_E.aux)) ) 
 Here is how much of TeX's memory you used:
- 9250 strings out of 492973
- 147970 string characters out of 3126692
+ 9249 strings out of 492973
+ 147943 string characters out of 3126692
  241976 words of memory out of 3000000
- 12750 multiletter control sequences out of 15000+200000
+ 12749 multiletter control sequences out of 15000+200000
  20459 words of font info for 55 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  65i,18n,98p,1745b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1593,7 +1588,7 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy6.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb>
-Output written on main.pdf (120 pages, 3698292 bytes).
+Output written on main.pdf (120 pages, 3698275 bytes).
 PDF statistics:
  1141 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

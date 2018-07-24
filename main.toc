@@ -74,16 +74,16 @@
 \contentsline {subsection}{\numberline {4.2.1}Seasonality Analysis}{42}
 \contentsline {subsubsection}{Weather Seasonality}{42}
 \contentsline {subsubsection}{Weather Disruptions}{42}
-\contentsline {subsubsection}{Traffic Seasonality}{42}
-\contentsline {subsection}{\numberline {4.2.2}Traffic Disruptions}{43}
-\contentsline {section}{\numberline {4.3}Correlation Analysis}{43}
-\contentsline {section}{\numberline {4.4}Model Implementation}{44}
-\contentsline {subsection}{\numberline {4.4.1}Prediction Models}{45}
-\contentsline {subsection}{\numberline {4.4.2}Data Fusion Model}{46}
+\contentsline {subsubsection}{Traffic Seasonality}{43}
+\contentsline {subsubsection}{Traffic Disruptions}{43}
+\contentsline {subsection}{\numberline {4.2.2}Correlation Analysis}{43}
+\contentsline {section}{\numberline {4.3}Model Implementation}{44}
+\contentsline {subsection}{\numberline {4.3.1}Prediction Models}{45}
+\contentsline {subsection}{\numberline {4.3.2}Data Fusion Model}{46}
 \contentsline {subsubsection}{Weighted Average}{47}
 \contentsline {subsubsection}{Neural Network}{47}
-\contentsline {section}{\numberline {4.5}Training}{48}
-\contentsline {section}{\numberline {4.6}Evaluation}{50}
+\contentsline {section}{\numberline {4.4}Training}{48}
+\contentsline {section}{\numberline {4.5}Evaluation}{50}
 \contentsline {chapter}{\numberline {5}Results and Discussion}{51}
 \contentsline {section}{\numberline {5.1}Seasonality Analysis}{51}
 \contentsline {subsection}{\numberline {5.1.1}Weather Seasonality}{51}
