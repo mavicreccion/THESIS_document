@@ -70,65 +70,69 @@
 \contentsline {section}{\numberline {4.1}Data Collection}{40}
 \contentsline {subsection}{\numberline {4.1.1}Traffic Dataset}{40}
 \contentsline {subsection}{\numberline {4.1.2}Weather Data}{41}
-\contentsline {section}{\numberline {4.2}Exploratory Data Analysis}{41}
-\contentsline {subsection}{\numberline {4.2.1}Seasonality Analysis}{42}
-\contentsline {subsubsection}{Weather Seasonality}{42}
-\contentsline {subsubsection}{Weather Disruptions}{42}
-\contentsline {subsubsection}{Traffic Seasonality}{43}
-\contentsline {subsubsection}{Traffic Disruptions}{43}
-\contentsline {subsection}{\numberline {4.2.2}Correlation Analysis}{43}
-\contentsline {section}{\numberline {4.3}Model Implementation}{44}
-\contentsline {subsection}{\numberline {4.3.1}Prediction Models}{45}
-\contentsline {subsection}{\numberline {4.3.2}Data Fusion Model}{46}
-\contentsline {subsubsection}{Weighted Average}{47}
-\contentsline {subsubsection}{Neural Network}{47}
-\contentsline {section}{\numberline {4.4}Training}{48}
-\contentsline {section}{\numberline {4.5}Evaluation}{50}
-\contentsline {chapter}{\numberline {5}Results and Discussion}{51}
-\contentsline {section}{\numberline {5.1}Seasonality Analysis}{51}
-\contentsline {subsection}{\numberline {5.1.1}Weather Seasonality}{51}
-\contentsline {subsubsection}{Weather Variables}{51}
-\contentsline {paragraph}{Temperature}{51}
-\contentsline {paragraph}{Precipitation}{51}
-\contentsline {paragraph}{Pressure}{54}
-\contentsline {paragraph}{Humidity}{54}
-\contentsline {paragraph}{Cloud cover}{54}
-\contentsline {paragraph}{Heat index}{57}
-\contentsline {paragraph}{Dew point}{57}
-\contentsline {paragraph}{Wind chill}{57}
-\contentsline {paragraph}{Feels-like}{57}
-\contentsline {paragraph}{Visibility}{61}
-\contentsline {paragraph}{Wind speed}{61}
-\contentsline {paragraph}{Wind gust}{61}
-\contentsline {subsection}{\numberline {5.1.2}Weather Disruption}{61}
-\contentsline {subsection}{\numberline {5.1.3}Traffic Seasonality}{64}
-\contentsline {subsubsection}{Previous Day}{66}
-\contentsline {subsubsection}{Previous Week}{67}
-\contentsline {subsection}{\numberline {5.1.4}Traffic Disruption}{70}
-\contentsline {subsection}{\numberline {5.1.5}Correlation between Connected Road Segments}{70}
-\contentsline {subsection}{\numberline {5.1.6}Correlation of Engineered Traffic Features with Traffic Condition}{72}
-\contentsline {subsubsection}{Mean of Previous Weeks}{74}
-\contentsline {section}{\numberline {5.2}Prediction Model Analysis}{77}
-\contentsline {subsection}{\numberline {5.2.1}Traffic-Only Model}{77}
-\contentsline {subsection}{\numberline {5.2.2}Weather-Only Model}{79}
-\contentsline {subsection}{\numberline {5.2.3}Fusion Analysis}{81}
-\contentsline {subsection}{\numberline {5.2.4}Sensitivity Analysis}{82}
-\contentsline {subsubsection}{Traffic-Only Model}{82}
-\contentsline {subsubsection}{Decision Fusion Model}{85}
-\contentsline {chapter}{\numberline {6}Conclusion}{86}
-\contentsline {chapter}{\numberline {7}Future Works}{89}
-\contentsline {chapter}{\numberline {A}Research Ethics Documents}{91}
-\contentsline {chapter}{\numberline {B}Turnitin Similarity Report}{96}
-\contentsline {chapter}{\numberline {C}Research Project Timeline}{97}
-\contentsline {chapter}{\numberline {D}Preliminary Results}{98}
-\contentsline {section}{\numberline {D.1}Data Pre-processing}{98}
-\contentsline {subsection}{\numberline {D.1.1}Traffic Dataset}{98}
-\contentsline {subsection}{\numberline {D.1.2}Weather Dataset}{99}
-\contentsline {section}{\numberline {D.2}Input Dataset}{100}
-\contentsline {section}{\numberline {D.3}Developing the Model}{100}
-\contentsline {subsection}{\numberline {D.3.1}Preparing the Data}{100}
-\contentsline {subsection}{\numberline {D.3.2}Defining the Training and Testing Dataset}{101}
-\contentsline {subsection}{\numberline {D.3.3}Building the Model}{101}
-\contentsline {subsection}{\numberline {D.3.4}Training the Model}{102}
-\contentsline {subsection}{\numberline {D.3.5}Evaluation of the Model}{102}
-\contentsline {chapter}{References}{104}
+\contentsline {section}{\numberline {4.2}Pattern Analysis}{41}
+\contentsline {subsection}{\numberline {4.2.1}Traffic Analysis}{42}
+\contentsline {subsection}{\numberline {4.2.2}Weather Analysis}{43}
+\contentsline {subsection}{\numberline {4.2.3}Weather Disruption}{43}
+\contentsline {subsection}{\numberline {4.2.4}Traffic Disruption}{44}
+\contentsline {section}{\numberline {4.3}Correlation Analysis}{44}
+\contentsline {subsection}{\numberline {4.3.1}Correlation of Engineered Traffic Features with Traffic Condition}{44}
+\contentsline {subsection}{\numberline {4.3.2}Correlation of Immediate Traffic Features with Traffic Condition}{45}
+\contentsline {subsection}{\numberline {4.3.3}Correlation between Connected Road Segments}{45}
+\contentsline {section}{\numberline {4.4}Model Implementation}{46}
+\contentsline {subsection}{\numberline {4.4.1}Prediction Models}{46}
+\contentsline {subsection}{\numberline {4.4.2}Data Fusion Model}{48}
+\contentsline {subsubsection}{Weighted Average}{48}
+\contentsline {subsubsection}{Neural Network}{48}
+\contentsline {section}{\numberline {4.5}Training}{49}
+\contentsline {subsection}{\numberline {4.5.1}TOM Training Dataset}{50}
+\contentsline {subsection}{\numberline {4.5.2}WOM Training Dataset}{51}
+\contentsline {subsection}{\numberline {4.5.3}Fusion Model Training Dataset}{52}
+\contentsline {section}{\numberline {4.6}Evaluation}{52}
+\contentsline {subsection}{\numberline {4.6.1}Prediction Model Evaluation}{52}
+\contentsline {subsection}{\numberline {4.6.2}Sensitivity Analysis}{53}
+\contentsline {chapter}{\numberline {5}Results and Discussion}{54}
+\contentsline {section}{\numberline {5.1}Pattern Analysis}{54}
+\contentsline {subsection}{\numberline {5.1.1}Traffic Analysis}{54}
+\contentsline {subsubsection}{Previous Day}{55}
+\contentsline {subsubsection}{Previous Week}{57}
+\contentsline {subsection}{\numberline {5.1.2}Weather Analysis}{57}
+\contentsline {subsubsection}{Seasonality}{58}
+\contentsline {subsubsection}{Trend}{59}
+\contentsline {paragraph}{Temperature, Heat Index, Feels-Like and Wind Chill}{60}
+\contentsline {paragraph}{Pressure}{60}
+\contentsline {paragraph}{Humidity}{60}
+\contentsline {paragraph}{Dew Point}{61}
+\contentsline {subsection}{\numberline {5.1.3}Weather Disruption}{62}
+\contentsline {subsubsection}{Climate Season}{62}
+\contentsline {subsubsection}{Disrupted Day}{62}
+\contentsline {subsection}{\numberline {5.1.4}Traffic Disruption}{63}
+\contentsline {section}{\numberline {5.2}Correlation Analysis}{64}
+\contentsline {subsection}{\numberline {5.2.1}Correlation of Engineered Traffic Features with Traffic Condition}{64}
+\contentsline {subsubsection}{Mean of Previous Weeks}{64}
+\contentsline {subsection}{\numberline {5.2.2}Correlation of Immediate Traffic Features with Traffic Condition}{67}
+\contentsline {subsection}{\numberline {5.2.3}Correlation between Connected Road Segments}{71}
+\contentsline {section}{\numberline {5.3}Predicion Model Evaluation}{73}
+\contentsline {subsection}{\numberline {5.3.1}Traffic-Only Model}{73}
+\contentsline {subsection}{\numberline {5.3.2}Weather-Only Model}{75}
+\contentsline {subsection}{\numberline {5.3.3}Fusion Analysis}{77}
+\contentsline {subsection}{\numberline {5.3.4}Sensitivity Analysis}{81}
+\contentsline {subsubsection}{Traffic-Only Model}{81}
+\contentsline {subsubsection}{Decision Fusion Model}{83}
+\contentsline {chapter}{\numberline {6}Conclusion}{85}
+\contentsline {chapter}{\numberline {7}Future Works}{88}
+\contentsline {chapter}{\numberline {A}Research Ethics Documents}{90}
+\contentsline {chapter}{\numberline {B}Turnitin Similarity Report}{95}
+\contentsline {chapter}{\numberline {C}Research Project Timeline}{96}
+\contentsline {chapter}{\numberline {D}Preliminary Results}{97}
+\contentsline {section}{\numberline {D.1}Data Pre-processing}{97}
+\contentsline {subsection}{\numberline {D.1.1}Traffic Dataset}{97}
+\contentsline {subsection}{\numberline {D.1.2}Weather Dataset}{98}
+\contentsline {section}{\numberline {D.2}Input Dataset}{99}
+\contentsline {section}{\numberline {D.3}Developing the Model}{99}
+\contentsline {subsection}{\numberline {D.3.1}Preparing the Data}{99}
+\contentsline {subsection}{\numberline {D.3.2}Defining the Training and Testing Dataset}{100}
+\contentsline {subsection}{\numberline {D.3.3}Building the Model}{100}
+\contentsline {subsection}{\numberline {D.3.4}Training the Model}{101}
+\contentsline {subsection}{\numberline {D.3.5}Evaluation of the Model}{101}
+\contentsline {chapter}{References}{103}

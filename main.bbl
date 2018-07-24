@@ -1,6 +1,35 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Aguado%
+, Burt%
+, Rohli%
+\BCBL {}\ \BBA {} Schmidlin%
+}{%
+Aguado%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+aguado2007understanding}
+\APACinsertmetastar {%
+aguado2007understanding}%
+\begin{APACrefauthors}%
+Aguado, E.%
+, Burt, J\BPBI E.%
+, Rohli, R\BPBI V.%
+\BCBL {}\ \BBA {} Schmidlin, T\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Understanding weather and climate} {Understanding weather and
+  climate}.
+\newblock
+\APACaddressPublisher{}{Pearson Prentice Hall Upper Saddle River, NJ, USA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ahlgren%
 , Jarneving%
 \BCBL {}\ \BBA {} Rousseau%
@@ -324,6 +353,63 @@ Dasarathy, B\BPBI V.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Datla%
+\ \BBA {} Sharma%
+}{%
+Datla%
+\ \BBA {} Sharma%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+datla2008impact}
+\APACinsertmetastar {%
+datla2008impact}%
+\begin{APACrefauthors}%
+Datla, S.%
+\BCBT {}\ \BBA {} Sharma, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of cold and snow on temporal and spatial
+  variations of highway traffic volumes} {Impact of cold and snow on temporal
+  and spatial variations of highway traffic volumes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Transport Geography}{16}{5}{358--372}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Fabritiis%
+, Ragona%
+\BCBL {}\ \BBA {} Valenti%
+}{%
+De~Fabritiis%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2008}}%
+}]{%
+de2008traffic}
+\APACinsertmetastar {%
+de2008traffic}%
+\begin{APACrefauthors}%
+De~Fabritiis, C.%
+, Ragona, R.%
+\BCBL {}\ \BBA {} Valenti, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Traffic estimation and prediction based on real time
+  floating car data} {Traffic estimation and prediction based on real time
+  floating car data}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Intelligent Transportation Systems, 2008. ITSC 2008.
+  11th International IEEE Conference on} {Intelligent transportation systems,
+  2008. itsc 2008. 11th international ieee conference on}\ (\BPGS\ 197--203).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 D’Mello%
 \ \BBA {} Graesser%
 }{%
@@ -352,6 +438,29 @@ D’Mello, S\BPBI K.%
   Interaction}{20}{2}{147–187}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s11257-010-9074-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Downs%
+}{%
+Downs%
+}{%
+{\protect \APACyear {1962}}%
+}]{%
+downs1962law}
+\APACinsertmetastar {%
+downs1962law}%
+\begin{APACrefauthors}%
+Downs, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1962}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The law of peak-hour expressway congestion} {The law of
+  peak-hour expressway congestion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Traffic Quarterly}{16}{3}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -464,6 +573,33 @@ Fischer, A.%
 \APACjournalVolNumPages{Pattern Recognition}{}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.patcog.2013.05.025} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gaul%
+\ \BBA {} Underwood%
+}{%
+Gaul%
+\ \BBA {} Underwood%
+}{%
+{\protect \APACyear {1952}}%
+}]{%
+gaul1952relation}
+\APACinsertmetastar {%
+gaul1952relation}%
+\begin{APACrefauthors}%
+Gaul, L\BPBI E.%
+\BCBT {}\ \BBA {} Underwood, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1952}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Relation of dew point and barometric pressure to
+  chapping of normal skin} {Relation of dew point and barometric pressure to
+  chapping of normal skin}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Investigative Dermatology}{19}{1}{9--19}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -872,6 +1008,33 @@ Koesdwiady, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kumar%
+\ \BBA {} Vanajakshi%
+}{%
+Kumar%
+\ \BBA {} Vanajakshi%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+kumar2015short}
+\APACinsertmetastar {%
+kumar2015short}%
+\begin{APACrefauthors}%
+Kumar, S\BPBI V.%
+\BCBT {}\ \BBA {} Vanajakshi, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Short-term traffic flow prediction using seasonal ARIMA
+  model with limited input data} {Short-term traffic flow prediction using
+  seasonal arima model with limited input data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{European Transport Research Review}{7}{3}{21}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 J.~Lee%
 , Hong%
 , Kyungmin%
@@ -1231,6 +1394,57 @@ Pan, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Paull%
+}{%
+Paull%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+paull1999effect}
+\APACinsertmetastar {%
+paull1999effect}%
+\begin{APACrefauthors}%
+Paull, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effect of temperature and relative humidity on fresh
+  commodity quality} {Effect of temperature and relative humidity on fresh
+  commodity quality}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Postharvest biology and technology}{15}{3}{263--277}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rakha%
+\ \BBA {} Van~Aerde%
+}{%
+Rakha%
+\ \BBA {} Van~Aerde%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+rakha1995statistical}
+\APACinsertmetastar {%
+rakha1995statistical}%
+\begin{APACrefauthors}%
+Rakha, H.%
+\BCBT {}\ \BBA {} Van~Aerde, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Statistical analysis of day-to-day variations in
+  real-time traffic flow data} {Statistical analysis of day-to-day variations
+  in real-time traffic flow data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Transportation research record}{}{}{26--34}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Refenes%
 , Zapranis%
 \BCBL {}\ \BBA {} Francis%
@@ -1391,6 +1605,29 @@ Sommer, M.%
   an organic traffic control management system}.{\BBCQ}
 \newblock
 \BIn{} \APACrefbtitle {{ESOS}.} {{ESOS}.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tanner%
+}{%
+Tanner%
+}{%
+{\protect \APACyear {1952}}%
+}]{%
+tanner1952effect}
+\APACinsertmetastar {%
+tanner1952effect}%
+\begin{APACrefauthors}%
+Tanner, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1952}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effect of weather on traffic flow} {Effect of weather on
+  traffic flow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature}{169}{4290}{107}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
