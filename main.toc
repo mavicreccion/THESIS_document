@@ -52,19 +52,19 @@
 \contentsline {section}{\numberline {3.9}Correlation}{25}
 \contentsline {subsubsection}{Autocorrelation}{26}
 \contentsline {section}{\numberline {3.10}Feature Engineering}{27}
-\contentsline {section}{\numberline {3.11}Fusion Techniques}{27}
+\contentsline {section}{\numberline {3.11}Fusion Techniques}{28}
 \contentsline {subsection}{\numberline {3.11.1}Fusion Levels}{28}
 \contentsline {subsubsection}{Feature Fusion}{28}
-\contentsline {subsubsection}{Decision Fusion}{29}
-\contentsline {subsection}{\numberline {3.11.2}Fusion Algorithms}{30}
-\contentsline {subsubsection}{Neural Networks}{30}
+\contentsline {subsubsection}{Decision Fusion}{30}
+\contentsline {subsection}{\numberline {3.11.2}Fusion Algorithms}{31}
+\contentsline {subsubsection}{Neural Networks}{31}
 \contentsline {subsubsection}{Weighted Average}{32}
-\contentsline {section}{\numberline {3.12}Neural Networks}{32}
-\contentsline {subsection}{\numberline {3.12.1}Artificial Neural Network}{32}
+\contentsline {section}{\numberline {3.12}Neural Networks}{33}
+\contentsline {subsection}{\numberline {3.12.1}Artificial Neural Network}{33}
 \contentsline {subsection}{\numberline {3.12.2}Deep Belief Network}{34}
 \contentsline {section}{\numberline {3.13}ParseHub}{36}
-\contentsline {section}{\numberline {3.14}Performance Indices}{36}
-\contentsline {subsection}{\numberline {3.14.1}RMSE and MAE}{36}
+\contentsline {section}{\numberline {3.14}Performance Indices}{37}
+\contentsline {subsection}{\numberline {3.14.1}RMSE and MAE}{37}
 \contentsline {subsection}{\numberline {3.14.2}Sensitivity Analysis}{37}
 \contentsline {chapter}{\numberline {4}Research Design}{39}
 \contentsline {section}{\numberline {4.1}Data Collection}{40}

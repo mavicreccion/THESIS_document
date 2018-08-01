@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.19)  25 JUL 2018 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  1 AUG 2018 13:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -7,9 +7,9 @@ LaTeX2e <2018-04-01> patch level 5
 \openout2 = `preamble.aux'.
 
 (preamble.tex
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -24,96 +24,90 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
 "
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- ("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/06/05 3.22 The Babel package
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
-ef"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
 File: switch.def 2018/06/05 3.22 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
-g"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\US
-english.ldf"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\USen
+glish.ldf"
 Language: USenglish 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\en
-glish.ldf"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
-f"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/06/05 3.22 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
-.def")
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
-e.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetime.
+sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count91
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fmtcoun
-t.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.
+sty"
 Package: fmtcount 2017/12/24 v3.05
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
+y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
-l.tex"
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
-ls.tex"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
+tex"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
+.tex"
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval
-.tex"))
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval.t
+ex"))
 \XKV@depth=\count92
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcprefi
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.
+sty"
 Package: fcprefix 2012/09/28
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcnumpa
-rser.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcnumpars
+er.sty"
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count93
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
@@ -121,12 +115,12 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \c@padzeroesN=\count94
 \fc@tmpcatcode=\count95
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-engl
-ish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-englis
+h.def"
 File: fc-english.def 2016/01/12
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-USen
-glish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-USengl
+ish.def"
 File: fc-USenglish.def 2013/08/17
 )
 \@DT@modctr=\count96
@@ -137,8 +131,8 @@ File: fc-USenglish.def 2013/08/17
 \@DT@loopN=\count101
 \@DT@X=\count102
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
-e-defaults.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetime-
+defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count103
@@ -160,29 +154,27 @@ put line 308.
 \dayofweek=\count117
 LaTeX Info: Redefining \today on input line 736.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\dt-USen
-glish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\dt-USengl
+ish.def"
 File: dt-USenglish.def 2013/09/10
 )
 \dt@a=\toks17
 \dt@b=\toks18
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-)
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
 y"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
 Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen105
@@ -209,38 +201,37 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multiro
-w.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
+sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip48
 \multirow@cntb=\count126
 \multirow@dima=\skip49
 \bigstrutjot=\dimen113
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotatin
-g.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.
+sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
-phics.cfg"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
-tex.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen114
@@ -252,11 +243,10 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \rot@float@box=\box26
 \rot@mess@toks=\toks21
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpage
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+ ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count128
 \calc@Bcount=\count129
@@ -269,32 +259,31 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count130
 \calc@Cskip=\skip54
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbeg
-shi.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
-or.cfg"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -311,8 +300,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen118
 \AM@pageheight=\dimen119
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdfte
-x.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box27
@@ -321,8 +310,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count131
 \AM@templatesizebox=\box28
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -336,12 +324,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -478,32 +466,32 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathto
-ols.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtool
+s.sty"
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetu
-p.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.
+sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen120
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count132
@@ -558,7 +546,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen133
 \l_MT_below_shortintertext_sep=\dimen134
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen135
 \ar@mcellbox=\box31
@@ -568,8 +556,8 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \backup@length=\skip60
 \ar@cellbox=\box32
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.st
+y"
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count145
 \bibleftmargin=\skip61
@@ -578,25 +566,25 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibitemsep=\skip64
 \biblabelsep=\skip65
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks29
 \verbatim@line=\toks30
 \verbatim@in@stream=\read1
-) ("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
@@ -628,7 +616,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -637,8 +625,8 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count146
 \scratchdimen=\dimen137
@@ -652,32 +640,32 @@ mkii"
 \makeMPintoPDFobject=\count151
 \everyMPtoPDFconversion=\toks32
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -686,8 +674,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -704,24 +692,24 @@ G,.JBIG2,.JB2,.eps]
 )
 \AtBeginShipoutBox=\box34
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflsca
-pe.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 \c@maskedRefs=\count152
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.
-apc"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.ap
+c"
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -733,20 +721,17 @@ LaTeX Info: Redefining \BHBI on input line 130.
 
 
 
-{C:/Users/PPA-AGM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+{C:/Users/victo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \openout2 = `abstract.aux'.
 
  (abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -856,46 +841,39 @@ Overfull \hbox (2.48018pt too wide) in paragraph at lines 148--149
  ar-eas have brought
  []
 
-[24] [25] [26] [27] [28]
-<figures/dei_deo.PNG, id=150, 296.60812pt x 88.07906pt>
+[24] [25] [26] [27] [28] [29]
+<figures/dei_deo.PNG, id=153, 296.60812pt x 88.07906pt>
 File: figures/dei_deo.PNG Graphic file (type png)
 <use figures/dei_deo.PNG>
-Package pdftex.def Info: figures/dei_deo.PNG  used on input line 263.
+Package pdftex.def Info: figures/dei_deo.PNG  used on input line 272.
 (pdftex.def)             Requested size: 296.60739pt x 88.07883pt.
- [29 <./figures/dei_deo.PNG>]
-<figures/fincher_approach.png, id=155, 454.0965pt x 450.483pt>
+ [30 <./figures/dei_deo.PNG>]
+<figures/fincher_approach.png, id=158, 454.0965pt x 450.483pt>
 File: figures/fincher_approach.png Graphic file (type png)
 <use figures/fincher_approach.png>
-Package pdftex.def Info: figures/fincher_approach.png  used on input line 290.
+Package pdftex.def Info: figures/fincher_approach.png  used on input line 299.
 (pdftex.def)             Requested size: 454.09538pt x 450.48189pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[30] [31 <./figures/fincher_approach.png>]
-<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=164, 389.0535pt x 284.
+ [31 <./figures/fincher_approach.png>] [32]
+<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=167, 389.0535pt x 284.
 262pt>
 File: figures/Network_graph_of_a_One-Hidden_layer_ANN.png Graphic file (type pn
 g)
 <use figures/Network_graph_of_a_One-Hidden_layer_ANN.png>
 Package pdftex.def Info: figures/Network_graph_of_a_One-Hidden_layer_ANN.png  u
-sed on input line 316.
+sed on input line 325.
 (pdftex.def)             Requested size: 389.05254pt x 284.26129pt.
- [32] [33 <./figures/Network_graph_of_a_One-Hidden_layer_ANN.png>]
-<figures/Network_graph_of_RBM.png, id=172, 354.72525pt x 179.4705pt>
+ [33 <./figures/Network_graph_of_a_One-Hidden_layer_ANN.png>] [34]
+<figures/Network_graph_of_RBM.png, id=175, 354.72525pt x 179.4705pt>
 File: figures/Network_graph_of_RBM.png Graphic file (type png)
 <use figures/Network_graph_of_RBM.png>
 Package pdftex.def Info: figures/Network_graph_of_RBM.png  used on input line 3
-42.
+51.
 (pdftex.def)             Requested size: 354.72438pt x 179.47005pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[34] [35 <./figures/Network_graph_of_RBM.png>] [36] [37]) [38]
+ [35 <./figures/Network_graph_of_RBM.png>] [36] [37]) [38]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex
+
+(chapter_4.tex
 Chapter 4.
 <figures/THESIS_ResearchDesignFinal.png, id=193, 1028.34187pt x 483.30562pt>
 File: figures/THESIS_ResearchDesignFinal.png Graphic file (type png)
@@ -1038,22 +1016,22 @@ Package pdftex.def Info: figures/figure_ave_precip.PNG  used on input line 199.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62 <./figures/figure_traffic_vs_dewpoint.PNG>]
-<figures/figure_traffic_autocorr_dryseason.png, id=294, 425.59pt x 290.08376pt>
+[62 <./figures/figure_traffic_vs_dewpoint.PNG>] [63 <./figures/figure_ave_preci
+p.PNG>]
+<figures/figure_traffic_autocorr_dryseason.png, id=298, 425.59pt x 290.08376pt>
 
 File: figures/figure_traffic_autocorr_dryseason.png Graphic file (type png)
 <use figures/figure_traffic_autocorr_dryseason.png>
 Package pdftex.def Info: figures/figure_traffic_autocorr_dryseason.png  used on
  input line 226.
 (pdftex.def)             Requested size: 207.77625pt x 141.62439pt.
-<figures/figure_traffic_autocorr_wetseason.png, id=295, 425.59pt x 290.08376pt>
+<figures/figure_traffic_autocorr_wetseason.png, id=299, 425.59pt x 290.08376pt>
 
 File: figures/figure_traffic_autocorr_wetseason.png Graphic file (type png)
 <use figures/figure_traffic_autocorr_wetseason.png>
 Package pdftex.def Info: figures/figure_traffic_autocorr_wetseason.png  used on
  input line 228.
 (pdftex.def)             Requested size: 207.77625pt x 141.62439pt.
- [63 <./figures/figure_ave_precip.PNG>]
 <figures/figure_traffic_disrupted.png, id=300, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_disrupted.png Graphic file (type png)
 <use figures/figure_traffic_disrupted.png>
@@ -1637,9 +1615,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 267.
 
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [103
+)
+[103
 
 
 ] [104]
@@ -1664,39 +1643,38 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  9281 strings out of 492973
- 148520 string characters out of 3125806
+ 148586 string characters out of 3126692
  242924 words of memory out of 3000000
  12780 multiletter control sequences out of 15000+200000
  20459 words of font info for 55 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  65i,18n,98p,1944b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\tcrm1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\PPA-AGM\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\PPA-AG
-M\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\
-Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1
-200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecbx1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk><C:/Users/PPA-AGM/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/PPA-AGM/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
-ers/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PPA-AGM/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PPA-AGM
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (119 pages, 4181894 bytes).
+ <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\tcrm1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\victo\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\victo\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\victo\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Us
+ers\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
+pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\eccc1728.pk><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/victo/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/victo/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/victo/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
+ers/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/victo/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/victo/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (119 pages, 4181553 bytes).
 PDF statistics:
- 1141 PDF objects out of 1200 (max. 8388607)
+ 1139 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

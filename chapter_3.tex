@@ -229,7 +229,16 @@ Feature engineering is important for any system that uses machine learning. The 
 
 A feature is a property that is common with all the independent units in the raw data. Choosing the right features for the model is of utmost necessity. To yield better results, models should be simple and be more flexible, which better features would produce.
 
-The process of feature engineering is difficult and exhaustive. At first, a lot of features need to be decided and created regardless of its relevance. Afterwards, these features would be checked with the model to identify how and which features would help the model. Then, to avoid overfitting, feature selection should be used. This process would repeat until certain features are finalized and used with the model.
+The process of feature engineering is difficult and exhaustive. At first, a lot of features need to be decided and created regardless of its relevance. Afterwards, these features would be checked with the model to identify how and which features would help the model. Then, to avoid overfitting, feature selection should be used. This process would repeat until certain features are finalized and used with the model. The steps to follow look like this:
+
+\begin{enumerate}
+     \item Brainstorm features. Understand the problem, explore the data, and find studies that are similar to your problem and how they used feature engineering to solve their problem.
+     \item Devise features. Decide on what features to create based on the problem at hand.
+     \item Create features. Use different feature selection methods and feature importance scorings to create feautes.
+     \item Test features with the model. Estimate the accuracy of the model on unseen data using the chosen features.
+     \item Improve features. Modify the features depending on the result of the model's accuracy.
+     \item Repeat Step 1 until the work is done.
+\end{enumerate}
 
 
 
