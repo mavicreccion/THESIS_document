@@ -11,7 +11,7 @@
 
 Figure \ref{fig:framework} illustrates the whole framework for the research. First, this research collected historical traffic condition from MMDA and historical weather variables from WWO. These raw data were cleaned and re-sampled to match the time intervals of the data using linear interpolation and was transformed to their normalized values. The data was explored and analyzed to identify seasonality and trends present for both traffic and weather. Analyses and insights collected were used to select and engineer features to use in the model to predict traffic. These features include rolling and expanding window features, which are in-depth statistical features of traffic such as the mean, minimum, and maximum values of past traffic of a certain time period.
 
-The final variables and engineered features were fed into the Traffic-Only Models (TOM) and Weather-Only Models (WOM), which were developed in DBN, for the 14 road segments in Manila for both wet and dry season. Additionally, analyses were evaluated through the training of the models. Two different fusion levels were tested in this model, specifically at the feature level and at the decision level. For the decision level, three fusion techniques were tested, particularly DBN, RNN, and WA. The model was evaluated using RMSE and MAE. The model’s sensitivity was also explored to analyze the relevance of input variables. 
+The final variables and engineered features were fed into the Traffic-Only Models (TOM) and Weather-Only Models (WOM), which were developed in DBN and RNN, for the 14 road segments in Manila for both wet and dry season. Additionally, analyses were evaluated through the training of the models. Two different fusion levels were tested in this model, specifically at the feature level and at the decision level. For the decision level, three fusion techniques were tested, particularly DBN, RNN, and WA. The model was evaluated using RMSE and MAE. The model’s sensitivity was also explored to analyze the relevance of input variables. 
 
 
 
@@ -115,10 +115,10 @@ Features were engineered in order to represent the immediate past traffic, and o
 \item Weather Variables (wind speed, wind gust, temperature, humidity, dew point, precipitation, visibility, pressure, cloud cover, heat index, and feels-like) represented in their respective measurements
 \end{enumerate}
 
-A model implemented using Deep Belief Network (DBN) used these features that represent the past traffic to predict the current traffic condition intensity.
+Two models were implemented with Deep Belief Network (DBN) and Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM). These models used these features that represent past traffic to predict the current traffic condition intensity.
 
 \subsection{Prediction Models}
-According to the framework in \ref{fig:framework}, two models were implemented using Deep Belief Network (DBN): the Traffic-Only Model (TOM) and the Weather-Only Model (WOM). The TOM considers historical traffic condition intensity to predict traffic, while the WOM only considers historical weather variables to predict traffic. In this study, these DBN models were implemented with the open source machine learning framework in Python, \textit{tensorflow}. The TOM and WOM network architectures are shown in \ref{tab:dbn_models_architecture}. 
+According to the framework in \ref{fig:framework}, two models were implemented in the algorithms of DBN and RNN: the Traffic-Only Model (TOM) and the Weather-Only Model (WOM). The TOM considers historical traffic condition intensity to predict traffic, while the WOM only considers historical weather variables to predict traffic. In this study, these models were implemented with the open source machine learning framework in Python, \textit{tensorflow} and \textit{keras}. The TOM and WOM network architectures using both DBN and RNN are shown in \ref{tab:dbn_models_architecture}. 
 
 \begin{table}[h]
 \centering
@@ -165,7 +165,7 @@ f(x) = x^+ = max(0, x)
 
 
 \subsection{Data Fusion Model}
-Data fusion is significant to see the effectiveness of adding weather as a factor in predicting traffic. This study evaluated two fusion approaches: Feature In-Decision Out (FEI-DEO) and Decision In-Decision-Out (DEI-DEO). In the FEI-DEO approach, traffic and weather features are fused in one dataset first before being used by the model to predict traffic. The DEI-DEO approach, meanwhile, predicts traffic through TOM and WOM, and fuses the prediction of both models into one final prediction. DBN is used in the FEI-DEO approach, while three algorithms are tested in the DEI-DEO approach which are Weighted Average (WA), Recurrent Neural Network (RNN) and DBN. 
+Data fusion is significant to see the effectiveness of adding weather as a factor in predicting traffic. This study evaluated two fusion approaches: Feature In-Decision Out (FEI-DEO) and Decision In-Decision-Out (DEI-DEO). In the FEI-DEO approach, traffic and weather features are fused in one dataset first before being used by the model to predict traffic. The DEI-DEO approach, meanwhile, predicts traffic through TOM and WOM, and fuses the prediction of both models into one final prediction. DBN and RNN were used in the FEI-DEO approach, while three algorithms are tested in the DEI-DEO approach which are Weighted Average (WA), RNN and DBN. 
 
 
 
@@ -177,7 +177,7 @@ The weighted average data fusion method used the predicted traffic from TOM and 
 
 %NEURAL NETWORK
 \subsubsection{Neural Network}
-The fusion model was also developed in two neural networks: Recurrent Neural Network (RNN) and Deep Belief Network (DBN) in evaluating DEI-DEO fusion approach. Only DBN was implemented in evaluating FEI-DEO approach.
+The fusion model was also developed in two neural networks: Recurrent Neural Network (RNN) and Deep Belief Network (DBN) in evaluating DEI-DEO fusion approach. Only DBN and RNN were implemented in evaluating FEI-DEO approach.
 
 In FEI-DEO, the traffic congestion intensity and weather variables were fused into one dataset before feeding it into the prediction model. The network will be trained to predict the traffic condition based on both traffic and weather in one model for the current time period $t$. The training of the network will continuously adjust weights and biases from comparing the generated output with the actual traffic condition. 
 
