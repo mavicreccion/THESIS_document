@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  8 AUG 2018 11:17
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  19 JUL 2018 09:05
+>>>>>>> Stashed changes
 entering extended mode
 **./main.tex
 (main.tex
@@ -1104,6 +1108,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/autocorr_whyRE.PNG, id=297, 436.63126pt x 231.86626pt>
 File: figures/autocorr_whyRE.PNG Graphic file (type png)
 <use figures/autocorr_whyRE.PNG>
+<<<<<<< Updated upstream
 Package pdftex.def Info: figures/autocorr_whyRE.PNG  used on input line 381.
 (pdftex.def)             Requested size: 436.63019pt x 231.86568pt.
 
@@ -1250,6 +1255,81 @@ Package pdftex.def Info: figures/wom_feat_combi_roads.PNG  used on input line 5
 (pdftex.def)             Requested size: 782.9231pt x 321.19922pt.
 
 Overfull \hbox (15.05759pt too wide) in paragraph at lines 587--588
+=======
+Package pdftex.def Info: figures/autocorr_whyRE.PNG  used on input line 249.
+(pdftex.def)             Requested size: 437.38298pt x 217.56227pt.
+ [62]
+<figures/stDev.PNG, id=292, 339.51843pt x 230.36063pt>
+File: figures/stDev.PNG Graphic file (type png)
+<use figures/stDev.PNG>
+Package pdftex.def Info: figures/stDev.PNG  used on input line 259.
+(pdftex.def)             Requested size: 339.5176pt x 230.36005pt.
+ [63 <./figures/autocorr_whyRE.PNG>]
+<figures/heatmap_espana.JPG, id=297, 393.72093pt x 359.84438pt>
+File: figures/heatmap_espana.JPG Graphic file (type jpg)
+<use figures/heatmap_espana.JPG>
+Package pdftex.def Info: figures/heatmap_espana.JPG  used on input line 278.
+(pdftex.def)             Requested size: 207.77625pt x 189.89848pt.
+<figures/heatmap_roxas.JPG, id=298, 389.95688pt x 360.59718pt>
+File: figures/heatmap_roxas.JPG Graphic file (type jpg)
+<use figures/heatmap_roxas.JPG>
+Package pdftex.def Info: figures/heatmap_roxas.JPG  used on input line 280.
+(pdftex.def)             Requested size: 207.77625pt x 192.13351pt.
+ [64 <./figures/stDev.PNG>]
+<figures/bluementritt_rolling.png, id=303, 428.60126pt x 294.09875pt>
+File: figures/bluementritt_rolling.png Graphic file (type png)
+<use figures/bluementritt_rolling.png>
+Package pdftex.def Info: figures/bluementritt_rolling.png  used on input line 2
+87.
+(pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
+<figures/bluementritt_expanding.png, id=304, 428.60126pt x 294.09875pt>
+File: figures/bluementritt_expanding.png Graphic file (type png)
+<use figures/bluementritt_expanding.png>
+Package pdftex.def Info: figures/bluementritt_expanding.png  used on input line
+ 289.
+(pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
+ [65 <./figures/heatmap_espana.JPG> <./figures/heatmap_roxas.JPG>] [66 <./figur
+es/bluementritt_rolling.png> <./figures/bluementritt_expanding.png>]
+<figures/tom_diff_feat_combi.png, id=313, 621.32124pt x 442.65375pt>
+File: figures/tom_diff_feat_combi.png Graphic file (type png)
+<use figures/tom_diff_feat_combi.png>
+Package pdftex.def Info: figures/tom_diff_feat_combi.png  used on input line 32
+4.
+(pdftex.def)             Requested size: 621.31973pt x 442.65265pt.
+ [67]
+<figures/tom_feat_combi_road.png, id=317, 732.7375pt x 424.58624pt>
+File: figures/tom_feat_combi_road.png Graphic file (type png)
+<use figures/tom_feat_combi_road.png>
+Package pdftex.def Info: figures/tom_feat_combi_road.png  used on input line 33
+5.
+(pdftex.def)             Requested size: 732.73572pt x 424.5852pt.
+
+Overfull \hbox (24.0934pt too wide) in paragraph at lines 335--336
+ [][] 
+ []
+
+[68 <./figures/tom_diff_feat_combi.png>]
+<figures/wom_diff_feat_combi.png, id=323, 621.32124pt x 279.0425pt>
+File: figures/wom_diff_feat_combi.png Graphic file (type png)
+<use figures/wom_diff_feat_combi.png>
+Package pdftex.def Info: figures/wom_diff_feat_combi.png  used on input line 35
+6.
+(pdftex.def)             Requested size: 621.31973pt x 279.04181pt.
+
+Overfull \hbox (19.36942pt too wide) in paragraph at lines 356--357
+ [][] 
+ []
+
+[69 <./figures/tom_feat_combi_road.png>]
+<figures/wom_feat_combi_roads.png, id=328, 782.925pt x 321.2pt>
+File: figures/wom_feat_combi_roads.png Graphic file (type png)
+<use figures/wom_feat_combi_roads.png>
+Package pdftex.def Info: figures/wom_feat_combi_roads.png  used on input line 3
+66.
+(pdftex.def)             Requested size: 782.9231pt x 321.19922pt.
+
+Overfull \hbox (54.20613pt too wide) in paragraph at lines 366--367
+>>>>>>> Stashed changes
  [][] 
  []
 
@@ -1269,6 +1349,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
+<<<<<<< Updated upstream
                Default added (so using `tbp') on input line 606.
 
 
@@ -1361,6 +1442,53 @@ _disrption_pocampo_antipolo_wet.PNG> <./figures/wom_diff_feat_combi.PNG>]
 o_antipolo_wet.PNG>] [89 <./figures/dbn_comp_pocampo.PNG> <./figures/final_pred
 iction.PNG>] [90 <./figures/TOM_sensitivity.PNG>] [91 <./figures/WOM_sensitivit
 y.PNG> <./figures/pm1-pm2-df-changes.PNG>]
+=======
+               Default added (so using `tbp') on input line 376.
+
+
+Overfull \hbox (48.62119pt too wide) in paragraph at lines 377--386
+[][] 
+ []
+
+[70 <./figures/wom_diff_feat_combi.png>] [71 <./figures/wom_feat_combi_roads.pn
+g>]
+<figures/final_prediction.png, id=337, 1445.4pt x 289.08pt>
+File: figures/final_prediction.png Graphic file (type png)
+<use figures/final_prediction.png>
+Package pdftex.def Info: figures/final_prediction.png  used on input line 401.
+(pdftex.def)             Requested size: 1445.39648pt x 289.07928pt.
+
+Overfull \hbox (90.3451pt too wide) in paragraph at lines 401--402
+ [][] 
+ []
+
+<figures/dbn_comp_pocampo.png, id=338, 621.32124pt x 222.8325pt>
+File: figures/dbn_comp_pocampo.png Graphic file (type png)
+<use figures/dbn_comp_pocampo.png>
+Package pdftex.def Info: figures/dbn_comp_pocampo.png  used on input line 410.
+(pdftex.def)             Requested size: 621.31973pt x 222.83195pt.
+
+Overfull \hbox (19.36942pt too wide) in paragraph at lines 410--411
+ [][] 
+ []
+
+[72] [73 <./figures/final_prediction.png> <./figures/dbn_comp_pocampo.png>]
+<figures/TOM_sensitivity.png, id=347, 649.42625pt x 266.9975pt>
+File: figures/TOM_sensitivity.png Graphic file (type png)
+<use figures/TOM_sensitivity.png>
+Package pdftex.def Info: figures/TOM_sensitivity.png  used on input line 426.
+(pdftex.def)             Requested size: 649.42467pt x 266.99683pt.
+
+[74 <./figures/TOM_sensitivity.png>]
+<figures/pm1-pm2-df-changes.png, id=353, 626.34pt x 213.79875pt>
+File: figures/pm1-pm2-df-changes.png Graphic file (type png)
+<use figures/pm1-pm2-df-changes.png>
+Package pdftex.def Info: figures/pm1-pm2-df-changes.png  used on input line 441
+.
+(pdftex.def)             Requested size: 626.33846pt x 213.79822pt.
+) [75 <./figures/pm1-pm2-df-changes.png>]
+[76]
+>>>>>>> Stashed changes
 \openout2 = `chapter_6.aux'.
 
  (chapter_6.tex
