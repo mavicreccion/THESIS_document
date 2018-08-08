@@ -527,7 +527,7 @@ Likewise, in road segments of Espana, it follows a similar trend (see Figure \re
 
 
 
- \pagebreak[4]
+\pagebreak[4]
 \section{Predicion Model Evaluation}
 
 \subsection{Traffic-Only Model}
@@ -610,9 +610,9 @@ In analyzing the effectiveness of including weather as a factor in predicting tr
                                             & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{l|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} \\ \hline
 \textbf{Traffic-Only Model}                 & 0.314                              & 0.148                             & 0.084                              & 0.011                             & 0.234                              & 0.090                             \\ \hline
 \textbf{Weather-Only Model}                 & 0.328                              & 0.149                             & 0.328                              & 0.149                             & 0.328                              & 0.149                             \\ \hline
-\textbf{DBN Feature Fusion}                 & 0.353                              & 0.193                             & 0.100                              & 0.019                             & 0.282                              & 0.122                             \\ \hline
-\textbf{DBN Decision Fusion}                & 0.334                              & 0.185                             & 0.078                              & 0.014                             & 0.206                              & 0.085                             \\ \hline
-\textbf{RNN Decision Fusion}                & 0.068                              & 0.054                             & 0.171                              & 0.131                             & 0.103                              & 0.085                             \\ \hline
+\textbf{DBN Feature Fusion}                 & 0.322                              & 0.154                             & 0.092                              & 0.017                             & 0.277                              & 0.114                             \\ \hline
+\textbf{DBN Decision Fusion}                & 0.312                              & 0.140                             & \textbf{0.024}                     & \textbf{0.003}                    & 0.196                              & 0.006                             \\ \hline
+\textbf{RNN Decision Fusion}                & \textbf{0.068}                     & \textbf{0.054}                    & 0.171                              & 0.131                             & \textbf{0.103}                     & \textbf{0.085}                    \\ \hline
 \textbf{WA Decision Fusion}                 & 0.365                              & 0.198                             & 0.287                              & 0.174                             & 0.292                              & 0.202                             \\ \hline
 \end{tabular}
 \caption{Comparison between Prediction Models and Fusion Models}
@@ -641,7 +641,7 @@ The implemented model could predict normal trends of traffic. However, disrupted
 \begin{figure}[h]
   \centering
   \captionsetup{justification=centering}
-  \scalebox{.65}{\includegraphics{final_prediction.PNG}}
+  \scalebox{.55}{\includegraphics{final_prediction.PNG}}
   \caption{Final Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo using DBN Decision Fusion}
   \label{fig:final_prediction}
 \end{figure}
@@ -653,63 +653,45 @@ To analyze the effectiveness of including weather as a factor in predicting traf
 
 \subsubsection{Traffic-Only Model}
 
+Evaluation of the sensitivity of TOM is illustrated in Figure \ref{fig:TOM_sensitivity}. It has been discussed in the early sections in evaluating TOM that the inclusion of work day and peak hour variables result in a 22\% improvement in performance. In considering the working day and peak hour information, the removal of temporal information decreased the performance from 3.9 to 8.6\%. Not one temporal information increased the accuracy. However, the removal of temporal information without considering the working day and peak hour information increased the performance, but only by 0.4 to 3.1\%. This change in accuracy can be because of the model being given more complexity as more traffic features that are not exactly strongly connected with each other. An example of this is the variable \textit{Day}. This variable decreased the accuracy the most out of all temporal information, having a decrease in accuracy of 8.6\%. Other included traffic features do not depend on the day of the month. Hence, the significant decrease in accuracy. As for other temporal information variables, \textit{Month, Hour and Minute, and Day of the Week} may describe traffic with the support of other traffic features. However, traffic disruptions and traffic trend changes occur. In the case of \textit{Month}, noticeable traffic in a week in a month does not necessarily mean that it will be traffic the whole month. In the case of \textit{Hour and Minute}, traffic this hour during a Friday does not necessarily mean it will be traffic that particular hour and minute during a Saturday, Sunday or even a Monday. In the case of \textit{Day of Week}, given the number of records of heavy traffic that working day and peak hour information is derived from, day of week which depends on working day and peak hour, cannot effectively describe traffic. Moreover, in considering traffic features that effectively describes its immediate past traffic condition, such as using rolling and expanding window features, adding temporal information adds more complexity to the model such that it contradicts the findings of these traffic features with the patterns extracted by the temporal information variables. This is evident by the significant increase in accuracy by 4\% when using rolling and expanding window features at window 96, and small increases and decreases in accuracy from 0.4\% to 3.1\% at window 4, as compared to having no rolling and expanding window features. 
+
 \begin{figure}[h]
   \centering
   \captionsetup{justification=centering}
-  \scalebox{.65}{\includegraphics{TOM_sensitivity.PNG}}
+  \scalebox{.45}{\includegraphics{TOM_sensitivity.PNG}}
   \caption{Sensitivity of TOM with different feature combinations}
   \label{fig:TOM_sensitivity}
 \end{figure}
 
-Evaluation of the sensitivity of TOM is illustrated in Figure \ref{fig:TOM_sensitivity}. It has been discussed in the early sections in evaluating TOM that the inclusion of work day and peak hour variables result in a 22\% improvement in performance. The removal of temporal information decreased the performance from 3.9\% to 8.6\% when used with work day and peak hour. Not one temporal information variable increase the accuracy of the base which used all the temporal information, and all past traffic features. However, without the work day and peak hour, removal of the temporal information seems to have increased the performance, but only by 1 to 3\%. Results show that temporal information, when used with working day and peak hour variables without past traffic information, decreases the performance by 4\%. Moreover, each variable excluding the $Day$ variable is independent of each other as seen by the change of accuracy when using only Month, Hour and minute, or day of the week. Using the day variable without the support of other temporal information have decreased the performance by 8.6\%. Results show that traffic does not have any pattern with the $Day$ variable. As for the use of temporal information without working day and peak hour, the model performed better. Working day and peak hour variables show a generalized information of traffic at a specific time period. Without this information, the temporal information instead gives information on the traffic such as what hours or day of the week is there heavy traffic condition intensity. 
+Looking into the effect of the past traffic feature when used with working day and peak hour, removing mean traffic 6 weeks ago significantly decreased the accuracy of the prediction by 12.2\%. Moreover, the same decrease of accuracy was observed when past traffic features excluding working day and peak hour, and all temporal information was removed. Using only mean traffic 6 weeks ago as a past traffic feature, without the consideration of working day and peak hour, increased the accuracy by 15.4\%. MEanwhile, the accuracy decreased by 4.7\% to 2.2\% after considering working day and peak hour. As discussed, working day and peak hour may have added complexity in predicting traffic using traffic features with patterns that may go against patterns of working day and peak hour. Moreover, given the small records of heavy traffic in the data which working day and peak hour extracts, these traffic features cannot describe traffic as much as the mean traffic 6 weeks ago, and traffic a day ago. Hence the significant increase in accuracy in removing working day and peak hour. Comparing the difference between the changes in accuracy between using mean traffic 6 weeks before, and traffic a day before, the accuracy significantly changed in considering the mean traffic 6 weeks ago. This show that this feature has great importance in predicting traffic. However, with the inclusion of rolling and expanding window features which describes the traffic of the immediate past, using the mean of the traffic 6 weeks before or traffic a day before does not significantly affect the accuracy of the prediction. This can be because of the relationship between the window features with the current traffic, which outperforms the patterns extracted by the mean traffic 6 weeks before and traffic a day before. 
 
-Looking into the effect of the past traffic feature when used with the working day and peak hour, using either the mean of traffic 6 weeks ago, and a day before did not affect the performance, only having differences of 0.03\%. However, There is a significant change when work day and peak hours are not used. In using only the traffic a day before, the performance decreased by 4.1\%. Using the traffic 6 weeks ago significantly increased the performance by 15.4\%. Results show that the base model for OT that used all the past traffic features of a day and 6 weeks ago and all temporal information without workday and peak hour, gets most of its prediction bases from the general traffic 6 weeks ago. This shows that this variable has great importance in predicting traffic when working day and peak hours are not used.  
+
+\subsubsection{Weather-Only Model}
+Evaluation of the sensitivity of WOM is illustrated in Figure \ref{fig:WOM_sensitivity}. As discussed in the evaluation of the WOM with the different combination of the weather features, the varying combinations did not go far from the results of using all weather features, from having a differnce in RMSE from 0.001 to 0.003. The strength of the correlation between weather features to traffic were weak that it removing any weather feature did not significantly effect the prediction. Therefore, the change in accuracy ranges from 0 to 2.7\%. However, using the weather feature that has the highest correlation with traffic between other weather variables, excluding redundant variables, did improve the prediction but only by 1.5\%. This proves that the strength of the relationship between weather and traffic is important to understand to achieve better prediction. 
 
 \begin{figure}[h]
   \centering
   \captionsetup{justification=centering}
-  \scalebox{.65}{\includegraphics{pm1-pm2-df-changes.PNG}}
+  \scalebox{.45}{\includegraphics{WOM_sensitivity.PNG}}
+  \caption{Sensitivity of WOM with different feature combinations}
+  \label{fig:WOM_sensitivity}
+\end{figure}
+
+The effect of temporal information to predicting traffic using all weather features was also evaluated, as illustrated in Figure \ref{fig:WOM_sensitivity}. WOM uses only weather variables and temporal information to predict traffic. Of all the features, the closest to describe traffic are the temporal information features (e.g. Month, Day, Hour, Minute, Day of the Week). As such, the prediction decreased as temporal information was removed. However, as mentioned in discussing the sensitivity of the Traffic-Only Model features, temporal information without the support of working day and peak hour flags cannot effectively describe traffic. Hence, the small decrease in accuracy as temporal information was removed. Moreover, using information on the \textit{Day of Week} increased the accurcy by 6.4\%. Using information on \textit{Month, Day, Hour and Minute} alone descreased the accuracy, as traffic does not strongly depend on these information, especially in working days and peak hours. 
+
+
+\subsubsection{Decision Fusion Model}
+To evaluate the effectiveness of including weather in predicting traffic, the performance of the fusion model is compared with the performance of the Traffic-Only model for each feature combination. The performances of these models was based from the results illustrated in Table \ref{table:fusion_results}. 
+
+As discussed in the Fusion Analysis, considering the weather prediction in fusing at decision level using WPRE96 feature combination resulted in a 16.2\% improvement in performance. However, in evaluating the performance of the weather in predicting traffic, weather only contributed about 23\% of the prediction after getting the difference between the performance between TOM and DEI-DEO fusion model, and dividing it by the max of the two. Accuracy significantly improved once window features at window 4 and 96 were considered. Though the difference between TOM and WOM in these feature combinations are far, from an RMSE of 0.084 in TOM to 0.328 in WOM, WOM played as a contributing factor in predicting traffic, achieving the increase in accuracy from 16.2\% to 71.4\%. 
+
+As mentioned in earlier discussions, traffic data mostly comprises of moderate traffic condition intensity reports. Moreover, most road segments experience light to moderate traffic with few instances of disruptions, most of the day. Additionally, instances where there is a disruption in weather in which traffic is expected lies in weekends when traffic is least expected. Because of the lack of diverse data, it did not completely represent the relationship between weather and traffic, thus resulting in the small weight in prediction. 
+
+
+\begin{figure}[h]
+  \centering
+  \captionsetup{justification=centering}
+  \scalebox{.48}{\includegraphics{pm1-pm2-df-changes.PNG}}
   \caption{Change in performance in different feature combinations}
   \label{fig:pm1-pm2-df-changes}
 \end{figure}
-
-\subsubsection{Decision Fusion Model}
-
-The base model for evaluating the fusion between using the different prediction models, and fusion models is the Traffic-Only for OTWP feature combination. As discussed in the Fusion Analysis, considering the weather prediction in fusing at decision level resulted in a 14\% improvement in performance. However, in evaluating the performance of the weather in predicting traffic, weather only contributed about 27\% of the prediction. As mentioned in earlier discussions, traffic data mostly comprises of moderate traffic condition intensity reports. Additionally, periods where there is a disruption in weather in which traffic is expected lies in weekends when traffic is least expected. The data does not completely represent the relationship between weather and traffic, thus resulting in the small weight in prediction. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

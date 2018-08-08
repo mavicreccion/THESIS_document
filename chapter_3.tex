@@ -162,8 +162,11 @@ There are two major types of traffic modeling: \textit{macroscopic} and \textit{
 
 
 \section{Linear Interpolation}
-Using surrounding data points, interpolation can be used to determine the value of an unknown point in a line. Linear interpolation is one method of interpolation where it assumes a linear or straight line relationship between two known points. It is used to approximate value through the weighted average of two points.
+Using surrounding data points, interpolation can be used to determine the value of an unknown point in a line. Linear interpolation is one method of interpolation where it assumes a linear or straight line relationship between two known points. It is used to approximate value through the weighted average of two points. The equation for Linear Interpolation is defined as:
 
+\begin {equation}
+y = y_1 + \frac{y_2 - y_1}{x_2 - x_1} (x - x_1)
+\end{equation}
 
 
 
@@ -289,32 +292,43 @@ P(B | A) = \frac{P(A | B) P(B)}{P(A)},
 Other than Bayesian method, there are other techniques that can be applied to decision fusion, such as the Dempster-Shafer inference, abductive reasoning, semantic methods \shortcite{castanedo2013}, logistic function, weighted decision methods \shortcite{sohn2003}, projection pursuit, majority voting, fuzzy logic, and neural networks \shortcite{jimenez1999}. 
 
 
-\subsection{Fusion Algorithms}
-\subsubsection {Neural Networks}
-One of the techniques that can solve fusion problems is through neural networks \shortcite{fincher1990}. The advantage of having neural network as a technique for fusion over statistical approaches, such as Bayesian Method, is that it does not need to know certain probability errors beforehand. It can train itself with the current facts at hand and still get accurate results.  In the following papers, they used neural networks to fuse multiple sensors by recognizing the patterns given the inputs via their supervised training algorithm such as perceptron and backpropagation.
+% \subsection{Fusion Algorithms}
+% \subsubsection {Neural Networks}
+% One of the techniques that can solve fusion problems is through neural networks \shortcite{fincher1990}. The advantage of having neural network as a technique for fusion over statistical approaches, such as Bayesian Method, is that it does not need to know certain probability errors beforehand. It can train itself with the current facts at hand and still get accurate results.  In the following papers, they used neural networks to fuse multiple sensors by recognizing the patterns given the inputs via their supervised training algorithm such as perceptron and backpropagation.
  
-\begin{figure}[h]
-	\centering
-	\captionsetup{justification=centering}
-	\scalebox{.6}{\includegraphics{fincher_approach.png}}
-	\caption{(a) Structure of the Fincher’s Pre-Detection Approach, and (b) Structure of the Fincher’s Post Detection Approach}
-	\label{fig:fincher_approach}
-\end{figure}
+% \begin{figure}[h]
+% 	\centering
+% 	\captionsetup{justification=centering}
+% 	\scalebox{.6}{\includegraphics{fincher_approach.png}}
+% 	\caption{(a) Structure of the Fincher’s Pre-Detection Approach, and (b) Structure of the Fincher’s Post Detection Approach}
+% 	\label{fig:fincher_approach}
+% \end{figure}
 
-In \shortciteA{fincher1990}, they used neural network-based data fusion for recognizing patterns between handwritten and computer-made numbers. The network is fed a 16 $\times$ 16 input character, and outputs the number recognized. They used two approaches in fusion: pre-detection and post-detection. In pre-detection, the input is fed into three algorithms: Quadrant Analysis, Outside-In Procedure, Line Cross Analysis. The outputs of these three algorithms are then compared to a template and creates decisions based from the algorithm outputs. These decisions are then fused through a neural network. In post-detection the outputs of the three algorithms are fed straight to the neural network to avoid loss of data. In this paper, pre-detection detected the correct pattern 93\% of the time than post-detection which detected the pattern 86\% of the time. The network bases its decision on the aspects of the input such as how close is one pixel to the other, and the importance of a value in a pixel. The network was trained through a supervised learning algorithm to merge and recognize the patterns based from the features of the input. The pre-detection follows the DEI-DEO fusion where the decision of the template comparisons are fused to generate the final decision, the pattern recognized from the inputs. On the other hand, the post-detection follows the FEI-DEO fusion where the input of the network is the features of the 16 x 16 input character and the output is the pattern recognized from the input. \figref{fig:fincher_approach} illustrates the pre-detection and post-detection approach.
+% In \shortciteA{fincher1990}, they used neural network-based data fusion for recognizing patterns between handwritten and computer-made numbers. The network is fed a 16 $\times$ 16 input character, and outputs the number recognized. They used two approaches in fusion: pre-detection and post-detection. In pre-detection, the input is fed into three algorithms: Quadrant Analysis, Outside-In Procedure, Line Cross Analysis. The outputs of these three algorithms are then compared to a template and creates decisions based from the algorithm outputs. These decisions are then fused through a neural network. In post-detection the outputs of the three algorithms are fed straight to the neural network to avoid loss of data. In this paper, pre-detection detected the correct pattern 93\% of the time than post-detection which detected the pattern 86\% of the time. The network bases its decision on the aspects of the input such as how close is one pixel to the other, and the importance of a value in a pixel. The network was trained through a supervised learning algorithm to merge and recognize the patterns based from the features of the input. The pre-detection follows the DEI-DEO fusion where the decision of the template comparisons are fused to generate the final decision, the pattern recognized from the inputs. On the other hand, the post-detection follows the FEI-DEO fusion where the input of the network is the features of the 16 x 16 input character and the output is the pattern recognized from the input. \figref{fig:fincher_approach} illustrates the pre-detection and post-detection approach.
 
-Likewise, in \shortciteA{dai1999}, they used neural networks for image processing to recognize changes between pictures of the same location of different times. The network is fed raw data from multiple sensors sequentially into 12 input layer units. Like \shortcite{fincher1990}, the network bases its decision from the inputs given. Additionally, the network’s hidden units play the role as the change extractor - one that can recognize and extract changes of the input and pass it to the next hidden layer. Finally, the network will output change map. 
+% Likewise, in \shortciteA{dai1999}, they used neural networks for image processing to recognize changes between pictures of the same location of different times. The network is fed raw data from multiple sensors sequentially into 12 input layer units. Like \shortcite{fincher1990}, the network bases its decision from the inputs given. Additionally, the network’s hidden units play the role as the change extractor - one that can recognize and extract changes of the input and pass it to the next hidden layer. Finally, the network will output change map. 
 
-In \shortcite{jimenez1999}, they compared different methods of decision fusion (DEI-DEO), including multilayer neural networks, in hyperspectral imaging. In their architecture, the inputs for their neural network are the decision outputs from different classifiers, whose inputs are vectors of a spectral band in an image. The network was trained through Perceptron supervised training algorithm. Merging the inputs via supervised learning, their output is a single decision obtained from the training of the neural network, identifying the object in the image. 
+% In \shortcite{jimenez1999}, they compared different methods of decision fusion (DEI-DEO), including multilayer neural networks, in hyperspectral imaging. In their architecture, the inputs for their neural network are the decision outputs from different classifiers, whose inputs are vectors of a spectral band in an image. The network was trained through Perceptron supervised training algorithm. Merging the inputs via supervised learning, their output is a single decision obtained from the training of the neural network, identifying the object in the image. 
 
-\subsubsection{Weighted Average}
-The Weighted Average is a signal-level fusion method that takes the weighted average of repeating information from the original inputs \shortcite{king2017, yan2011, meurant1992}. \shortciteA{king2017} claimed that using this method will ease the effect of unwanted data in the final estimation. This method can be used to estimate user activity details such as intensity, postures, and fundamental static for activity recognition systems. 
+% \subsubsection{Weighted Average}
+% The Weighted Average is a signal-level fusion method that takes the weighted average of repeating information from the original inputs \shortcite{king2017, yan2011, meurant1992}. \shortciteA{king2017} claimed that using this method will ease the effect of unwanted data in the final estimation. This method can be used to estimate user activity details such as intensity, postures, and fundamental static for activity recognition systems. 
 
-\shortciteA{yan2011} proposed the use of the weighted average method on ships traffic flow data. They used data fusion to produce a higher estimation accuracy from multiple sensors. The researchers multiplied the number of ships with its corresponding weight then obtained the average of the produced weighted inputs. They then applied a distribution method to the original data to eliminate the unwanted data. 
-
+% \shortciteA{yan2011} proposed the use of the weighted average method on ships traffic flow data. They used data fusion to produce a higher estimation accuracy from multiple sensors. The researchers multiplied the number of ships with its corresponding weight then obtained the average of the produced weighted inputs. They then applied a distribution method to the original data to eliminate the unwanted data. 
 
 
 \section{Neural Networks}
+Neural Networks can be used as either a prediction model or a classifier. \shortciteA{koesdwiady:2016, dunne:2013} used neural networks, specifically Deep Belief Network and Auto Correlation Neural Network, respectively. They used historical traffic data as input, and outputs the predicted traffic volume. 
+
+Neural Networks can also be used as a data fusion center \shortcite{fincher1990}, specially in fusing data at the decision level. The advantage of having neural network as a technique for fusion over statistical approaches, such as Bayesian Method, is that it does not need to know certain probability errors beforehand. It can train itself with the current facts at hand and still get accurate results. \shortciteA{fincher1990, dai1999, jimenez1999} used neural networks in fusing outputs generated by separate models. \shortciteA{fincher1990} used neural network-based data fusion for recognizing patterns between handwritten and computer-made numbers. Handwritten Patterns are first pre-classified, and compared with computer-made numbers using a number of classifying algorithms. The different output of the different classifying algorithms are then fused into one improved classification. \figref{fig:fincher_approach} illustrates the pattern recognition approach of the study. \shortciteA{dai1999} used neural networks for image processing to recognize changes between pictures of the same location of different times. The changing pictures were used as inputs, and their fusion center takes care of extracting patterns and changes in the picture, and outputs a single picture that features the changes between the inputs. \shortciteA{jimenez1999}, much like \shortciteA{fincher1990}, generates decisions from separate classifier models, and fuses them into one decision through neural networks. 
+
+\begin{figure}[h]
+   \centering
+   \captionsetup{justification=centering}
+   \scalebox{.6}{\includegraphics{fincher_approach.png}}
+   \caption{(a) Structure of the Fincher’s Pre-Detection Approach, and (b) Structure of the Fincher’s Post Detection Approach}
+   \label{fig:fincher_approach}
+\end{figure}
+
 %ARTIFICIAL NEURAL NETOWKR
 \subsection{Artificial Neural Network}
 Inspired from the nonlinear characteristics of Biological Brain System, the work performance of artificial neural networks (ANNs) can be compared to the workings of the human brain system \shortcite{ANN:2016}. While handling uncertainty and non-linearity at the same time, ANNs provide “intelligent processing functions” in order to predict, learn, and memorize \shortcite{sommer2013}. 
@@ -384,6 +398,10 @@ p(h_j^{(l-1)} = 1 | v) = \sigma( \sum^V_{i=1} w_{ij}^{(l)}v_i^{(l)} + b_j^{(l-1)
 The formulas and equations for RBM are based from the papers of \shortciteA{koesdwiady:2016, Fischer2014, zhang:2017}. 
 
 
+\section{Weighted Average}
+The Weighted Average is a signal-level fusion method that takes the weighted average of repeating information from the original inputs \shortcite{king2017, yan2011, meurant1992}. \shortciteA{king2017} claimed that using this method will ease the effect of unwanted data in the final estimation. This method can be used to estimate user activity details such as intensity, postures, and fundamental static for activity recognition systems. 
+
+\shortciteA{yan2011} proposed the use of the weighted average method on ships traffic flow data. They used data fusion to produce a higher estimation accuracy from multiple sensors. The researchers multiplied the number of ships with its corresponding weight then obtained the average of the produced weighted inputs. They then applied a distribution method to the original data to eliminate the unwanted data. 
 
 
 \section{ParseHub}
