@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.19)  8 AUG 2018 07:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.18)  8 AUG 2018 13:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -7,9 +7,9 @@ LaTeX2e <2018-04-01> patch level 5
 \openout2 = `preamble.aux'.
 
 (preamble.tex
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -24,96 +24,90 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
 "
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
- ("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/06/05 3.22 The Babel package
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
-ef"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+"
 File: switch.def 2018/06/05 3.22 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
-g"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\US
-english.ldf"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\USen
+glish.ldf"
 Language: USenglish 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\en
-glish.ldf"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\engl
+ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
-f"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/06/05 3.22 Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
-.def")
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count90
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
-e.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetime.
+sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
+sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count91
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fmtcoun
-t.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.
+sty"
 Package: fmtcount 2017/12/24 v3.05
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.st
+y"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
-l.tex"
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
-ls.tex"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.
+tex"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils
+.tex"
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval
-.tex"))
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval.t
+ex"))
 \XKV@depth=\count92
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcprefi
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.
+sty"
 Package: fcprefix 2012/09/28
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcnumpa
-rser.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcnumpars
+er.sty"
 Package: fcnumparser 2017/06/15
 \fc@digit@counter=\count93
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
@@ -121,12 +115,12 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \c@padzeroesN=\count94
 \fc@tmpcatcode=\count95
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-engl
-ish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-englis
+h.def"
 File: fc-english.def 2016/01/12
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-USen
-glish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-USengl
+ish.def"
 File: fc-USenglish.def 2013/08/17
 )
 \@DT@modctr=\count96
@@ -137,8 +131,8 @@ File: fc-USenglish.def 2013/08/17
 \@DT@loopN=\count101
 \@DT@X=\count102
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
-e-defaults.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetime-
+defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
 \@day=\count103
@@ -160,29 +154,27 @@ put line 308.
 \dayofweek=\count117
 LaTeX Info: Redefining \today on input line 736.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\dt-USen
-glish.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\dt-USengl
+ish.def"
 File: dt-USenglish.def 2013/09/10
 )
 \dt@a=\toks17
 \dt@b=\toks18
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-)
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
 y"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.st
+y"
 Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.s
+ty"
 Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen105
@@ -209,38 +201,37 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \sf@top=\skip46
 \sf@bottom=\skip47
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multiro
-w.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.
+sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip48
 \multirow@cntb=\count126
 \multirow@dima=\skip49
 \bigstrutjot=\dimen113
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotatin
-g.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.
+sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
-phics.cfg"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
-tex.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen114
@@ -252,11 +243,10 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \rot@float@box=\box26
 \rot@mess@toks=\toks21
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpage
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+ ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count128
 \calc@Bcount=\count129
@@ -269,32 +259,31 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count130
 \calc@Cskip=\skip54
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbeg
-shi.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
-or.cfg"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -311,8 +300,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen118
 \AM@pageheight=\dimen119
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdfte
-x.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box27
@@ -321,8 +310,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count131
 \AM@templatesizebox=\box28
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
-y"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -336,12 +324,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -478,32 +466,32 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathto
-ols.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtool
+s.sty"
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetu
-p.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.
+sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen120
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count132
@@ -558,7 +546,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen133
 \l_MT_below_shortintertext_sep=\dimen134
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen135
 \ar@mcellbox=\box31
@@ -568,8 +556,8 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \backup@length=\skip60
 \ar@cellbox=\box32
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.st
+y"
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count145
 \bibleftmargin=\skip61
@@ -578,25 +566,25 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibitemsep=\skip64
 \biblabelsep=\skip65
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
-s.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
-.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
-ty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.sty
+"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks29
 \verbatim@line=\toks30
 \verbatim@in@stream=\read1
-) ("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+) ("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
@@ -628,7 +616,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -637,8 +625,8 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count146
 \scratchdimen=\dimen137
@@ -652,32 +640,32 @@ mkii"
 \makeMPintoPDFobject=\count151
 \everyMPtoPDFconversion=\toks32
 )
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -686,8 +674,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -704,24 +692,24 @@ G,.JBIG2,.JB2,.eps]
 )
 \AtBeginShipoutBox=\box34
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflsca
-pe.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.
-sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
-x.sty"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 \c@maskedRefs=\count152
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.
-apc"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.ap
+c"
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -733,20 +721,17 @@ LaTeX Info: Redefining \BHBI on input line 130.
 
 
 
-{C:/Users/PPA-AGM/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+{C:/Users/victo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \openout2 = `abstract.aux'.
 
  (abstract.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 14.
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
-"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 14.
-
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
-"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
@@ -860,35 +845,47 @@ Overfull \hbox (2.48018pt too wide) in paragraph at lines 148--149
 <figures/dei_deo.PNG, id=153, 296.60812pt x 88.07906pt>
 File: figures/dei_deo.PNG Graphic file (type png)
 <use figures/dei_deo.PNG>
-Package pdftex.def Info: figures/dei_deo.PNG  used on input line 272.
+Package pdftex.def Info: figures/dei_deo.PNG  used on input line 275.
 (pdftex.def)             Requested size: 296.60739pt x 88.07883pt.
  [30 <./figures/dei_deo.PNG>]
+Overfull \hbox (7.94081pt too wide) in paragraph at lines 320--321
+\T1/cmr/m/n/12 Neural Net-works can be used as ei-ther a pre-dic-tion model or 
+a clas-si-fier. []Koesdwiady
+ []
+
 <figures/fincher_approach.png, id=158, 454.0965pt x 450.483pt>
 File: figures/fincher_approach.png Graphic file (type png)
 <use figures/fincher_approach.png>
-Package pdftex.def Info: figures/fincher_approach.png  used on input line 299.
+Package pdftex.def Info: figures/fincher_approach.png  used on input line 327.
 (pdftex.def)             Requested size: 454.09538pt x 450.48189pt.
- [31 <./figures/fincher_approach.png>] [32]
-<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=167, 389.0535pt x 284.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/Network_graph_of_a_One-Hidden_layer_ANN.png, id=159, 389.0535pt x 284.
 262pt>
 File: figures/Network_graph_of_a_One-Hidden_layer_ANN.png Graphic file (type pn
 g)
 <use figures/Network_graph_of_a_One-Hidden_layer_ANN.png>
 Package pdftex.def Info: figures/Network_graph_of_a_One-Hidden_layer_ANN.png  u
-sed on input line 325.
+sed on input line 339.
 (pdftex.def)             Requested size: 389.05254pt x 284.26129pt.
- [33 <./figures/Network_graph_of_a_One-Hidden_layer_ANN.png>] [34]
-<figures/Network_graph_of_RBM.png, id=175, 354.72525pt x 179.4705pt>
+[31]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32 <./figures/fincher_approach.png>] [33 <./figures/Network_graph_of_a_One-Hid
+den_layer_ANN.png>]
+<figures/Network_graph_of_RBM.png, id=172, 354.72525pt x 179.4705pt>
 File: figures/Network_graph_of_RBM.png Graphic file (type png)
 <use figures/Network_graph_of_RBM.png>
 Package pdftex.def Info: figures/Network_graph_of_RBM.png  used on input line 3
-51.
+65.
 (pdftex.def)             Requested size: 354.72438pt x 179.47005pt.
- [35 <./figures/Network_graph_of_RBM.png>] [36] [37]) [38]
+ [34 <./figures/Network_graph_of_RBM.png>] [35] [36]
+[37]) [38]
 \openout2 = `chapter_4.aux'.
 
-
-(chapter_4.tex
+ (chapter_4.tex
 Chapter 4.
 <figures/THESIS_ResearchDesignFinal.png, id=193, 1028.34187pt x 483.30562pt>
 File: figures/THESIS_ResearchDesignFinal.png Graphic file (type png)
@@ -904,46 +901,52 @@ line 7.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40] [41] [42] [43] [44] [45] [46]
+[40] [41] [42] [43] [44] [45]
+Overfull \hbox (9.77985pt too wide) in paragraph at lines 127--135
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[46]
 <figures/dbntraining.png, id=219, 431.81325pt x 257.16075pt>
 File: figures/dbntraining.png Graphic file (type png)
 <use figures/dbntraining.png>
-Package pdftex.def Info: figures/dbntraining.png  used on input line 130.
+Package pdftex.def Info: figures/dbntraining.png  used on input line 147.
 (pdftex.def)             Requested size: 431.81218pt x 257.16011pt.
- [47 <./figures/dbntraining.png>] [48]
-[49] [50]
+ [47 <./figures/dbntraining.png>] [48] [49] [50]
 <figures/TOM_TrainingTestingInput.png, id=234, 563.25432pt x 267.399pt>
 File: figures/TOM_TrainingTestingInput.png Graphic file (type png)
 <use figures/TOM_TrainingTestingInput.png>
 Package pdftex.def Info: figures/TOM_TrainingTestingInput.png  used on input li
-ne 207.
+ne 222.
 (pdftex.def)             Requested size: 563.25293pt x 267.39835pt.
- [51 <./figures/TOM_TrainingTestingInput.png>] [52]) [53]
+ [51 <./figures/TOM_TrainingTestingInput.png>] [52] [53]) [54]
 \openout2 = `chapter_5.aux'.
 
-
-(chapter_5.tex
+ (chapter_5.tex
 Chapter 5.
-<figures/figure_autocorr_week.PNG, id=244, 425.59pt x 290.08376pt>
+<figures/figure_autocorr_week.PNG, id=247, 425.59pt x 290.08376pt>
 File: figures/figure_autocorr_week.PNG Graphic file (type png)
 <use figures/figure_autocorr_week.PNG>
 Package pdftex.def Info: figures/figure_autocorr_week.PNG  used on input line 1
 4.
 (pdftex.def)             Requested size: 425.58894pt x 290.08304pt.
-[54
+[55
 
 
 
 ]
-<figures/figure_autocorr_traffic_month.PNG, id=248, 405.515pt x 266.9975pt>
+<figures/figure_autocorr_traffic_month.PNG, id=252, 405.515pt x 266.9975pt>
 File: figures/figure_autocorr_traffic_month.PNG Graphic file (type png)
 <use figures/figure_autocorr_traffic_month.PNG>
 Package pdftex.def Info: figures/figure_autocorr_traffic_month.PNG  used on inp
 ut line 28.
 (pdftex.def)             Requested size: 405.51399pt x 266.99683pt.
- [55 <./figures/figure_autocorr_week.PNG> <./figures/figure_autocorr_traffic_mo
+ [56 <./figures/figure_autocorr_week.PNG> <./figures/figure_autocorr_traffic_mo
 nth.PNG>]
-<figures/figure_workingday_comparison.PNG, id=255, 420.57124pt x 350.30875pt>
+<figures/figure_workingday_comparison.PNG, id=258, 420.57124pt x 350.30875pt>
 File: figures/figure_workingday_comparison.PNG Graphic file (type png)
 <use figures/figure_workingday_comparison.PNG>
 Package pdftex.def Info: figures/figure_workingday_comparison.PNG  used on inpu
@@ -953,21 +956,21 @@ t line 45.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[56 <./figures/figure_workingday_comparison.PNG>]
-<figures/figure_traffic_day_vs_week.PNG, id=260, 390.45876pt x 266.9975pt>
+[57 <./figures/figure_workingday_comparison.PNG>]
+<figures/figure_traffic_day_vs_week.PNG, id=263, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_day_vs_week.PNG Graphic file (type png)
 <use figures/figure_traffic_day_vs_week.PNG>
 Package pdftex.def Info: figures/figure_traffic_day_vs_week.PNG  used on input 
 line 82.
 (pdftex.def)             Requested size: 390.4578pt x 266.99683pt.
- [57 <./figures/figure_traffic_day_vs_week.PNG>]
-<figures/figure_corr_trafficweather.PNG, id=265, 665.1249pt x 598.6365pt>
+ [58 <./figures/figure_traffic_day_vs_week.PNG>]
+<figures/figure_corr_trafficweather.PNG, id=268, 665.1249pt x 598.6365pt>
 File: figures/figure_corr_trafficweather.PNG Graphic file (type png)
 <use figures/figure_corr_trafficweather.PNG>
 Package pdftex.def Info: figures/figure_corr_trafficweather.PNG  used on input 
 line 97.
 (pdftex.def)             Requested size: 665.12328pt x 598.63504pt.
-<figures/figure_autocorr_weather.PNG, id=266, 649.42625pt x 631.35875pt>
+<figures/figure_autocorr_weather.PNG, id=269, 649.42625pt x 631.35875pt>
 File: figures/figure_autocorr_weather.PNG Graphic file (type png)
 <use figures/figure_autocorr_weather.PNG>
 Package pdftex.def Info: figures/figure_autocorr_weather.PNG  used on input lin
@@ -977,8 +980,8 @@ e 112.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[58 <./figures/figure_corr_trafficweather.PNG>]
-<figures/figure_traffic_vs_tempheatfeelswind.PNG, id=271, 495.8525pt x 257.9637
+[59 <./figures/figure_corr_trafficweather.PNG>]
+<figures/figure_traffic_vs_tempheatfeelswind.PNG, id=274, 495.8525pt x 257.9637
 5pt>
 File: figures/figure_traffic_vs_tempheatfeelswind.PNG Graphic file (type png)
 <use figures/figure_traffic_vs_tempheatfeelswind.PNG>
@@ -989,7 +992,7 @@ on input line 132.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_traffic_vs_pressure.PNG, id=272, 495.8525pt x 257.96375pt>
+<figures/figure_traffic_vs_pressure.PNG, id=275, 495.8525pt x 257.96375pt>
 File: figures/figure_traffic_vs_pressure.PNG Graphic file (type png)
 <use figures/figure_traffic_vs_pressure.PNG>
 Package pdftex.def Info: figures/figure_traffic_vs_pressure.PNG  used on input 
@@ -998,7 +1001,7 @@ line 149.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_traffic_vs_humidity.PNG, id=273, 495.8525pt x 257.96375pt>
+<figures/figure_traffic_vs_humidity.PNG, id=276, 495.8525pt x 257.96375pt>
 File: figures/figure_traffic_vs_humidity.PNG Graphic file (type png)
 <use figures/figure_traffic_vs_humidity.PNG>
 Package pdftex.def Info: figures/figure_traffic_vs_humidity.PNG  used on input 
@@ -1007,8 +1010,8 @@ line 165.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59]
-<figures/figure_traffic_vs_dewpoint.PNG, id=277, 495.8525pt x 257.96375pt>
+[60]
+<figures/figure_traffic_vs_dewpoint.PNG, id=280, 495.8525pt x 257.96375pt>
 File: figures/figure_traffic_vs_dewpoint.PNG Graphic file (type png)
 <use figures/figure_traffic_vs_dewpoint.PNG>
 Package pdftex.def Info: figures/figure_traffic_vs_dewpoint.PNG  used on input 
@@ -1018,7 +1021,7 @@ line 180.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_ave_precip.PNG, id=278, 380.42125pt x 257.96375pt>
+<figures/figure_ave_precip.PNG, id=281, 380.42125pt x 257.96375pt>
 File: figures/figure_ave_precip.PNG Graphic file (type png)
 <use figures/figure_ave_precip.PNG>
 Package pdftex.def Info: figures/figure_ave_precip.PNG  used on input line 199.
@@ -1027,15 +1030,15 @@ Package pdftex.def Info: figures/figure_ave_precip.PNG  used on input line 199.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60]
-<figures/figure_traffic_autocorr_dryseason.png, id=282, 425.59pt x 290.08376pt>
+[61]
+<figures/figure_traffic_autocorr_dryseason.png, id=286, 425.59pt x 290.08376pt>
 
 File: figures/figure_traffic_autocorr_dryseason.png Graphic file (type png)
 <use figures/figure_traffic_autocorr_dryseason.png>
 Package pdftex.def Info: figures/figure_traffic_autocorr_dryseason.png  used on
  input line 226.
 (pdftex.def)             Requested size: 207.77625pt x 141.62439pt.
-<figures/figure_traffic_autocorr_wetseason.png, id=283, 425.59pt x 290.08376pt>
+<figures/figure_traffic_autocorr_wetseason.png, id=287, 425.59pt x 290.08376pt>
 
 File: figures/figure_traffic_autocorr_wetseason.png Graphic file (type png)
 <use figures/figure_traffic_autocorr_wetseason.png>
@@ -1046,7 +1049,7 @@ Package pdftex.def Info: figures/figure_traffic_autocorr_wetseason.png  used on
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_traffic_disrupted.png, id=284, 390.45876pt x 266.9975pt>
+<figures/figure_traffic_disrupted.png, id=288, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_disrupted.png Graphic file (type png)
 <use figures/figure_traffic_disrupted.png>
 Package pdftex.def Info: figures/figure_traffic_disrupted.png  used on input li
@@ -1055,7 +1058,7 @@ ne 246.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61]
+[62]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 305.
@@ -1064,7 +1067,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 325.
 
-<figures/figure_traffic_mean_2weeks_vs_6weeks.png, id=289, 390.45876pt x 266.99
+<figures/figure_traffic_mean_2weeks_vs_6weeks.png, id=292, 390.45876pt x 266.99
 75pt>
 File: figures/figure_traffic_mean_2weeks_vs_6weeks.png Graphic file (type png)
 <use figures/figure_traffic_mean_2weeks_vs_6weeks.png>
@@ -1074,8 +1077,8 @@ Package pdftex.def Info: figures/figure_traffic_mean_2weeks_vs_6weeks.png  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62]
-<figures/figure_traffic_mean_2weeks_vs_6weeks_disrupted.png, id=293, 390.45876p
+[63]
+<figures/figure_traffic_mean_2weeks_vs_6weeks_disrupted.png, id=296, 390.45876p
 t x 266.9975pt>
 File: figures/figure_traffic_mean_2weeks_vs_6weeks_disrupted.png Graphic file (
 type png)
@@ -1087,54 +1090,48 @@ Package pdftex.def Info: figures/figure_traffic_mean_2weeks_vs_6weeks_disrupted
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/autocorr_whyRE.PNG, id=294, 437.38406pt x 217.5628pt>
+<figures/autocorr_whyRE.PNG, id=297, 436.63126pt x 231.86626pt>
 File: figures/autocorr_whyRE.PNG Graphic file (type png)
 <use figures/autocorr_whyRE.PNG>
 Package pdftex.def Info: figures/autocorr_whyRE.PNG  used on input line 381.
-(pdftex.def)             Requested size: 437.38298pt x 217.56227pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[63]
-<figures/pocampo_stdev.PNG, id=298, 230.36063pt x 165.61874pt>
-File: figures/pocampo_stdev.PNG Graphic file (type png)
-<use figures/pocampo_stdev.PNG>
-Package pdftex.def Info: figures/pocampo_stdev.PNG  used on input line 394.
-(pdftex.def)             Requested size: 230.36005pt x 165.61833pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/pocampo_rolling.png, id=299, 428.60126pt x 294.09875pt>
-File: figures/pocampo_rolling.png Graphic file (type png)
-<use figures/pocampo_rolling.png>
-Package pdftex.def Info: figures/pocampo_rolling.png  used on input line 408.
-(pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
-<figures/pocampo_expanding.png, id=300, 428.60126pt x 294.09875pt>
-File: figures/pocampo_expanding.png Graphic file (type png)
-<use figures/pocampo_expanding.png>
-Package pdftex.def Info: figures/pocampo_expanding.png  used on input line 410.
-
-(pdftex.def)             Requested size: 207.77625pt x 142.5704pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/heatmap_roxas.JPG, id=301, 389.95688pt x 360.59718pt>
-File: figures/heatmap_roxas.JPG Graphic file (type jpg)
-<use figures/heatmap_roxas.JPG>
-Package pdftex.def Info: figures/heatmap_roxas.JPG  used on input line 418.
-(pdftex.def)             Requested size: 389.95592pt x 360.5963pt.
+(pdftex.def)             Requested size: 436.63019pt x 231.86568pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [64]
-<figures/figure_traffic_roxas_sb_corr.png, id=305, 643.40375pt x 582.175pt>
+<figures/pocampo_stdev.PNG, id=301, 478.78876pt x 351.56343pt>
+File: figures/pocampo_stdev.PNG Graphic file (type png)
+<use figures/pocampo_stdev.PNG>
+Package pdftex.def Info: figures/pocampo_stdev.PNG  used on input line 394.
+(pdftex.def)             Requested size: 478.78758pt x 351.56256pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/pocampo_rolling.png, id=302, 400.6167pt x 255.1131pt>
+File: figures/pocampo_rolling.png Graphic file (type png)
+<use figures/pocampo_rolling.png>
+Package pdftex.def Info: figures/pocampo_rolling.png  used on input line 408.
+(pdftex.def)             Requested size: 207.77625pt x 132.31311pt.
+<figures/pocampo_expanding.png, id=303, 400.6167pt x 255.1131pt>
+File: figures/pocampo_expanding.png Graphic file (type png)
+<use figures/pocampo_expanding.png>
+Package pdftex.def Info: figures/pocampo_expanding.png  used on input line 410.
+
+(pdftex.def)             Requested size: 207.77625pt x 132.31311pt.
+<figures/heatmap_roxas.JPG, id=304, 422.32782pt x 378.66469pt>
+File: figures/heatmap_roxas.JPG Graphic file (type jpg)
+<use figures/heatmap_roxas.JPG>
+Package pdftex.def Info: figures/heatmap_roxas.JPG  used on input line 418.
+(pdftex.def)             Requested size: 422.32678pt x 378.66376pt.
+[65]
+<figures/figure_traffic_roxas_sb_corr.png, id=308, 643.40375pt x 582.175pt>
 File: figures/figure_traffic_roxas_sb_corr.png Graphic file (type png)
 <use figures/figure_traffic_roxas_sb_corr.png>
 Package pdftex.def Info: figures/figure_traffic_roxas_sb_corr.png  used on inpu
 t line 439.
 (pdftex.def)             Requested size: 207.77625pt x 188.00539pt.
-<figures/figure_traffic_roxas_nb_corr.png, id=306, 643.40375pt x 582.175pt>
+<figures/figure_traffic_roxas_nb_corr.png, id=309, 643.40375pt x 582.175pt>
 File: figures/figure_traffic_roxas_nb_corr.png Graphic file (type png)
 <use figures/figure_traffic_roxas_nb_corr.png>
 Package pdftex.def Info: figures/figure_traffic_roxas_nb_corr.png  used on inpu
@@ -1144,13 +1141,13 @@ t line 441.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_traffic_espana_sb_corr.png, id=307, 665.48625pt x 605.26125pt>
+<figures/figure_traffic_espana_sb_corr.png, id=310, 665.48625pt x 605.26125pt>
 File: figures/figure_traffic_espana_sb_corr.png Graphic file (type png)
 <use figures/figure_traffic_espana_sb_corr.png>
 Package pdftex.def Info: figures/figure_traffic_espana_sb_corr.png  used on inp
 ut line 454.
 (pdftex.def)             Requested size: 207.77625pt x 188.96819pt.
-<figures/figure_traffic_espana_nb_corr.png, id=308, 665.48625pt x 605.26125pt>
+<figures/figure_traffic_espana_nb_corr.png, id=311, 665.48625pt x 605.26125pt>
 File: figures/figure_traffic_espana_nb_corr.png Graphic file (type png)
 <use figures/figure_traffic_espana_nb_corr.png>
 Package pdftex.def Info: figures/figure_traffic_espana_nb_corr.png  used on inp
@@ -1159,14 +1156,14 @@ ut line 456.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65]
-<figures/figure_traffic_roxas_sb.png, id=312, 390.45876pt x 266.9975pt>
+[66]
+<figures/figure_traffic_roxas_sb.png, id=315, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_roxas_sb.png Graphic file (type png)
 <use figures/figure_traffic_roxas_sb.png>
 Package pdftex.def Info: figures/figure_traffic_roxas_sb.png  used on input lin
 e 472.
 (pdftex.def)             Requested size: 207.77625pt x 142.07835pt.
-<figures/figure_traffic_roxas_nb.png, id=313, 390.45876pt x 266.9975pt>
+<figures/figure_traffic_roxas_nb.png, id=316, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_roxas_nb.png Graphic file (type png)
 <use figures/figure_traffic_roxas_nb.png>
 Package pdftex.def Info: figures/figure_traffic_roxas_nb.png  used on input lin
@@ -1176,13 +1173,13 @@ e 474.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/figure_traffic_espana_sb.png, id=314, 390.45876pt x 266.9975pt>
+<figures/figure_traffic_espana_sb.png, id=317, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_espana_sb.png Graphic file (type png)
 <use figures/figure_traffic_espana_sb.png>
 Package pdftex.def Info: figures/figure_traffic_espana_sb.png  used on input li
 ne 490.
 (pdftex.def)             Requested size: 207.77625pt x 142.07835pt.
-<figures/figure_traffic_espana_nb.png, id=315, 390.45876pt x 266.9975pt>
+<figures/figure_traffic_espana_nb.png, id=318, 390.45876pt x 266.9975pt>
 File: figures/figure_traffic_espana_nb.png Graphic file (type png)
 <use figures/figure_traffic_espana_nb.png>
 Package pdftex.def Info: figures/figure_traffic_espana_nb.png  used on input li
@@ -1191,8 +1188,8 @@ ne 492.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[66]
-<figures/tom_diff_feat_combi.PNG, id=319, 621.32124pt x 442.65375pt>
+[67]
+<figures/tom_diff_feat_combi.PNG, id=323, 621.32124pt x 442.65375pt>
 File: figures/tom_diff_feat_combi.PNG Graphic file (type png)
 <use figures/tom_diff_feat_combi.PNG>
 Package pdftex.def Info: figures/tom_diff_feat_combi.PNG  used on input line 53
@@ -1202,7 +1199,7 @@ Package pdftex.def Info: figures/tom_diff_feat_combi.PNG  used on input line 53
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/tom_feat_combi_road.PNG, id=320, 732.7375pt x 424.58624pt>
+<figures/tom_feat_combi_road.PNG, id=324, 732.7375pt x 424.58624pt>
 File: figures/tom_feat_combi_road.PNG Graphic file (type png)
 <use figures/tom_feat_combi_road.PNG>
 Package pdftex.def Info: figures/tom_feat_combi_road.PNG  used on input line 54
@@ -1211,8 +1208,8 @@ Package pdftex.def Info: figures/tom_feat_combi_road.PNG  used on input line 54
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[67]
-<figures/TOM_normal_disrption_pocampo_antipolo_wet.PNG, id=325, 627.34375pt x 4
+[68]
+<figures/TOM_normal_disrption_pocampo_antipolo_wet.PNG, id=328, 627.34375pt x 4
 96.85625pt>
 File: figures/TOM_normal_disrption_pocampo_antipolo_wet.PNG Graphic file (type 
 png)
@@ -1224,7 +1221,7 @@ Package pdftex.def Info: figures/TOM_normal_disrption_pocampo_antipolo_wet.PNG
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/wom_diff_feat_combi.PNG, id=326, 621.32124pt x 279.0425pt>
+<figures/wom_diff_feat_combi.PNG, id=329, 621.32124pt x 279.0425pt>
 File: figures/wom_diff_feat_combi.PNG Graphic file (type png)
 <use figures/wom_diff_feat_combi.PNG>
 Package pdftex.def Info: figures/wom_diff_feat_combi.PNG  used on input line 57
@@ -1233,8 +1230,8 @@ Package pdftex.def Info: figures/wom_diff_feat_combi.PNG  used on input line 57
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[68]
-<figures/wom_feat_combi_roads.PNG, id=330, 782.925pt x 321.2pt>
+[69]
+<figures/wom_feat_combi_roads.PNG, id=333, 782.925pt x 321.2pt>
 File: figures/wom_feat_combi_roads.PNG Graphic file (type png)
 <use figures/wom_feat_combi_roads.PNG>
 Package pdftex.def Info: figures/wom_feat_combi_roads.PNG  used on input line 5
@@ -1248,7 +1245,7 @@ Overfull \hbox (15.05759pt too wide) in paragraph at lines 587--588
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/WOM_normal_disrption_pocampo_antipolo_wet.PNG, id=331, 627.34375pt x 4
+<figures/WOM_normal_disrption_pocampo_antipolo_wet.PNG, id=334, 627.34375pt x 4
 96.85625pt>
 File: figures/WOM_normal_disrption_pocampo_antipolo_wet.PNG Graphic file (type 
 png)
@@ -1268,8 +1265,8 @@ Overfull \hbox (48.62119pt too wide) in paragraph at lines 607--618
 [][] 
  []
 
-[69] [70]
-<figures/dbn_comp_pocampo.PNG, id=338, 621.32124pt x 212.795pt>
+[70] [71]
+<figures/dbn_comp_pocampo.PNG, id=341, 621.32124pt x 212.795pt>
 File: figures/dbn_comp_pocampo.PNG Graphic file (type png)
 <use figures/dbn_comp_pocampo.PNG>
 Package pdftex.def Info: figures/dbn_comp_pocampo.PNG  used on input line 633.
@@ -1278,7 +1275,7 @@ Package pdftex.def Info: figures/dbn_comp_pocampo.PNG  used on input line 633.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/final_prediction.PNG, id=339, 627.34375pt x 496.85625pt>
+<figures/final_prediction.PNG, id=342, 627.34375pt x 496.85625pt>
 File: figures/final_prediction.PNG Graphic file (type png)
 <use figures/final_prediction.PNG>
 Package pdftex.def Info: figures/final_prediction.PNG  used on input line 644.
@@ -1286,50 +1283,65 @@ Package pdftex.def Info: figures/final_prediction.PNG  used on input line 644.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/TOM_sensitivity.PNG, id=340, 649.42625pt x 266.9975pt>
+[72]
+<figures/TOM_sensitivity.PNG, id=346, 1104.125pt x 662.475pt>
 File: figures/TOM_sensitivity.PNG Graphic file (type png)
 <use figures/TOM_sensitivity.PNG>
-Package pdftex.def Info: figures/TOM_sensitivity.PNG  used on input line 659.
-(pdftex.def)             Requested size: 649.42467pt x 266.99683pt.
+Package pdftex.def Info: figures/TOM_sensitivity.PNG  used on input line 661.
+(pdftex.def)             Requested size: 1104.12231pt x 662.47339pt.
 
-Overfull \hbox (6.56956pt too wide) in paragraph at lines 659--660
+Overfull \hbox (81.29918pt too wide) in paragraph at lines 661--662
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[71]
-<figures/pm1-pm2-df-changes.PNG, id=344, 626.34pt x 213.79875pt>
-File: figures/pm1-pm2-df-changes.PNG Graphic file (type png)
-<use figures/pm1-pm2-df-changes.PNG>
-Package pdftex.def Info: figures/pm1-pm2-df-changes.PNG  used on input line 671
-.
-(pdftex.def)             Requested size: 626.33846pt x 213.79822pt.
+[73]
+<figures/WOM_sensitivity.PNG, id=351, 905.3825pt x 639.38875pt>
+File: figures/WOM_sensitivity.PNG Graphic file (type png)
+<use figures/WOM_sensitivity.PNG>
+Package pdftex.def Info: figures/WOM_sensitivity.PNG  used on input line 675.
+(pdftex.def)             Requested size: 905.3803pt x 639.38718pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [72] [73 <./figures/figure_autocorr_weather.PNG>] [74 <./figures/figure_traff
+[74]
+<figures/pm1-pm2-df-changes.PNG, id=355, 913.4125pt x 278.03876pt>
+File: figures/pm1-pm2-df-changes.PNG Graphic file (type png)
+<use figures/pm1-pm2-df-changes.PNG>
+Package pdftex.def Info: figures/pm1-pm2-df-changes.PNG  used on input line 694
+.
+(pdftex.def)             Requested size: 913.41028pt x 278.03807pt.
+
+Overfull \hbox (22.88054pt too wide) in paragraph at lines 694--695
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [75] [76 <./figures/figure_autocorr_weather.PNG>] [77 <./figures/figure_traff
 ic_vs_tempheatfeelswind.PNG> <./figures/figure_traffic_vs_pressure.PNG>]
-[75 <./figures/figure_traffic_vs_humidity.PNG> <./figures/figure_traffic_vs_dew
-point.PNG>] [76 <./figures/figure_ave_precip.PNG> <./figures/figure_traffic_aut
+[78 <./figures/figure_traffic_vs_humidity.PNG> <./figures/figure_traffic_vs_dew
+point.PNG>] [79 <./figures/figure_ave_precip.PNG> <./figures/figure_traffic_aut
 ocorr_dryseason.png> <./figures/figure_traffic_autocorr_wetseason.png>]
-[77 <./figures/figure_traffic_disrupted.png> <./figures/figure_traffic_mean_2we
-eks_vs_6weeks.png>] [78 <./figures/figure_traffic_mean_2weeks_vs_6weeks_disrupt
-ed.png> <./figures/autocorr_whyRE.PNG>] [79 <./figures/pocampo_stdev.PNG> <./fi
-gures/pocampo_rolling.png> <./figures/pocampo_expanding.png>] [80 <./figures/he
+[80 <./figures/figure_traffic_disrupted.png> <./figures/figure_traffic_mean_2we
+eks_vs_6weeks.png>] [81 <./figures/figure_traffic_mean_2weeks_vs_6weeks_disrupt
+ed.png> <./figures/autocorr_whyRE.PNG>] [82 <./figures/pocampo_stdev.PNG> <./fi
+gures/pocampo_rolling.png> <./figures/pocampo_expanding.png>] [83 <./figures/he
 atmap_roxas.JPG> <./figures/figure_traffic_roxas_sb_corr.png> <./figures/figure
-_traffic_roxas_nb_corr.png>] [81 <./figures/figure_traffic_espana_sb_corr.png> 
+_traffic_roxas_nb_corr.png>] [84 <./figures/figure_traffic_espana_sb_corr.png> 
 <./figures/figure_traffic_espana_nb_corr.png> <./figures/figure_traffic_roxas_s
-b.png> <./figures/figure_traffic_roxas_nb.png>] [82 <./figures/figure_traffic_e
+b.png> <./figures/figure_traffic_roxas_nb.png>] [85 <./figures/figure_traffic_e
 spana_sb.png> <./figures/figure_traffic_espana_nb.png> <./figures/tom_diff_feat
-_combi.PNG>] [83 <./figures/tom_feat_combi_road.PNG>] [84 <./figures/TOM_normal
+_combi.PNG>] [86 <./figures/tom_feat_combi_road.PNG>] [87 <./figures/TOM_normal
 _disrption_pocampo_antipolo_wet.PNG> <./figures/wom_diff_feat_combi.PNG>]
-[85 <./figures/wom_feat_combi_roads.PNG> <./figures/WOM_normal_disrption_pocamp
-o_antipolo_wet.PNG>] [86 <./figures/dbn_comp_pocampo.PNG> <./figures/final_pred
-iction.PNG>] [87 <./figures/TOM_sensitivity.PNG> <./figures/pm1-pm2-df-changes.
-PNG>]
+[88 <./figures/wom_feat_combi_roads.PNG> <./figures/WOM_normal_disrption_pocamp
+o_antipolo_wet.PNG>] [89 <./figures/dbn_comp_pocampo.PNG> <./figures/final_pred
+iction.PNG>] [90 <./figures/TOM_sensitivity.PNG>] [91 <./figures/WOM_sensitivit
+y.PNG> <./figures/pm1-pm2-df-changes.PNG>]
 \openout2 = `chapter_6.aux'.
 
  (chapter_6.tex
@@ -1340,20 +1352,20 @@ Overfull \hbox (3.9407pt too wide) in paragraph at lines 5--6
 zed through ex-ploratory
  []
 
-[88
+[92
 
 
 
-] [89]) [90]
+] [93]) [94]
 \openout2 = `chapter_7.aux'.
 
  (chapter_7.tex
 Chapter 7.
-) [91
+) [95
 
 
 
-] [92]
+] [96]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -1362,7 +1374,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.EXE (file ./General-Research-Ethics-Checklist-1.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<General-Research-Ethics-Checklist-1.pdf, id=445, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-1.pdf, id=459, 614.295pt x 794.97pt>
 File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-1.pdf>
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf  used on input
@@ -1385,7 +1397,7 @@ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./General-Research-Ethics-Checklist-1.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<General-Research-Ethics-Checklist-1.pdf, id=448, page=1, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-1.pdf, id=462, page=1, 614.295pt x 794.97pt>
 
 File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-1.pdf, page 1>
@@ -1397,7 +1409,7 @@ File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf , page1 used o
 n input line 15.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[93
+[97
 
 
 
@@ -1417,8 +1429,8 @@ File: General-Research-Ethics-Checklist-1.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-1.pdf , page1 used o
 n input line 15.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [94 <./General-Research-Ethics-Checklist-1.pdf>]
-<General-Research-Ethics-Checklist-2.pdf, id=500, 614.295pt x 794.97pt>
+ [98 <./General-Research-Ethics-Checklist-1.pdf>]
+<General-Research-Ethics-Checklist-2.pdf, id=515, 614.295pt x 794.97pt>
 File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-2.pdf>
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf  used on input
@@ -1429,7 +1441,7 @@ File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf  used on input
  line 16.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<General-Research-Ethics-Checklist-2.pdf, id=503, page=1, 614.295pt x 794.97pt>
+<General-Research-Ethics-Checklist-2.pdf, id=518, page=1, 614.295pt x 794.97pt>
 
 File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 <use General-Research-Ethics-Checklist-2.pdf, page 1>
@@ -1456,11 +1468,11 @@ File: General-Research-Ethics-Checklist-2.pdf Graphic file (type pdf)
 Package pdftex.def Info: General-Research-Ethics-Checklist-2.pdf , page1 used o
 n input line 16.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [95 <./General-Research-Ethics-Checklist-2.pdf>]
+ [99 <./General-Research-Ethics-Checklist-2.pdf>]
 
 pdfTeX warning: pdflatex.EXE (file ./Endorsement-page-001.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<Endorsement-page-001.pdf, id=523, 614.295pt x 794.97pt>
+<Endorsement-page-001.pdf, id=538, 614.295pt x 794.97pt>
 File: Endorsement-page-001.pdf Graphic file (type pdf)
 <use Endorsement-page-001.pdf>
 Package pdftex.def Info: Endorsement-page-001.pdf  used on input line 17.
@@ -1481,7 +1493,7 @@ found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./Endorsement-page-001.pdf): PDF inclusion: 
 found PDF version <1.6>, but at most version <1.5> allowed
-<Endorsement-page-001.pdf, id=526, page=1, 614.295pt x 794.97pt>
+<Endorsement-page-001.pdf, id=541, page=1, 614.295pt x 794.97pt>
 File: Endorsement-page-001.pdf Graphic file (type pdf)
 <use Endorsement-page-001.pdf, page 1>
 Package pdftex.def Info: Endorsement-page-001.pdf , page1 used on input line 17
@@ -1507,11 +1519,11 @@ File: Endorsement-page-001.pdf Graphic file (type pdf)
 Package pdftex.def Info: Endorsement-page-001.pdf , page1 used on input line 17
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[96 <./Endorsement-page-001.pdf>]
+[100 <./Endorsement-page-001.pdf>]
 
 pdfTeX warning: pdflatex.EXE (file ./Ethics_Clearance_Form-page-001.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Ethics_Clearance_Form-page-001.pdf, id=533, 614.295pt x 794.97pt>
+<Ethics_Clearance_Form-page-001.pdf, id=548, 614.295pt x 794.97pt>
 File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 <use Ethics_Clearance_Form-page-001.pdf>
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf  used on input line
@@ -1534,7 +1546,7 @@ nclusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.EXE (file ./Ethics_Clearance_Form-page-001.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Ethics_Clearance_Form-page-001.pdf, id=536, page=1, 614.295pt x 794.97pt>
+<Ethics_Clearance_Form-page-001.pdf, id=551, page=1, 614.295pt x 794.97pt>
 File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 <use Ethics_Clearance_Form-page-001.pdf, page 1>
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf , page1 used on inp
@@ -1560,12 +1572,12 @@ File: Ethics_Clearance_Form-page-001.pdf Graphic file (type pdf)
 Package pdftex.def Info: Ethics_Clearance_Form-page-001.pdf , page1 used on inp
 ut line 18.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[97 <./Ethics_Clearance_Form-page-001.pdf>])
+[101 <./Ethics_Clearance_Form-page-001.pdf>])
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
 Appendix B.
-<figures/turnitin.PNG, id=544, 1155.71774pt x 539.01375pt>
+<figures/turnitin.PNG, id=558, 1155.71774pt x 539.01375pt>
 File: figures/turnitin.PNG Graphic file (type png)
 <use figures/turnitin.PNG>
 Package pdftex.def Info: figures/turnitin.PNG  used on input line 17.
@@ -1575,7 +1587,7 @@ Overfull \hbox (46.72643pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-) [98
+) [102
 
 
 
@@ -1584,7 +1596,7 @@ Overfull \hbox (46.72643pt too wide) in paragraph at lines 17--18
 
  (appendix_C.tex
 Appendix C.
-<figures/calendar.PNG, id=549, 469.00218pt x 165.61874pt>
+<figures/calendar.PNG, id=563, 469.00218pt x 165.61874pt>
 File: figures/calendar.PNG Graphic file (type png)
 <use figures/calendar.PNG>
 Package pdftex.def Info: figures/calendar.PNG  used on input line 17.
@@ -1594,7 +1606,7 @@ Overfull \hbox (53.44855pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-) [99
+) [103
 
 
 
@@ -1603,28 +1615,28 @@ Overfull \hbox (53.44855pt too wide) in paragraph at lines 17--18
 
  (appendix_E.tex
 Appendix D.
-[100
+[104
 
 
 
-] [101] [102]
-<figures/prelim_exp1.png, id=563, 930.47626pt x 108.405pt>
+] [105] [106]
+<figures/prelim_exp1.png, id=578, 930.47626pt x 108.405pt>
 File: figures/prelim_exp1.png Graphic file (type png)
 <use figures/prelim_exp1.png>
 Package pdftex.def Info: figures/prelim_exp1.png  used on input line 61.
 (pdftex.def)             Requested size: 332.44325pt x 38.73132pt.
-<figures/prelim_exp2.png, id=564, 1134.2375pt x 313.17pt>
+<figures/prelim_exp2.png, id=579, 1134.2375pt x 313.17pt>
 File: figures/prelim_exp2.png Graphic file (type png)
 <use figures/prelim_exp2.png>
 Package pdftex.def Info: figures/prelim_exp2.png  used on input line 68.
 (pdftex.def)             Requested size: 332.44325pt x 91.78702pt.
- [103 <./figures/prelim_exp1.png> <./figures/prelim_exp2.png>]
-<figures/prelim_model1.png, id=571, 724.7075pt x 673.51625pt>
+ [107 <./figures/prelim_exp1.png> <./figures/prelim_exp2.png>]
+<figures/prelim_model1.png, id=585, 724.7075pt x 673.51625pt>
 File: figures/prelim_model1.png Graphic file (type png)
 <use figures/prelim_model1.png>
 Package pdftex.def Info: figures/prelim_model1.png  used on input line 79.
 (pdftex.def)             Requested size: 207.77625pt x 193.09486pt.
-<figures/prelim_model2.png, id=572, 723.70375pt x 854.19125pt>
+<figures/prelim_model2.png, id=586, 723.70375pt x 854.19125pt>
 File: figures/prelim_model2.png Graphic file (type png)
 <use figures/prelim_model2.png>
 Package pdftex.def Info: figures/prelim_model2.png  used on input line 86.
@@ -1632,17 +1644,18 @@ Package pdftex.def Info: figures/prelim_model2.png  used on input line 86.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [104 <./figures/prelim_model1.png>] [105 <./figures/prelim_model2.png>]
+) [108 <./figures/prelim_model1.png>] [109 <./figures/prelim_model2.png>]
 (main.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 267.
 
 
-("C:\Users\PPA-AGM\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+("C:\Users\victo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [106
+)
+[110
 
 
-] [107]
+] [111]
 Underfull \hbox (badness 10000) in paragraph at lines 757--777
 \T1/cmtt/m/n/12 quageo [] .2011 [] .30 [] .issue [] -2 / v10117 [] -011 [] -002
 1 [] -1 / v10117 [] -011 [] -0021 [] -1 [] .xml$
@@ -1654,7 +1667,7 @@ Underfull \hbox (badness 1845) in paragraph at lines 821--846
 n of
  []
 
-[108] [109]) [110] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
+[112] [113]) [114] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
 (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
 (chapter_7.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux)
 (appendix_E.aux))
@@ -1663,40 +1676,39 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9281 strings out of 492973
- 148520 string characters out of 3125806
- 250926 words of memory out of 3000000
- 12780 multiletter control sequences out of 15000+200000
+ 9288 strings out of 492973
+ 148782 string characters out of 3126692
+ 251956 words of memory out of 3000000
+ 12786 multiletter control sequences out of 15000+200000
  20459 words of font info for 55 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 65i,18n,98p,2440b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\tcrm1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\PPA-AGM\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\PPA-AG
-M\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\
-Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1
-200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecbx1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\PPA-AGM\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk><C:/Users/PPA-AGM/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/PPA-AGM/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Us
-ers/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/PPA-AGM/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/PPA-AGM
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
-:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy6.pfb><C:/Users/PPA-AGM/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (122 pages, 4228990 bytes).
+ 65i,18n,98p,2519b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\tcrm1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\victo\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\victo\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\victo\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Us
+ers\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
+pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1200.pk> <C:\Users\victo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\eccc1728.pk><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/victo/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/victo/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/victo/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Us
+ers/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr6.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/victo/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/victo/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/victo/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (126 pages, 4466593 bytes).
 PDF statistics:
- 1149 PDF objects out of 1200 (max. 8388607)
+ 1165 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

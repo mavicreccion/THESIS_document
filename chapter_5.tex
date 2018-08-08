@@ -401,7 +401,7 @@ Generating rolling and expanding features based on a specific window size gives 
 
 The minimum and maximum features, on the other hand, reveals the range of x in the dataset. Being sensitive to outliers, they provide outlier detection when compared to the average value of that specific set of data. A big difference between the values of the minimum and the maximum signifies a large progression in traffic condition. Although as the window size used gets bigger, it becomes harder to determine whether the sudden change in traffic condition occurred just a few timesteps before or if it is because of a farther instance which may have less to no effect to the current traffic condition. 
 
-\begin{figure}[h] 
+\begin{figure}[t] 
 \centering
     \centering
       \captionsetup{justification=centering}
@@ -412,7 +412,7 @@ The minimum and maximum features, on the other hand, reveals the range of x in t
     % \label{figure_autocorr_traffic_season}
 \end{figure}
 
-\begin{figure}[h] 
+\begin{figure}[t] 
 \centering
   \centering
   \scalebox{.65}{\includegraphics{figures/heatmap_roxas.JPG}}
@@ -538,7 +538,7 @@ As seen in Figure \ref{fig:tom_diff_feat_combi} the inclusion of the information
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{tom_diff_feat_combi.PNG}}
-  \caption{Comparison between performance of TOM on Roxas Boulevard and Espana using different feature combinations}
+  \caption{Comparison between performance of DBN TOM on Roxas Boulevard and Espana using different feature combinations}
   \label{fig:tom_diff_feat_combi}
 \end{figure}
 
@@ -548,7 +548,7 @@ To evaluate if the model can successfully identify the trends present for each r
   \centering
   \captionsetup{justification=centering}
   \scalebox{.55}{\includegraphics{tom_feat_combi_road.PNG}}
-  \caption{Performance of TOM on Roxas Boulevard and España using OTWP traffic feature combination}
+  \caption{Performance of DBN TOM on Roxas Boulevard and España using OTWP traffic feature combination}
   \label{fig:tom_feat_combi_road}
 \end{figure}
  
@@ -559,7 +559,7 @@ Disrupted days refer to the period in time wherein the trend of traffic goes out
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{TOM_normal_disrption_pocampo_antipolo_wet.PNG}}
-  \caption{TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
+  \caption{DBN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
   \label{fig:TOM_normal_disrption_pocampo_antipolo_wet}
 \end{figure}
 
@@ -569,7 +569,7 @@ Figure \ref{fig:rnn_dbn_tom_pocampo} illustrates the comparison of TOM implement
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{rnn-dbn-tom-pocampo.PNG}}
-  \caption{TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
+  \caption{RNN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
   \label{fig:rnn_dbn_tom_pocampo}
 \end{figure}
 
@@ -589,7 +589,7 @@ Given the weak relationship between weather variables with traffic, the model co
   \centering
   \captionsetup{justification=centering}
   \scalebox{.55}{\includegraphics{wom_diff_feat_combi.PNG}}
-  \caption{Performance of WOM on Pablo Ocampo and Antipolo using weather feature combinations}
+  \caption{Performance of DBN WOM on Pablo Ocampo and Antipolo using weather feature combinations}
   \label{fig:wom_diff_feat_combi}
 \end{figure}
 
@@ -605,7 +605,7 @@ For both roads of Roxas Boulevard and Espana, WOM could better predict the bound
   \centering
   \captionsetup{justification=centering}
   \scalebox{.55}{\includegraphics{wom_feat_combi_roads.PNG}}
-  \caption{Performance of WOM using OW weather feature combination for all road segments}
+  \caption{Performance of DBN WOM using OW weather feature combination for all road segments}
   \label{fig:wom_feat_combi_roads}
 \end{figure}
 
@@ -615,7 +615,7 @@ Given only temporal information and the weather variables to predict the current
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{WOM_normal_disrption_pocampo_antipolo_wet.PNG}}
-  \caption{WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
+  \caption{DBN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
   \label{fig:WOM_normal_disrption_pocampo_antipolo_wet}
 \end{figure}
 
@@ -629,15 +629,6 @@ Figure \ref{fig:rnn_dbn_tom_pocampo} illustrates the comparison of WOM performan
   \caption{RNN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
   \label{fig:RNN_WOM_normal_disrption_pocampo_antipolo_wet}
 \end{figure}
-
-\begin{figure}[h]
-  \centering
-  \captionsetup{justification=centering}
-  \scalebox{.65}{\includegraphics{WOM_normal_disrption_pocampo_antipolo_wet.PNG}}
-  \caption{WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo}
-  \label{fig:WOM_normal_disrption_pocampo_antipolo_wet}
-\end{figure}
-
 
 \subsection{Fusion Analysis}
 In analyzing the effectiveness of including weather as a factor in predicting traffic, the road segments which are strongly correlated with weather variables, and are more dynamic are selected in further analysis. These roads are southbound of Pablo Ocampo and northbound of Antipolo. The final results displayed are the average of the results of these two road segments.
@@ -668,7 +659,7 @@ In evaluating the DBN model, fusing traffic and weather at the decision level im
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{dbn_comp_pocampo.PNG}}
-  \caption{Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season}
+  \caption{Comparison of DBN models in predicting the southbound of Pablo Ocampo for the wet season}
   \label{fig:dbn_comp_pocampo}
 \end{figure}
 
@@ -679,7 +670,7 @@ Figure \ref{fig:dbn_comp_pocampo} illustrates the differences of performance bet
   \centering
   \captionsetup{justification=centering}
   \scalebox{.65}{\includegraphics{rnn_comp_pocampo.PNG}}
-  \caption{Comparison of RNN model in predicting the southbound of Pablo Ocampo for the wet season}
+  \caption{Comparison of RNN models in predicting the southbound of Pablo Ocampo for the wet season}
   \label{fig:rnn_comp_pocampo}
 \end{figure}
 
@@ -689,22 +680,13 @@ WA performed the worse of all fusion techniques, generating an RMSE of 0.512 to 
 
 A noticeable behavior is RNN outperformed the other fusion techniques. RNN has at least 74\% less error than DBN and WA. RNN is implemented as an LSTM, or a long short-term memory, compared to DBN which is implemented as a regressor and a classifier. Because of RNN’s power of long short-term memory, it can use their internal memory to process a sequence of inputs, successfully extracting ordered patterns. However, as mentioned earlier, RNN could not improve the prediction of the RNN TOM model. However, the fusion model in DBN improved the TOM and WOM's prediction because of the RBMs implemented into the network that can extract pattern from the data. 
 
-\begin{figure}[h]
-  \centering
-  \captionsetup{justification=centering}
-  \scalebox{.65}{\includegraphics{dbn_comp_pocampo.PNG}}
-  \caption{Comparison of DBN model in predicting the southbound of Pablo Ocampo for the wet season}
-  \label{fig:dbn_comp_pocampo}
-\end{figure}
-
-
 The implemented model could predict normal trends of traffic. However, disrupted traffic trends defined in the discussion of the traffic and weather data cannot be accurately predicted. A reason behind the difficulty in prediction is the small number of instances of disruption in the training dataset. There is only a small number of instances of moderately heavy to heavy traffic within the wet season of the training dataset. Another reason may be because of the instances when disruptions in weather were present until the weekends when traffic is least expected. For example, for September 11 to 14 when typhoon Ineng was present, extends from a Friday until Sunday. The model also has a difficulty in predicting traffic using only weather features because of the weak relationship between these variables. For visualization purposes, the final prediction of traffic condition  intensity of Pablo Ocampo and Antipolo is illustrated in Figure \ref{fig:final_prediction}.
 
 \begin{figure}[h]
   \centering
   \captionsetup{justification=centering}
   \scalebox{.55}{\includegraphics{RNN_final_prediction.PNG}}
-  \caption{Final Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo using DBN Decision Fusion}
+  \caption{Final Prediction generated by RNN Feature Fusion model for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo using DBN Decision Fusion}
   \label{fig:final_prediction}
 \end{figure}
 
