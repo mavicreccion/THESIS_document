@@ -95,21 +95,21 @@
 \contentsline {section}{\numberline {5.1}Pattern Analysis}{54}
 \contentsline {subsection}{\numberline {5.1.1}Traffic Analysis}{54}
 \contentsline {subsubsection}{Previous Day}{55}
-\contentsline {subsubsection}{Previous Week}{57}
+\contentsline {subsubsection}{Previous Week}{56}
 \contentsline {subsection}{\numberline {5.1.2}Weather Analysis}{57}
 \contentsline {subsubsection}{Seasonality}{58}
-\contentsline {subsubsection}{Trend}{58}
+\contentsline {subsubsection}{Trend}{59}
 \contentsline {paragraph}{Temperature, Heat Index, Feels-Like and Wind Chill}{59}
 \contentsline {paragraph}{Pressure}{59}
 \contentsline {paragraph}{Humidity}{59}
-\contentsline {paragraph}{Dew Point}{59}
+\contentsline {paragraph}{Dew Point}{60}
 \contentsline {subsection}{\numberline {5.1.3}Weather Disruption}{60}
 \contentsline {subsubsection}{Climate Season}{60}
 \contentsline {subsubsection}{Disrupted Day}{60}
 \contentsline {subsection}{\numberline {5.1.4}Traffic Disruption}{61}
-\contentsline {section}{\numberline {5.2}Correlation Analysis}{61}
-\contentsline {subsection}{\numberline {5.2.1}Correlation of Engineered Traffic Features with Traffic Condition}{61}
-\contentsline {subsubsection}{Mean of Previous Weeks}{61}
+\contentsline {section}{\numberline {5.2}Correlation Analysis}{62}
+\contentsline {subsection}{\numberline {5.2.1}Correlation of Engineered Traffic Features with Traffic Condition}{62}
+\contentsline {subsubsection}{Mean of Previous Weeks}{62}
 \contentsline {subsection}{\numberline {5.2.2}Correlation of Immediate Traffic Features with Traffic Condition}{63}
 \contentsline {subsection}{\numberline {5.2.3}Correlation between Connected Road Segments}{65}
 \contentsline {section}{\numberline {5.3}Predicion Model Evaluation}{67}
