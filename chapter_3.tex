@@ -144,8 +144,10 @@ Aside from weekends, there are also instances in which a weekday can be classifi
 
 \section{Peak Hour}
 A peak hour, or rush hour, is a time of the day where the congestion of traffic in roads or inflation of people in public transports are at its highest peak \shortcite{downs2005still}. There are two peak hours each weekday: the morning peak hour and the afternoon or evening peak hour. These are the times when majority of the people travel and commute to go to work or school. The morning peak hours depict the time when employees and students travel towards their workplace or school, while the evening peak hours suggest the time when they return to their respective homes. These periods may last for more than one hour, and may vary from road to road, city to city, country to country, and seasonally. 
-\section{Extreme Weather Disruptions}
-Extreme weather disruptions such as typhoons and low-pressure areas have brought heavy and prolonged precipitation which often causes flooding in some areas. One example of these extreme weather disruptions is Typhoon Goring that occurred from July 22, 2015 until July 26, 2015. Weather disruptions typically produce a significant amount of precipitation in just one day. These prolonged rain periods usually last for days, thus building up the effects it brings as time goes by.
+
+
+\section{Weather Disruptions}
+Weather disruptions such as typhoons and low-pressure areas have brought heavy and prolonged precipitation which often causes flooding in some areas. One example of these extreme weather disruptions is Typhoon Goring that occurred from July 22, 2015 until July 26, 2015. Weather disruptions typically produce a significant amount of precipitation in just one day. These prolonged rain periods usually last for days, thus building up the effects it brings as time goes by.
 
 
 
@@ -172,7 +174,7 @@ y = y_1 + \frac{y_2 - y_1}{x_2 - x_1} (x - x_1)
 
 \section{Correlation}
 % Spearman’s rank correlation coefficient
-The Spearman's rank correlation coefficient is an approach for statistical dependence between two independent variables while not consider the parameters of a frequency distribution (nonparametric) \shortcite{Zar1972SignificanceCoefficient, Liu2010ARecognition, Gauthier2001DetectingCoefficient}. The rank correlation coefficient, $r_s$, can be expressed using a monotonic function as: 
+The Spearman`s rank correlation coefficient is an approach for statistical dependence between two independent variables while not consider the parameters of a frequency distribution (nonparametric) \shortcite{Zar1972SignificanceCoefficient, Liu2010ARecognition, Gauthier2001DetectingCoefficient}. The rank correlation coefficient, $r_s$, can be expressed using a monotonic function as: 
 
 \begin {equation}
 r_s = 1 - \frac{6 \sum a^2}{N(N^2 - 1)}
@@ -181,7 +183,7 @@ r_s = 1 - \frac{6 \sum a^2}{N(N^2 - 1)}
 \noindent where $r_s$  represents the Spearman’s rank correlation coefficient, $a$ denotes the ranked difference between the $i$th measurements for the two random variables, and $N$ is the number of measurements in each of the two random variables in the correlation \shortcite{Zar1972SignificanceCoefficient}. Spearman’s $r_s$ measures the strength and course of the \textit{monotonic} relationship between ranked variables. \shortciteA{Hauke2011ComparisonData}, meanwhile, explain that Spearman’s $r_s$ can be considered as the correlation coefficient of Pearson that deals with ranks.  
 
 % Pearson’s product moment correlation coefficient
-Pearson’s product moment correlation coefficient, commonly Pearson’s correlation coefficient or Pearson’s r, is the most commonly used correlation statistic to measure the strength and course of the \textit{linear} relationship between two continuous variables \shortcite{ahlgren2003}. It is expressed using this function:
+Pearson`s product moment correlation coefficient, commonly Pearson’s correlation coefficient or Pearson’s r, is the most commonly used correlation statistic to measure the strength and course of the \textit{linear} relationship between two continuous variables \shortcite{ahlgren2003}. It is expressed using this function:
 
 \begin {equation}
 r = \frac{\sum (A - \bar{A})(B - \bar{B})}{\sqrt[]{\sum (A - \bar{A})^2 \sum(B - \bar{B})^2}}
@@ -215,8 +217,13 @@ very strong positive correlation & -1.0 $<$ x $\leq$ -0.9 \\ \hline
 % Advantage of Spearman over Pearson
 Although Spearman is considered a Pearson’s r measure in terms of ranks, there are advantages that enable Spearman to be a more powerful measurement over Pearson \shortcite{Gauthier2001DetectingCoefficient}. Spearman’s rank correlation coefficient is not affected by the distribution of the values, unlike Pearson’s r, which normal distribution is analyzed. Furthermore, instead of the raw data, it does not care for outliers because it deals with the ranks of the data. In addition, the data does not need to be in time-series, where the intervals are regular. In contrast, since Spearman disregards the outliers when it turns the data into ranks, there is a loss of information. Moreover, it is less powerful than the Pearson’s r if the data is normally distributed.
 
+
+\subsubsection{Seasonality}
+Seasonality refers to the characteristic of a time series in which the data experiences regular and predictable changes that recur every number of intervals. In trend analysis, determining the data`s seasonality is significant as it could define a "normal pattern" by getting the mean of several samples per seasonal interval.
+
+
 \subsubsection{Autocorrelation}
-Autocorrelation, sometimes called \textit{serial correlation} or \textit{lagged correlation}, is defined as the correlation of a time series to itself. The series of numbers arranged in time is correlated to the values of its own past and future. The purpose of autocorrelation is to find out if there is a pattern repeating in the data. The formula for autocorrelation is as follows: 
+Autocorrelation, sometimes called \textit{serial correlation} or \textit{lagged correlation}, measures the similarity or correlation of an observation in a time series and itself shifted in a specific time \textit{lag}. The series of numbers arranged in time is correlated to the values of its own past and future. The purpose of autocorrelation is to find out if there is a pattern repeating in the data. The formula for autocorrelation is as follows: 
 
 \begin{equation}
 r_{k} = \frac{\sum_{i=1}^{N-k}(X_{i} - \bar{X})(X_{i+k} - \bar{X})} {\sum_{i=1}^{N}(X_{i} - \bar{X})^{2} }
@@ -225,7 +232,14 @@ r_{k} = \frac{\sum_{i=1}^{N-k}(X_{i} - \bar{X})(X_{i+k} - \bar{X})} {\sum_{i=1}^
 \noindent where $k$ denotes the lags and $N$ as the number of observations in the series.
 
 
+\subsubsection{Lag}
+Lag refers to the amount of delay between a given observation. For instance, a comparison between Tuesday`s 12 PM and the last week`s Tuesday`s 12 PM is incidated as a one day lag.
 
+
+ \subsubsection{Autocorrelation plot}
+Autocorrelation plot is a collection of autocorrelation coefficient values from a range of time lags. It is commonly used for evaluating the randomness of the dataset. It can be used to measure seasonality as it reveals how many intervals does it take for the pattern to reappear.
+
+It consists of three parts: the y-axis, the x-axis, and the reference lines. The y-axis consists of correlation coefficient values, while the x-axis consists of time lags defined as \textit{t} where \textit{t = {1, 2, 3, ..., n-1, n}}.
 
 \section{Feature Engineering}
 Feature engineering is important for any system that uses machine learning. The performance of machine learning algorithms depends on how the data was presented to them. If they accept raw data directly, they would not give the intended results since machine learning algorithms do not have the capacity to extract insightful features from raw data automatically. This is where feature engineering comes in. It is using the domain knowledge of and from the raw data and create insightful features which would help machine learning algorithms to perform better. 
