@@ -1808,6 +1808,30 @@ Yan, Z\BHBI Z.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Y.~Jia%
+}{%
+Y.~Jia%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Jia:2017}
+\APACinsertmetastar {%
+Jia:2017}%
+\begin{APACrefauthors}%
+Y.~Jia, M\BPBI X., J.~Wu.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{Aug}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Traffic Flow Prediction with Rainfall Impact Using a
+  Deep Learning Method} {Traffic flow prediction with rainfall impact using a
+  deep learning method}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Hindawi: Journal of Advanced Transportation}{2017}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Zar%
 }{%
 Zar%
