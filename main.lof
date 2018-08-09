@@ -15,65 +15,93 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Structure of DBN Training Process\relax }}{48}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces A summary on the contents of the Traffic Only Model Training and Testing Dataset\relax }}{52}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Autocorrelation of traffic revealing its daily and weekly seasonality\relax }}{57}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Autocorrelation of traffic showing no monthly nor yearly seasonality\relax }}{57}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Comparison of the average traffic in one month between working and non-working revealing the lack of intense traffic for non-working days\relax }}{58}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Comparison between traffic\IeC {\textquoteright }s two-day-ago pattern and one-week-ago pattern showing that previous week traffic is more similar despite its difference in terms of days\relax }}{59}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Correlation heatmap of traffic and weather variables showing a weak correlation between them\relax }}{60}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Autocorrelation of weather variables showing the presence of daily seasonality\relax }}{78}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of the normal pattern of temperature, heat index, feels-like and wind chill with the normal pattern of traffic\relax }}{79}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of the normal pattern of pressure with the normal pattern of traffic\relax }}{79}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparison of the normal pattern of humidity with the normal pattern of traffic\relax }}{80}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Comparison of the normal pattern of dew point with the normal pattern of traffic\relax }}{80}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Wet and dry season defined by the average precipitation per month from 2015 to 2017\relax }}{81}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Autocorrelation of traffic comparing the daily and weekly seasonality per season showing that its pattern is disrupted during the wet season\relax }}{81}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Dry Season}}}{81}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wet Season}}}{81}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Comparison between the current traffic and its previous week pattern showing a disrupted pattern\relax }}{82}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago\relax }}{82}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago after a week of Typhoon Goring\relax }}{83}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Autocorrelation of traffic for working days\relax }}{84}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Standard Deviation of Traffic per Window Size for the Wet Season in Pablo Ocampo\relax }}{85}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Northbound traffic in Pablo Ocampo\relax }}{85}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{85}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{85}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Average Correlation of Rolling and Expanding Mean to All Southbound Roads in Roxas Blvd.\relax }}{86}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Roxas Boulevard\relax }}{86}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{86}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{86}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Espana\relax }}{87}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{87}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{87}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Daily average of all working days in one month in all road segments in Roxas Boulevard showing its intensity relationship\relax }}{87}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{87}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{87}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Daily average of all working days in one month in all road segments in Espana showing its intensity relationship\relax }}{88}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{88}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{88}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Comparison between performance of DBN TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{88}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Performance of DBN TOM on Roxas Boulevard and Espa\IeC {\~n}a using OTWP traffic feature combination\relax }}{89}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces DBN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{90}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces RNN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{90}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces RNN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{91}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Performance of DBN WOM on Pablo Ocampo and Antipolo using weather feature combinations\relax }}{91}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Performance of DBN WOM using OW weather feature combination for all road segments\relax }}{92}
-\contentsline {figure}{\numberline {5.31}{\ignorespaces DBN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{92}
-\contentsline {figure}{\numberline {5.32}{\ignorespaces RNN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{93}
-\contentsline {figure}{\numberline {5.33}{\ignorespaces Comparison of DBN models in predicting the southbound of Pablo Ocampo for the wet season\relax }}{93}
-\contentsline {figure}{\numberline {5.34}{\ignorespaces Comparison of RNN models in predicting the southbound of Pablo Ocampo for the wet season\relax }}{94}
-\contentsline {figure}{\numberline {5.35}{\ignorespaces Final Prediction generated by RNN Feature Fusion model for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo using DBN Decision Fusion\relax }}{94}
-\contentsline {figure}{\numberline {5.36}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{95}
-\contentsline {figure}{\numberline {5.37}{\ignorespaces Sensitivity of WOM with different feature combinations\relax }}{96}
-\contentsline {figure}{\numberline {5.38}{\ignorespaces Change in performance in different feature combinations\relax }}{96}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Roxas Boulevard\relax }}{57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{57}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{57}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Correlation heatmap of traffic for both southbound and northbound of Espana\relax }}{58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{58}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{58}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Daily average of all working days in one month in all road segments in Roxas Boulevard showing its intensity relationship\relax }}{59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{59}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{59}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Daily average of all working days in one month in all road segments in Espana showing its intensity relationship\relax }}{60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Southbound}}}{60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Northbound}}}{60}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Autocorrelation plot of (a) Pablo Ocampo and (b) Antipolo revealing its daily and weekly seasonality\relax }}{61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{61}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{61}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Autocorrelation plot of (a) Pablo Ocampo and (b) Antipolo showing a decaying weekly seasonality\relax }}{61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{61}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{61}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Comparison of the average traffic of (a) Pablo Ocampo\IeC {\textquoteright }s southbound and (b) Antipolo\IeC {\textquoteright }s northbound in one month between working and non-working revealing the lack of intense traffic for non-working days\relax }}{62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{62}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{62}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Comparison of peak hours of the average traffic of (a) Pablo Ocampo\IeC {\textquoteright }s southbound and (b) Antipolo\IeC {\textquoteright }s northbound in one month between working and non-working\relax }}{63}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{63}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{63}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Examples of one-month average working day traffic of Pablo Ocampo\IeC {\textquoteright }s southbound illustrating the issues in the peak hour detection in terms of short-term (a) below-peak hour and (b) above-peak hour condition change\relax }}{64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Short-term below-peak hour threshold condition change}}}{64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Short-term above-peak hour threshold condition change}}}{64}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Examples of one-month average working day traffic of Pablo Ocampo\IeC {\textquoteright }s southbound showing the improved peak hour detection, fixing the issues for short-term (a) below-peak hour and (b) above-peak hour condition change\relax }}{65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Short-term below-peak hour threshold condition change}}}{65}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Short-term above-peak hour threshold condition change}}}{65}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Monthly comparison of the average non-working day traffic of (a) Pablo Ocampo\IeC {\textquoteright }s southbound and (b) Antipolo\IeC {\textquoteright }s northbound \relax }}{66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{66}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Comparison between the two-day-ago pattern and one-week-ago pattern of (a) Pablo Ocampo\IeC {\textquoteright }s southbound and (b) Antipolo\IeC {\textquoteright }s northbound traffic pattern showing that the week before traffic is more similar despite its difference in terms of days\relax }}{67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{67}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{67}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Correlation heatmap of traffic (Pablo Ocampo and Antipolo) and weather variables showing a weak correlation between them\relax }}{68}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Autocorrelation of weather variables showing the presence of daily seasonality\relax }}{81}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparison of the normal pattern of temperature, heat index, feels-like and wind chill with the normal pattern of Pablo Ocampo\IeC {\textquoteright }s southbound and Antipolo\IeC {\textquoteright }s northbound traffic\relax }}{82}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{82}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{82}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparison of the normal pattern of pressure with the normal pattern of Pablo Ocampo\IeC {\textquoteright }s southbound and Antipolo\IeC {\textquoteright }s northbound traffic\relax }}{82}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{82}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{82}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Comparison of the normal pattern of humidity with the normal pattern of Pablo Ocampo\IeC {\textquoteright }s southbound and Antipolo\IeC {\textquoteright }s northbound traffic\relax }}{83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{83}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{83}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Comparison of the normal pattern of dew point with the normal pattern of Pablo Ocampo\IeC {\textquoteright }s southbound and Antipolo\IeC {\textquoteright }s northbound traffic\relax }}{83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pablo Ocampo (Southbound)}}}{83}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound)}}}{83}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Wet and dry season based on the average precipitation per month from 2015 to 2017 defined by the 0.15mm threshold\relax }}{84}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Autocorrelation of traffic comparing the daily and weekly seasonality per season showing that its pattern is disrupted during the wet season\relax }}{84}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Dry Season}}}{84}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wet Season}}}{84}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Comparison between the current traffic and its previous week pattern showing a disrupted pattern\relax }}{85}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago\relax }}{85}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces One-day visualization of the relationship between the current traffic and the mean of the traffic 6 weeks ago and 2 weeks ago after a week of Typhoon Goring\relax }}{86}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Autocorrelation of traffic for working days\relax }}{87}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Standard Deviation of Traffic per Window Size for the Wet Season in Pablo Ocampo\relax }}{88}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Comparison of Rolling and Expanding windows 4 and 96 to original Northbound traffic in Pablo Ocampo\relax }}{88}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original vs. Rolling}}}{88}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Original vs. Expanding}}}{88}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Average Correlation of Rolling and Expanding Mean to All Southbound Roads in Roxas Blvd.\relax }}{89}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Comparison between performance of DBN TOM on Roxas Boulevard and Espana using different feature combinations\relax }}{90}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Performance of DBN TOM on Roxas Boulevard and Espa\IeC {\~n}a using OTWP traffic feature combination\relax }}{90}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces DBN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{91}
+\contentsline {figure}{\numberline {5.31}{\ignorespaces RNN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{91}
+\contentsline {figure}{\numberline {5.32}{\ignorespaces RNN TOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{92}
+\contentsline {figure}{\numberline {5.33}{\ignorespaces Performance of DBN WOM on Pablo Ocampo and Antipolo using weather feature combinations\relax }}{92}
+\contentsline {figure}{\numberline {5.34}{\ignorespaces Performance of DBN WOM using OW weather feature combination for all road segments\relax }}{93}
+\contentsline {figure}{\numberline {5.35}{\ignorespaces DBN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{93}
+\contentsline {figure}{\numberline {5.36}{\ignorespaces RNN WOM Prediction for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo\relax }}{94}
+\contentsline {figure}{\numberline {5.37}{\ignorespaces Comparison of DBN models in predicting the southbound of Pablo Ocampo for the wet season\relax }}{94}
+\contentsline {figure}{\numberline {5.38}{\ignorespaces Comparison of RNN models in predicting the southbound of Pablo Ocampo for the wet season\relax }}{95}
+\contentsline {figure}{\numberline {5.39}{\ignorespaces Final Prediction generated by RNN Feature Fusion model for Normal (left) and Disrupted (right) trends for Pablo Ocampo and Antipolo using DBN Decision Fusion\relax }}{95}
+\contentsline {figure}{\numberline {5.40}{\ignorespaces Sensitivity of TOM with different feature combinations\relax }}{96}
+\contentsline {figure}{\numberline {5.41}{\ignorespaces Sensitivity of WOM with different feature combinations\relax }}{97}
+\contentsline {figure}{\numberline {5.42}{\ignorespaces Change in performance in different feature combinations\relax }}{97}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{107}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Turnitin Similarity Report\relax }}{108}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{108}
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Research Project Timeline\relax }}{109}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{112}
-\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{112}
-\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{113}
-\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{114}
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Predict Southbound Traffic without Feature Fusion\relax }}{113}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Predict Southbound Traffic with Feature Fusion\relax }}{113}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces ANN Model for Predicting Southbound Traffic without Feature Fusion\relax }}{114}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces ANN Model for Predicting Southbound Traffic with Feature Fusion\relax }}{115}
