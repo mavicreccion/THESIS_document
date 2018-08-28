@@ -55,14 +55,14 @@ In order to illustrate the benefits of feature fusion, two experiments will be p
 
 
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \caption{Predict Southbound Traffic without Feature Fusion}
 \centering
 \includegraphics[width=0.8\textwidth]{prelim_exp1}
 \label{figure:prelim_exp1}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \caption{Predict Southbound Traffic with Feature Fusion}
 \centering
 \includegraphics[width=0.8\textwidth]{prelim_exp2}
@@ -73,14 +73,14 @@ In order to illustrate the benefits of feature fusion, two experiments will be p
 In building our feedforward ANN model, we used three densely-connected neural network layer: one for the input, one for the hidden layer and one for the output. For each of our experiments, both uses rectified linear unit (ReLU) as the activation function, and each has 13 input dimensions and 14 input dimensions respectively. The dimensions correspond to the number of training features that we will use for the model. The model has 13 weather variable features for our first experiment scenario, whereas we have 13 weather variable features and 1 traffic feature for our second scenario. For both experiments, it uses one hidden layer that similarly uses ReLU as its activation function, and has 8 input dimensions. It also has one output layer with only one output dimension for our southbound traffic condition. Figure \ref{prelim_model1} and \ref{prelim_model2} illustrate the diagram of these models.
 
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \caption{ANN Model for Predicting Southbound Traffic without Feature Fusion}
 \centering
 \includegraphics[width=0.5\textwidth]{prelim_model1}
 \label{prelim_model1}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 \caption{ANN Model for Predicting Southbound Traffic with Feature Fusion}
 \centering
 \includegraphics[width=0.5\textwidth]{prelim_model2}

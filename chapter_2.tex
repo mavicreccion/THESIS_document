@@ -83,7 +83,7 @@ Traffic flow data and weather data used by the DBN with Data Fusion are pre-proc
 % M-BML
 Different modeling approaches have been used by the models. The M-BML model was inspired by Biham, Middleton, and Levine’s model called the BML \shortcite{M-BML:2016}. The latter model was the first two-dimensional cellular automaton (CA) model ever developed for simulating traffic in urban road networks \shortcite{Biham1992}. Each lattice in the two streets, northwards and eastwards. To simulate movement, eastward vehicles move one unit at each odd step time, while northward vehicles move one unit at each even step time, shown in \figref{fig:ca1}. A vehicle cannot move if the next square lattice is occupied by another vehicle. Thus, a traffic jam can be simulated, as shown in \figref{fig:ca2}. 
 
-\begin{figure}[h]
+\begin{figure}[!t]
   	\centering
     	\captionsetup{justification=centering}
   	\subfloat[Free Flow State]{\includegraphics[width=0.4\textwidth]{ca1.PNG}\label{fig:ca1}}
@@ -106,7 +106,7 @@ The H-ARIMA model, on the other hand, makes use of 2 different submodels: ARIMA 
 
 There were two models that used ANNs in their approach. One of them developed a traffic model that uses Jordan’s Sequential Neural Network, which has a good ability of generalization \shortcite{ANN:2016}. The structure of this kind of ANN is such that the distribution of nodes in the hidden layer should be the square of the number of nodes in the input layer. For example, if there are 5 nodes found in the input layer, then there must be 25 nodes in the hidden layer. The Jordan’s Neural Network contains four layers: (a) context layer, which acts as a memory and stores previous information, (b) input layer, which constitutes the input for the next processing, (c) hidden layer, which gets input from the “true” input layer and the context layer, and (d) output layer, which outputs the result or feedbacks to the context layer to be processed again. \figref{fig:annJordan} shows a Jordan’s Sequential Neural Network with 5 inputs in the input layer.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 	\scalebox{.25}{\includegraphics{ann.png}}

@@ -1,7 +1,7 @@
 \chapter{Research Design}
 \label{resdes}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 \scalebox{.40}{\includegraphics{THESIS_ResearchDesign.png}}
@@ -23,7 +23,7 @@ There were two public datasets collected: one for traffic and one for weather. T
 There were two limitations found from the traffic dataset. First is that the traffic conditions were only represented as \textit{light} (L), \textit{moderately light} (ML), \textit{moderate} (M), \textit{moderately heavy} (MH), and \textit{heavy} (H). Since this dataset only had five values to classify the traffic condition in a particular road segment, this might cause underfitting in our model since it was used as input for a regression problem. Moreover, it could also contribute to poor correlation as these five values were correlated with continuous weather variable values. Instead, they were converted to their equivalent estimated traffic speed provided by the MMDA (see Table \ref{table_traffic_condition}). These speeds are further converted to condition intensity, represented as their reciprocal so that the trend of the data would be negated, thus would be easier to interpret such that increase in traffic would indicate increase in traffic condition intensity. It is important to note, though, that the limitation of this approach is that, visually, the gaps between \textit{heavy} (H) and \textit{moderately heavy} (MH) would be more emphasized due to the nature of fractions that the larger the denominator, the lower the value is.
 
 
-\begin{table}[h]
+\begin{table}[!t]
 \centering
 \caption{Traffic speed equivalent of traffic conditions}
 \label{table_traffic_condition}
@@ -120,7 +120,7 @@ Two models were implemented with Deep Belief Network (DBN) and Recurrent Neural 
 \subsection{Prediction Models}
 According to the framework in \ref{fig:framework}, two models were implemented in the algorithms of DBN and RNN: the Traffic-Only Model (TOM) and the Weather-Only Model (WOM). The TOM considers historical traffic condition intensity to predict traffic, while the WOM only considers historical weather variables to predict traffic. In this study, these models were implemented with the open source machine learning framework in Python, \textit{tensorflow} and \textit{keras}. The TOM and WOM network architectures using both DBN and RNN are shown in \ref{tab:dbn_models_architecture}. 
 
-\begin{table}[h]
+\begin{table}[!t]
 \centering
 \caption{DBN Models Network Architecture}
 \label{tab:dbn_models_architecture}
@@ -141,7 +141,7 @@ DBNs are made up of stacks of Restricted Boltzmann Machines (RBM). The training 
 
 Figure \ref{fig:dbntraining} shows the process of how the TOM and the WOM using DBN was trained for prediction. The training process consists of three phases. In the first phase, the stacks of RBM (sRBM) within the network are trained individually. At the end of this phase, the weights and biases of the whole DBN are initialized. In the second phase, the DBN fine-tunes the initialized weights and biases using the backpropagation algorithm. The network after stage 2 is the trained and enhanced DBN. In the third phase, the network predicts the future traffic condition using a testing dataset.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 	\scalebox{.8}{\includegraphics{dbntraining.png}}

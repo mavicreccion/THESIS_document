@@ -77,7 +77,7 @@ Major roads from this dataset include EDSA, Commonwealth, Quezon Avenue, España
 
 Table \ref{table:sample_traffic_data} shows a sample raw data collected from MMDA’s traffic monitoring system. From the sample data, it can be observed that despite not having a traffic condition entry, the interval is still being recorded as part of the dataset, having a traffic condition record of \textit{none} (N).
 
-\begin{table}[h]
+\begin{table}[!t]
 	\centering
     \footnotesize
 	\caption{Sample of Traffic Data from MMDA's Traffic Monitoring System}
@@ -101,7 +101,7 @@ The weather dataset from World Weather Online includes temperature (in both Cels
 Table \ref{table:sample_worldweatheronline_weather_data} shows a sample raw data collected from World Weather Online. It could be observed that the conversion of some variables to different units has already been performed as part of the data. Furthermore, missing data is not evident from the samples collected.
 
 
-\begin{table}[h]
+\begin{table}[!t]
 	\centering
 	\caption{Sample of Weather Data from World Weather Online}
 	\label{table:sample_worldweatheronline_weather_data}
@@ -180,7 +180,7 @@ The Spearman`s rank correlation coefficient is an approach for statistical depen
 r_s = 1 - \frac{6 \sum a^2}{N(N^2 - 1)}
 \end{equation}
 
-\noindent where $r_s$  represents the Spearman’s rank correlation coefficient, $a$ denotes the ranked difference between the $i$th measurements for the two random variables, and $N$ is the number of measurements in each of the two random variables in the correlation \shortcite{Zar1972SignificanceCoefficient}. Spearman’s $r_s$ measures the strength and course of the \textit{monotonic} relationship between ranked variables. \shortciteA{Hauke2011ComparisonData}, meanwhile, explain that Spearman’s $r_s$ can be considered as the correlation coefficient of Pearson that deals with ranks.  
+\noindent where $r_s$  represents the Spearman’s rank correlation coefficient, $a$ denotes the ranked difference between the $i$th measurements for the two random variables, and $N$ is the number of measurements in each of the two random variables in the correlation \shortcite{Zar1972SignificanceCoefficient}. $r_s$ measures the strength and course of the \textit{monotonic} relationship between ranked variables. \shortciteA{Hauke2011ComparisonData}, meanwhile, explain that $r_s$ can be considered as the correlation coefficient of Pearson that deals with ranks.  
 
 % Pearson’s product moment correlation coefficient
 Pearson`s product moment correlation coefficient, commonly Pearson’s correlation coefficient or Pearson’s r, is the most commonly used correlation statistic to measure the strength and course of the \textit{linear} relationship between two continuous variables \shortcite{ahlgren2003}. It is expressed using this function:
@@ -195,7 +195,7 @@ r = \frac{\sum (A - \bar{A})(B - \bar{B})}{\sqrt[]{\sum (A - \bar{A})^2 \sum(B -
 Both correlation analysis outputs a value between -1 to +1. If the result of a correlation is close to +1, then variable A has a positive relationship with variable B; vice versa, if the result is close to -1, then variable A has a negative relationship with variable B. If the result is approaching 0, then variable A has no relationship with variable B. Table \ref{table:correlation-results} shows the correlation relationships with their corresponding ranges, where $x$ is the exact correlation result. 
 
 
-\begin{table}[h]
+\begin{table}[!t]
 \centering
 \caption{Results of Pearson and Spearman}
 \label{table:correlation-results}
@@ -229,7 +229,7 @@ Autocorrelation, sometimes called \textit{serial correlation} or \textit{lagged 
 r_{k} = \frac{\sum_{i=1}^{N-k}(X_{i} - \bar{X})(X_{i+k} - \bar{X})} {\sum_{i=1}^{N}(X_{i} - \bar{X})^{2} }
 \end{equation}
 
-\noindent where $k$ denotes the lags and $N$ as the number of observations in the series.
+\noindent where $k$ denotes the lags, $N$ as the number of observations in the series, and $X$ as the data.
 
 
 \subsubsection{Lag}
@@ -283,7 +283,7 @@ With the issues involving the validity of decision fusion for the affective fiel
 A decision is a conclusion stemmed from facts of a discerned events and activities \shortcite{castanedo2013}. As the high-level fusion technique, the decision fusion is more complicated since it inputs decisions from multiple classifiers to obtain one accurate decision \shortcite{mangai2010}. \shortciteA{Dasarathy1997SensorApplications} defines decision fusion as the Decision In - Decision Out (DEI-DEO) fusion in his five-step hierarchy of fusion based on input and outputs (see \figref{fig:dei-deo}). This combines multiple decisions from the input and outputs a more appropriate decision.
 
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 	\scalebox{.50}{\includegraphics{dei_deo.PNG}}
@@ -310,7 +310,7 @@ Other than Bayesian method, there are other techniques that can be applied to de
 % \subsubsection {Neural Networks}
 % One of the techniques that can solve fusion problems is through neural networks \shortcite{fincher1990}. The advantage of having neural network as a technique for fusion over statistical approaches, such as Bayesian Method, is that it does not need to know certain probability errors beforehand. It can train itself with the current facts at hand and still get accurate results.  In the following papers, they used neural networks to fuse multiple sensors by recognizing the patterns given the inputs via their supervised training algorithm such as perceptron and backpropagation.
  
-% \begin{figure}[h]
+% \begin{figure}[!t]
 % 	\centering
 % 	\captionsetup{justification=centering}
 % 	\scalebox{.6}{\includegraphics{fincher_approach.png}}
@@ -335,7 +335,7 @@ Neural Networks can be used as either a prediction model or a classifier. \short
 
 Neural Networks can also be used as a data fusion center \shortcite{fincher1990}, specially in fusing data at the decision level. The advantage of having neural network as a technique for fusion over statistical approaches, such as Bayesian Method, is that it does not need to know certain probability errors beforehand. It can train itself with the current facts at hand and still get accurate results. \shortciteA{fincher1990, dai1999, jimenez1999} used neural networks in fusing outputs generated by separate models. \shortciteA{fincher1990} used neural network-based data fusion for recognizing patterns between handwritten and computer-made numbers. Handwritten Patterns are first pre-classified, and compared with computer-made numbers using a number of classifying algorithms. The different output of the different classifying algorithms are then fused into one improved classification. \figref{fig:fincher_approach} illustrates the pattern recognition approach of the study. \shortciteA{dai1999} used neural networks for image processing to recognize changes between pictures of the same location of different times. The changing pictures were used as inputs, and their fusion center takes care of extracting patterns and changes in the picture, and outputs a single picture that features the changes between the inputs. \shortciteA{jimenez1999}, much like \shortciteA{fincher1990}, generates decisions from separate classifier models, and fuses them into one decision through neural networks. 
 
-\begin{figure}[h]
+\begin{figure}[!t]
    \centering
    \captionsetup{justification=centering}
    \scalebox{.6}{\includegraphics{fincher_approach.png}}
@@ -347,7 +347,7 @@ Neural Networks can also be used as a data fusion center \shortcite{fincher1990}
 \subsection{Artificial Neural Network}
 Inspired from the nonlinear characteristics of Biological Brain System, the work performance of artificial neural networks (ANNs) can be compared to the workings of the human brain system \shortcite{ANN:2016}. While handling uncertainty and non-linearity at the same time, ANNs provide “intelligent processing functions” in order to predict, learn, and memorize \shortcite{sommer2013}. 
 ANN can be applied to every situation where the input variables have a relationship with the output variables. The network for ANN consists of 3 layers in order, the input layer, hidden layer and output layer. Each layer consists of 1 or more units or neurons. 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 	\scalebox{.8}{\includegraphics{Network_graph_of_a_One-Hidden_layer_ANN.png}}
@@ -373,7 +373,7 @@ The training process of DBN consists of two phases, the pre-training and fine-tu
 
 DBNs are made up of stacks of Restricted Boltzmann Machines (RBM). It is a building block for multi-layer learning models of Deep Belief Networks A DBN stack RBMs to learn features to features to arrive at a high-level representation. An RBM consists of 2 layers which are the visible layer with $i$ visible units, and a hidden layer with $j$ hidden units. The RBM is an unsupervised learning algorithm that can learn useful features of the data. It takes the input and translates them into a set of numbers that represents. Then, these numbers can be translated back to reconstruct the inputs. Through several forward and backward passes, the RBM will be trained. A trained RBM can reveal which features are the most important ones when detecting patterns \shortcite{zhang:2017, Fischer2014}. The hidden units of a trained RBM represent relevant features of observations. These features can also serve as input for another RBM. The network graph of an RBM is illustrated in \ref{fig:rbmexample}.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\captionsetup{justification=centering}
 	\scalebox{.7}{\includegraphics{Network_graph_of_RBM.png}}

@@ -10,10 +10,16 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Traffic speed equivalent of traffic conditions\relax }}{42}
 \contentsline {table}{\numberline {4.2}{\ignorespaces DBN Models Network Architecture\relax }}{48}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{59}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Comparison between previous day and week traffic with the traffic mean 4-weeks-ago showing significant increase in strength in its relationship\relax }}{69}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Comparison of correlation values on the traffic mean of a range of weeks\relax }}{69}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Comparison between Prediction Models and Fusion Models\relax }}{75}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{61}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all non-working days\relax }}{63}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{63}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{63}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all working days\relax }}{64}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{64}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{64}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Comparison between previous day and week traffic with the traffic mean 4-weeks-ago showing significant increase in strength in its relationship\relax }}{73}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Comparison of correlation values on the traffic mean of a range of weeks\relax }}{73}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Comparison between Prediction Models and Fusion Models\relax }}{86}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
