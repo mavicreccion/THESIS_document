@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: apacite.bst
 A level-1 auxiliary file: title_page.aux
+A level-1 auxiliary file: advisers_recommendation.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: chapter_1.aux
 A level-1 auxiliary file: chapter_2.aux
@@ -12,7 +13,9 @@ A level-1 auxiliary file: chapter_7.aux
 A level-1 auxiliary file: appendix_A.aux
 A level-1 auxiliary file: appendix_B.aux
 A level-1 auxiliary file: appendix_C.aux
+A level-1 auxiliary file: appendix_D.aux
 A level-1 auxiliary file: appendix_E.aux
+A level-1 auxiliary file: appendix_F.aux
 Database file #1: myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual

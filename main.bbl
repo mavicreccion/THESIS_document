@@ -1631,36 +1631,6 @@ Tanner, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Tse%
-}{%
-Tse%
-}{%
-{\protect \APACyear {2003}}%
-}]{%
-doi:10.1080/01998590309509243}
-\APACinsertmetastar {%
-doi:10.1080/01998590309509243}%
-\begin{APACrefauthors}%
-Tse, W\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2003}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Knowledge-based Algorithm for Daily Thermal Load
-  Prediction of a Building} {Knowledge-based algorithm for daily thermal load
-  prediction of a building}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Energy Engineering}{100}{5}{6-28}.
-\newblock
-\begin{APACrefURL}
-  \url{http://www.tandfonline.com/doi/abs/10.1080/01998590309509243}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1080/01998590309509243} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Varangis%
 , Skees%
 \BCBL {}\ \BBA {} Barnett%

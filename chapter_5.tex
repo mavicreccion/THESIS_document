@@ -747,7 +747,7 @@ In analyzing the effectiveness of including weather as a factor in predicting tr
                                             & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{c|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} & \multicolumn{1}{l|}{\textbf{RMSE}} & \multicolumn{1}{l|}{\textbf{MAE}} \\ \hline
 \textbf{DBN TOM}             & 0.314                              & 0.148                             & 0.084                              & 0.011                             & 0.234                              & 0.090                             \\ \hline
 \textbf{DBN WOM}             & 0.328                              & 0.149                             & 0.328                              & 0.149                             & 0.328                              & 0.149                             \\ \hline
-\textbf{RNN TOM}             & 0.092                              & 0.183                             & 0                                  & 0                                 & 0.045                              & 0.072                             \\ \hline
+\textbf{RNN TOM}             & 0.092                              & 0.183                             & 0.000                                 & 0.000                               & 0.045                              & 0.072                             \\ \hline
 \textbf{RNN WOM}             & 0.147                              & 0.186                             & 0.147                              & 0.186                             & 0.147                              & 0.186                             \\ \hline
 \textbf{DBN FF}                 & 0.322                              & 0.154                             & 0.092                              & 0.017                             & 0.277                              & 0.114                             \\ \hline
 \textbf{RNN FF}                 & \textbf{0.078}                     & \textbf{0.101}                    & 0.077                              & 0.119                             & 0.078                              & 0.118                             \\ \hline
@@ -838,7 +838,7 @@ Evaluation of the sensitivity of TOM is illustrated in Figure \ref{fig:TOM_sensi
 \begin{figure}[!t]
   \centering
   \captionsetup{justification=centering}
-  \scalebox{.45}{\includegraphics{TOM_sensitivity.PNG}}
+  \scalebox{.35}{\includegraphics{TOM_sensitivity.PNG}}
   \caption{Sensitivity of TOM with different feature combinations}
   \label{fig:TOM_sensitivity}
 \end{figure}
@@ -865,7 +865,7 @@ The effect of temporal information to predicting traffic using all weather featu
 \begin{figure}[!t]
   \centering
   \captionsetup{justification=centering}
-  \scalebox{.48}{\includegraphics{pm1-pm2-df-changes.PNG}}
+  \scalebox{.45}{\includegraphics{pm1-pm2-df-changes.PNG}}
   \caption{Change in performance in different feature combinations}
   \label{fig:pm1-pm2-df-changes}
 \end{figure}

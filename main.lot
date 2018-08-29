@@ -1,25 +1,27 @@
 \babel@toc {USenglish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of Traffic Models\relax }}{18}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of Traffic Models\relax }}{22}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Sample of Traffic Data from MMDA's Traffic Monitoring System\relax }}{23}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Sample of Weather Data from World Weather Online\relax }}{24}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Results of Pearson and Spearman\relax }}{27}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Sample of Traffic Data from MMDA's Traffic Monitoring System\relax }}{28}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Sample of Weather Data from World Weather Online\relax }}{29}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Results of Pearson and Spearman\relax }}{33}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Traffic speed equivalent of traffic conditions\relax }}{42}
-\contentsline {table}{\numberline {4.2}{\ignorespaces DBN Models Network Architecture\relax }}{48}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Traffic speed equivalent of traffic conditions\relax }}{51}
+\contentsline {table}{\numberline {4.2}{\ignorespaces DBN Models Network Architecture\relax }}{59}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{61}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all non-working days\relax }}{63}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{63}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{63}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all working days\relax }}{64}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{64}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{64}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Comparison between previous day and week traffic with the traffic mean 4-weeks-ago showing significant increase in strength in its relationship\relax }}{73}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Comparison of correlation values on the traffic mean of a range of weeks\relax }}{73}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Comparison between Prediction Models and Fusion Models\relax }}{86}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of traffic condition distribution between working and non-working\relax }}{74}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all non-working days\relax }}{77}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{77}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{77}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Transition distribution of traffic condition of (a) Pablo Ocampo and (b) Antipolo for all working days\relax }}{78}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces { Pablo Ocampo (Southbound) distribution (\%)}}}{78}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Antipolo (Northbound) distribution (\%)}}}{78}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Comparison between previous day and week traffic with the traffic mean 4-weeks-ago showing significant increase in strength in its relationship\relax }}{89}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Comparison of correlation values on the traffic mean of a range of weeks\relax }}{89}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Comparison between Prediction Models and Fusion Models\relax }}{106}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

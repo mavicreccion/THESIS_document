@@ -1,7 +1,7 @@
 \chapter{Research Design}
 \label{resdes}
 
-\begin{figure}[!t]
+\begin{figure}[!h]
 	\centering
 	\captionsetup{justification=centering}
 \scalebox{.40}{\includegraphics{THESIS_ResearchDesign.png}}
@@ -124,7 +124,7 @@ According to the framework in \ref{fig:framework}, two models were implemented i
 \centering
 \caption{DBN Models Network Architecture}
 \label{tab:dbn_models_architecture}
-\begin{tabular}{|l|l|l|c|l|l|}
+\begin{tabular}{|l|r|r|c|r|r|}
 \hline
                  & \textbf{\begin{tabular}[c]{@{}l@{}}Pre-Train \\ Epochs\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Fine-Tune\\ Epochs\end{tabular}} & \multicolumn{1}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Activation\\ Function\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}l@{}}Batch\\ Size\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}Hidden Layer\\ Structure\end{tabular}} \\ \hline
 \textbf{TOM}     & 7                                                                    & 80                                                                  & \multirow{4}{*}{relu}                                                                       & 192                                                           & {[}14, 375{]}                                                             \\ \cline{1-3} \cline{5-6} 

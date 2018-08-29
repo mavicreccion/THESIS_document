@@ -30,9 +30,13 @@
 \usepackage{pdfpages}
 \usepackage{textcomp}
 \usepackage{mathtools}
-
-
+\usepackage{eso-pic}
 \usepackage{subfig}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+\providecommand{\pgfsyspdfmark}[3]{}
 
 \usepackage{array}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -73,19 +77,32 @@
 
 \usepackage{url}  %-- allows use of URLs example: \url{https:\ccs1.dlsu.edu.ph}
 
+\usepackage{filecontents,lipsum}
+\begin{filecontents*}{mystyle.sty}
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mystyle}
+\newenvironment{acknowledgements}
+  {\renewcommand{\abstractname}{Acknowledgements}% Abstract > Acknowledgements
+   \begin{abstract}}
+  {\end{abstract}
+   \clearpage}
+\endinput
+\end{filecontents*}
+\usepackage{mystyle}
+
 
 %
 %-- set margins,  you may need to edit this for your own printer
 %
-\topmargin 0.0in
-\oddsidemargin 0.0in
-\evensidemargin 0.0in
+\topmargin 0.65in
+\oddsidemargin 0.5in
+\evensidemargin 0.5in
 
 \voffset 0.0in
-\hoffset 0.5625in
+\hoffset 0.0in
 
 \textwidth 5.75in
-\textheight 8.5in
+\textheight 7.0in
 
 
 \parskip 1em
@@ -134,3 +151,9 @@
 \DeclarePairedDelimiter\abs{\lvert}{\rvert}
 
 
+% \backgroundsetup{scale = 1, angle = 0, opacity = 0.2,
+%    contents = {\includegraphics[width = \paperwidth,
+%    height = \paperheight, keepaspectratio]
+%    {dlsu-thesis-paper-letterhead.pdf}}}
+
+\AddToShipoutPictureBG{\includegraphics[width=\paperwidth,height=\paperheight]{dlsu-thesis-paper-letterhead.pdf}}
